@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.seva.scripture.app-debug-77:/xml_file_paths.xml.flat",
+        "source": "com.seva.scripture.app-main-79:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.seva.scripture.app-debug-77:/drawable_ic_lotus.xml.flat",
+        "source": "com.seva.scripture.app-main-79:/drawable/ic_lotus.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.seva.scripture.app-mergeDebugResources-75:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Bhanu Bisht\\.gradle\\caches\\8.10.2\\transforms\\114ef2e9acfe8076d4b935d6631c613d\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

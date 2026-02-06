@@ -1,0 +1,207 @@
+﻿{
+  "scripture": {
+    "id": "gita",
+    "name": "Bhagavad Gita",
+    "tradition": "Sanatana Dharma",
+    "description": "Dialogue between Sri Krishna and Arjuna in the Mahabharata, revealing dharma, yoga, and liberation."
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title_sanskrit": "अर्जुनविषादयोग",
+      "title_english": "Arjuna Vishada Yoga",
+      "theme": "The sorrow and moral confusion of Arjuna before battle.",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "धृतराष्ट्र उवाच | धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः | मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||",
+          "transliteration": "dhritarashtra uvaca dharmakshetre kurukshetre samaveta yuyutsavah mamakah pandavas caiva kim akurvata sanjaya",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Dhritarashtra asks Sanjaya what his sons and the sons of Pandu did after gathering at Kurukshetra, eager for battle.",
+              "philosophical_note": "The opening question frames the conflict between attachment and righteousness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "धृतराष्ट्र संजय से पूछते हैं कि युद्ध के इच्छुक मेरे और पाण्डु के पुत्रों ने धर्मभूमि कुरुक्षेत्र में क्या किया।",
+              "philosophical_note": "आरंभ का प्रश्न आसक्ति और धर्म के टकराव को प्रकट करता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title_sanskrit": "साङ्ख्ययोग",
+      "title_english": "Sankhya Yoga",
+      "theme": "The immortality of the Self and duty without attachment.",
+      "verses": [
+        {
+          "number": 20,
+          "sanskrit": "न जायते म्रियते वा कदाचिन् नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
+          "transliteration": "na jayate mriyate va kadacin nayam bhutva bhavita va na bhuyah ajo nityah sasvatoyam purano na hanyate hanyamane sarire",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Self is never born and never dies. It is eternal, ancient, and not destroyed when the body is destroyed.",
+              "philosophical_note": "Krishna distinguishes the immortal atman from the perishable body to free Arjuna from fear."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "आत्मा न जन्म लेती है, न मरती है। शरीर के नष्ट होने पर भी वह नष्ट नहीं होती।",
+              "philosophical_note": "श्रीकृष्ण आत्मा और शरीर का भेद बताकर भय को दूर करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 47,
+          "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन | मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||",
+          "transliteration": "karmany evadhikaras te ma phalesu kadacana ma karma-phala-hetur bhur ma te sango stv akarmani",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "You have a right only to action, never to its results. Do not act for reward, and do not cling to inaction.",
+              "philosophical_note": "This is the foundation of karma yoga: disciplined action offered without egoistic claim."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तुम्हारा अधिकार केवल कर्म पर है, फल पर कभी नहीं। फल की आसक्ति से कर्म मत करो और अकर्मण्यता में भी मत फंसो।",
+              "philosophical_note": "यह कर्मयोग का मूल है: निष्काम होकर कर्तव्य का पालन।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title_sanskrit": "कर्मयोग",
+      "title_english": "Karma Yoga",
+      "theme": "Selfless action as a path to purity and liberation.",
+      "verses": [
+        {
+          "number": 19,
+          "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पुरुषः ||",
+          "transliteration": "tasmad asaktah satatam karyam karma samacara asakto hy acaran karma param apnoti purusah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore, perform your duty constantly without attachment; by detached action a person reaches the Supreme.",
+              "philosophical_note": "Detachment purifies intention and turns worldly work into spiritual practice."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए आसक्ति रहित होकर अपना कर्तव्य निरंतर करो; ऐसा कर्म मनुष्य को परम अवस्था तक पहुंचाता है।",
+              "philosophical_note": "अनासक्ति कर्म को साधना बना देती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title_sanskrit": "ज्ञानकर्मसंन्यासयोग",
+      "title_english": "Jnana Karma Sannyasa Yoga",
+      "theme": "Wisdom, divine descent, and sanctified action.",
+      "verses": []
+    },
+    {
+      "number": 5,
+      "title_sanskrit": "कर्मसंन्यासयोग",
+      "title_english": "Karma Sannyasa Yoga",
+      "theme": "Renunciation and action harmonized in yoga.",
+      "verses": []
+    },
+    {
+      "number": 6,
+      "title_sanskrit": "ध्यानयोग",
+      "title_english": "Dhyana Yoga",
+      "theme": "Discipline of meditation and mastery of mind.",
+      "verses": []
+    },
+    {
+      "number": 7,
+      "title_sanskrit": "ज्ञानविज्ञानयोग",
+      "title_english": "Jnana Vijnana Yoga",
+      "theme": "Knowing Krishna as the source of all.",
+      "verses": []
+    },
+    {
+      "number": 8,
+      "title_sanskrit": "अक्षरब्रह्मयोग",
+      "title_english": "Akshara Brahma Yoga",
+      "theme": "The Imperishable and remembrance at death.",
+      "verses": []
+    },
+    {
+      "number": 9,
+      "title_sanskrit": "राजविद्याराजगुह्ययोग",
+      "title_english": "Raja Vidya Raja Guhya Yoga",
+      "theme": "The sovereign knowledge and deepest secret.",
+      "verses": []
+    },
+    {
+      "number": 10,
+      "title_sanskrit": "विभूतियोग",
+      "title_english": "Vibhuti Yoga",
+      "theme": "Divine manifestations in all existence.",
+      "verses": []
+    },
+    {
+      "number": 11,
+      "title_sanskrit": "विश्वरूपदर्शनयोग",
+      "title_english": "Vishvarupa Darshana Yoga",
+      "theme": "The vision of the cosmic form.",
+      "verses": []
+    },
+    {
+      "number": 12,
+      "title_sanskrit": "भक्तियोग",
+      "title_english": "Bhakti Yoga",
+      "theme": "The way of loving devotion.",
+      "verses": []
+    },
+    {
+      "number": 13,
+      "title_sanskrit": "क्षेत्रक्षेत्रज्ञविभागयोग",
+      "title_english": "Kshetra Kshetrajna Vibhaga Yoga",
+      "theme": "Field and knower of the field.",
+      "verses": []
+    },
+    {
+      "number": 14,
+      "title_sanskrit": "गुणत्रयविभागयोग",
+      "title_english": "Gunatraya Vibhaga Yoga",
+      "theme": "The three gunas and transcendence.",
+      "verses": []
+    },
+    {
+      "number": 15,
+      "title_sanskrit": "पुरुषोत्तमयोग",
+      "title_english": "Purushottama Yoga",
+      "theme": "The Supreme Person beyond the world-tree.",
+      "verses": []
+    },
+    {
+      "number": 16,
+      "title_sanskrit": "दैवासुरसम्पद्विभागयोग",
+      "title_english": "Daivasura Sampad Vibhaga Yoga",
+      "theme": "Divine and demonic tendencies in human nature.",
+      "verses": []
+    },
+    {
+      "number": 17,
+      "title_sanskrit": "श्रद्धात्रयविभागयोग",
+      "title_english": "Shraddhatraya Vibhaga Yoga",
+      "theme": "Threefold faith shaped by the gunas.",
+      "verses": []
+    },
+    {
+      "number": 18,
+      "title_sanskrit": "मोक्षसंन्यासयोग",
+      "title_english": "Moksha Sannyasa Yoga",
+      "theme": "Final synthesis of duty, devotion, and liberation.",
+      "verses": []
+    }
+  ]
+}

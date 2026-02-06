@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color charcoal
+color cream
+color deep_brown
+color muted_gold
+color saffron
+color sandal
+color text_light
+drawable ic_lotus
+string app_name
+string bookmarks
+string daily_shloka
+string search_hint
+string settings
+string toggle_explanation
+string toggle_transliteration
+style Theme.Scripture
+xml file_paths
