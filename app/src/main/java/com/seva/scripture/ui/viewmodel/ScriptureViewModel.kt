@@ -58,16 +58,22 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
+    private val _initStatus = MutableStateFlow("Initializing...")
+    val initStatus: StateFlow<String> = _initStatus
+
     init {
         viewModelScope.launch {
             try {
+                _initStatus.value = "Seeding data..."
                 container.scriptureRepository.seedIfNeeded()
+                _initStatus.value = "Ready"
                 container.scriptureRepository.getLastRead()?.let { (chapter, verse) ->
                     selectedChapter.update { chapter }
                     selectedVerse.update { verse }
                 }
             } catch (exception: Exception) {
                 Log.e("ScriptureViewModel", "Startup seed failed", exception)
+                _initStatus.value = "Error: ${exception.message}\nCause: ${exception.cause?.message}"
             }
         }
     }

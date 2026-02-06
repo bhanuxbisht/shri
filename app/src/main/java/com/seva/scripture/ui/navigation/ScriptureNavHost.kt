@@ -2,25 +2,36 @@
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -39,6 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -164,19 +176,28 @@ private fun HomeScreen(
             )
         }
     ) { padding ->
-        LazyColumn(contentPadding = padding) {
-            items(chapters) { chapter ->
-                ListItem(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clickable { onChapter(chapter.chapterNumber) }
-                        .padding(horizontal = 12.dp),
-                    headlineContent = { Text("Chapter ${chapter.chapterNumber}: ${chapter.titleEnglish}") },
-                    supportingContent = { Text(chapter.theme) },
-                    overlineContent = { Text(chapter.titleSanskrit) },
-                    trailingContent = { Text("${chapter.verseCount}") }
-                )
-                HorizontalDivider()
+        if (chapters.isEmpty()) {
+            Box(
+                modifier = Modifier.fillMaxSize().padding(padding),
+                contentAlignment = Alignment.Center
+            ) {
+                CircularProgressIndicator()
+            }
+        } else {
+            LazyColumn(contentPadding = padding) {
+                items(chapters) { chapter ->
+                    ListItem(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable { onChapter(chapter.chapterNumber) }
+                            .padding(horizontal = 12.dp),
+                        headlineContent = { Text("Chapter ${chapter.chapterNumber}: ${chapter.titleEnglish}") },
+                        supportingContent = { Text(chapter.theme) },
+                        overlineContent = { Text(chapter.titleSanskrit) },
+                        trailingContent = { Text("${chapter.verseCount} verses") }
+                    )
+                    HorizontalDivider()
+                }
             }
         }
     }
@@ -232,13 +253,18 @@ private fun VerseScreen(vm: ScriptureViewModel, chapter: Int, verse: Int, onBack
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("$chapter.$verse") },
+                title = { Text("Chapter $chapter, Verse $verse") },
                 navigationIcon = {
-                    IconButton(onClick = onBack) { Icon(Icons.Filled.ArrowBack, contentDescription = null) }
+                    IconButton(onClick = onBack) { Icon(Icons.Filled.ArrowBack, contentDescription = "Back") }
                 },
                 actions = {
+                    val isBookmarked = detail?.bookmarked == true
                     IconButton(onClick = { vm.toggleBookmark(chapter, verse) }) {
-                        Icon(Icons.Filled.Star, contentDescription = null)
+                        Icon(
+                            imageVector = if (isBookmarked) Icons.Filled.Star else Icons.Outlined.Star,
+                            contentDescription = if (isBookmarked) "Remove bookmark" else "Add bookmark",
+                            tint = if (isBookmarked) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
+                        )
                     }
                 }
             )
@@ -246,47 +272,140 @@ private fun VerseScreen(vm: ScriptureViewModel, chapter: Int, verse: Int, onBack
     ) { padding ->
         val verseDetail = detail
         if (verseDetail == null) {
-            Column(modifier = Modifier.padding(padding).padding(20.dp)) {
-                Text("No verse content found.")
+            Box(
+                modifier = Modifier.fillMaxSize().padding(padding),
+                contentAlignment = Alignment.Center
+            ) {
+                CircularProgressIndicator()
             }
         } else {
-            Column(
+            LazyColumn(
                 modifier = Modifier
                     .padding(padding)
-                    .padding(20.dp)
                     .fillMaxSize(),
-                verticalArrangement = Arrangement.spacedBy(14.dp)
+                contentPadding = PaddingValues(horizontal = 20.dp, vertical = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(0.dp)
             ) {
-                Text(
-                    text = verseDetail.sanskrit,
-                    style = MaterialTheme.typography.titleLarge,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth()
-                )
+                // Sanskrit Section
+                item {
+                    Text(
+                        text = "॥ श्लोक ॥",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f)
+                        )
+                    ) {
+                        Text(
+                            text = verseDetail.sanskrit,
+                            style = MaterialTheme.typography.headlineSmall,
+                            textAlign = TextAlign.Center,
+                            lineHeight = 36.sp,
+                            modifier = Modifier.fillMaxWidth().padding(16.dp)
+                        )
+                    }
+                    Spacer(modifier = Modifier.height(20.dp))
+                }
+
+                // Transliteration Section
                 if (settings.transliterationVisible) {
-                    Text(text = verseDetail.transliteration, style = MaterialTheme.typography.bodyLarge)
+                    item {
+                        Text(
+                            text = "Transliteration",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.secondary,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                        Text(
+                            text = verseDetail.transliteration,
+                            style = MaterialTheme.typography.bodyLarge,
+                            fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
+                            lineHeight = 26.sp,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    }
                 }
-                Text(text = verseDetail.simpleMeaning, style = MaterialTheme.typography.bodyLarge)
-                if (settings.philosophicalVisible) {
-                    Text(text = verseDetail.philosophicalNote, style = MaterialTheme.typography.bodyMedium)
+
+                // Meaning Section
+                item {
+                    Text(
+                        text = "Meaning",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.secondary,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    Text(
+                        text = verseDetail.simpleMeaning,
+                        style = MaterialTheme.typography.bodyLarge,
+                        lineHeight = 28.sp,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
                 }
-                Card {
-                    Column(modifier = Modifier.padding(8.dp)) {
-                        TextButton(onClick = {
-                            val payload = "Bhagavad Gita ${chapter}.${verse}\n\n${verseDetail.sanskrit}\n\n${verseDetail.simpleMeaning}"
-                            ShareUtils.shareText(context, payload)
-                        }) {
-                            Text("Share as text")
-                        }
-                        TextButton(onClick = {
-                            ShareUtils.shareAsImage(
-                                context = context,
-                                title = "Bhagavad Gita ${chapter}.${verse}",
-                                sanskrit = verseDetail.sanskrit,
-                                meaning = verseDetail.simpleMeaning
+
+                // Philosophical Note Section
+                if (settings.philosophicalVisible && verseDetail.philosophicalNote.isNotBlank()) {
+                    item {
+                        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                        Text(
+                            text = "Philosophical Insight",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.tertiary,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.cardColors(
+                                containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.3f)
                             )
-                        }) {
-                            Text("Share as image")
+                        ) {
+                            Text(
+                                text = verseDetail.philosophicalNote,
+                                style = MaterialTheme.typography.bodyMedium,
+                                lineHeight = 24.sp,
+                                modifier = Modifier.padding(16.dp)
+                            )
+                        }
+                    }
+                }
+
+                // Share Section
+                item {
+                    Spacer(modifier = Modifier.height(32.dp))
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        OutlinedButton(
+                            onClick = {
+                                val payload = "Bhagavad Gita ${chapter}.${verse}\n\n${verseDetail.sanskrit}\n\n${verseDetail.simpleMeaning}"
+                                ShareUtils.shareText(context, payload)
+                            },
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Icon(Icons.Filled.Share, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("Share Text")
+                        }
+                        OutlinedButton(
+                            onClick = {
+                                ShareUtils.shareAsImage(
+                                    context = context,
+                                    title = "Bhagavad Gita ${chapter}.${verse}",
+                                    sanskrit = verseDetail.sanskrit,
+                                    meaning = verseDetail.simpleMeaning
+                                )
+                            },
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Icon(Icons.Filled.Share, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("Share Image")
                         }
                     }
                 }

@@ -19,13 +19,778 @@
           "translations": [
             {
               "language_code": "en",
-              "simple_meaning": "Dhritarashtra asks Sanjaya what his sons and the sons of Pandu did after gathering at Kurukshetra, eager for battle.",
-              "philosophical_note": "The opening question frames the conflict between attachment and righteousness."
+              "simple_meaning": "Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do, having gathered at Kurukshetra, the place of dharma, desiring to fight?",
+              "philosophical_note": "The question highlights the duality of the field: it is both a physical battlefield and the field of righteousness where dharma is tested."
             },
             {
               "language_code": "hi",
-              "simple_meaning": "धृतराष्ट्र संजय से पूछते हैं कि युद्ध के इच्छुक मेरे और पाण्डु के पुत्रों ने धर्मभूमि कुरुक्षेत्र में क्या किया।",
-              "philosophical_note": "आरंभ का प्रश्न आसक्ति और धर्म के टकराव को प्रकट करता है।"
+              "simple_meaning": "धृतराष्ट्र बोले: हे संजय! धर्मभूमि कुरुक्षेत्र में युद्ध की इच्छा से एकत्र हुए मेरे तथा पाण्डु के पुत्रों ने क्या किया?",
+              "philosophical_note": "यह प्रश्न कुरुक्षेत्र को धर्म और कर्म की परीक्षा भूमि के रूप में स्थापित करता है।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "sanskrit": "सञ्जय उवाच | दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा | आचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ||",
+          "transliteration": "sanjaya uvaca drishtva tu pandavanikam vyudham duryodhanastada acharyamupasangamya raja vachanamabravit",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sanjaya said: On observing the Pandava army standing in military formation, King Duryodhana approached his teacher Dronacharya and spoke the following words.",
+              "philosophical_note": "Duryodhana's anxiety is visible as he rushes to his teacher, showing his reliance on external strength."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "संजय बोले: उस समय राजा दुर्योधन ने व्यूहरचनायुक्त पाण्डवों की सेना को देखकर और द्रोणाचार्य के पास जाकर यह वचन कहा।",
+              "philosophical_note": "दुर्योधन की व्याकुलता स्पष्ट है क्योंकि वह अपने गुरु के पास जाता है, जो उसकी बाहरी शक्ति पर निर्भरता को दर्शाता है।"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् | व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ||",
+          "transliteration": "pashyaitam panduputranamacharya mahatim chamum vyudham drupadaputrena tava shishyena dhimata",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O Teacher, behold this great army of the sons of Pandu, so expertly arranged by your intelligent disciple, the son of Drupada.",
+              "philosophical_note": "Duryodhana subtly criticizes Drona by pointing out that his own student (Drishtadyumna) is leading the opposing army."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे आचार्य! आपके बुद्धिमान शिष्य द्रुपदपुत्र (धृष्टद्युम्न) द्वारा व्यूहाकार खड़ी की हुई पाण्डुपुत्रों की इस बड़ी भारी सेना को देखिये।",
+              "philosophical_note": "दुर्योधन परोक्ष रूप से द्रोण की आलोचना कर रहा है कि उनका अपना शिष्य शत्रु सेना का नेतृत्व कर रहा है।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि | युयुधानो विराटश्च द्रुपदश्च महारथः ||",
+          "transliteration": "atra shura maheshvasa bhimarjunasama yudhi yuyudhano viratashcha drupadashcha maharathah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Here in this army are heroes and mighty archers equal in battle to Bhima and Arjuna: Yuyudhana, Virata, and the Maharathi Drupada.",
+              "philosophical_note": "Acknowledging the strength of the opposition is a strategy to rouse his own side to seriousness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस सेना में भीम और अर्जुन के समान शूरवीर तथा महान धनुर्धर युयुधान (सात्यकि), विराट और महारथी द्रुपद हैं।",
+              "philosophical_note": "विपक्ष की शक्ति को स्वीकार करना अपने पक्ष को गंभीरता के लिए जगाने की रणनीति है।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् | पुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः ||",
+          "transliteration": "dhrishtaketushchekitanah kashirajashcha viryavan purujitkuntibhojashcha shaibyashcha narapungavah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There are Dhrishtaketu, Chekitana, and the valiant King of Kashi; Purujit, Kuntibhoja, and Shaibya, the best among men.",
+              "philosophical_note": "Duryodhana continues listing formidable warriors to highlight the gravity of the battle."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "धृष्टकेतु, चेकितान और बलवान काशीराज, पुरुजित, कुन्तिभोज और मनुष्यों में श्रेष्ठ शैब्य हैं।",
+              "philosophical_note": "दुर्योधन युद्ध की गंभीरता को उजागर करने के लिए भयानक योद्धाओं की सूची बना रहा है।"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् | सौभद्रो द्रौपदेयाश्च सर्व एव महारथाः ||",
+          "transliteration": "yudhamanyushcha vikranta uttamaujashcha viryavan saubhadro draupadeyashcha sarva eva maharahah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There are the courageous Yudhamanyu, the valiant Uttamauja, the son of Subhadra (Abhimanyu), and the sons of Draupadi. All these are indeed great chariot warriors.",
+              "philosophical_note": "The term 'Maharathi' signifies a warrior capable of fighting thousands simultaneously."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "पराक्रमी युधामन्यु और बलवान उत्तमौजा, सुभद्रापुत्र (अभिमन्यु) और द्रौपदी के पांचों पुत्र—ये सब-के-सब ही महारथी हैं।",
+              "philosophical_note": "'महारथी' शब्द उस योद्धा को दर्शाता है जो एक साथ हजारों से लड़ने में सक्षम हो।"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम | नायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते ||",
+          "transliteration": "asmakam tu vishishta ye tannibodha dvijottama nayaka mama sainyasya sanjnartham tanbravimi te",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "But know, O best of the twice-born, who are the most distinguished amongst us, the leaders of my army. I name them for your information.",
+              "philosophical_note": "Turning his focus to his own side, Duryodhana addresses Drona as 'Dvijottama' (best of Brahmins) to appeal to his ego."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे द्विजश्रेष्ठ! हमारे पक्ष में भी जो विशिष्ट हैं, उनको आप जान लीजिये। आपकी जानकारी के लिए मैं अपनी सेना के नायकों के नाम बताता हूँ।",
+              "philosophical_note": "अपना ध्यान अपने पक्ष की ओर मोड़ते हुए, दुर्योधन द्रोण को 'द्विजोत्तम' (ब्राह्मणों में श्रेष्ठ) कहकर संबोधित करता है।"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः | अश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च ||",
+          "transliteration": "bhavanbhishmashcha karnashcha kripashcha samitinjayah ashvatthama vikarnashcha saumadattistathaiva cha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There is yourself, Bhishma, Karna, Kripa, who are ever victorious in battle; and Ashvatthama, Vikarna, and Saumadatti (Bhurishrava).",
+              "philosophical_note": "He lists the unbeatable warriors of his side, starting with the Guru himself to show respect."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "एक तो स्वयं आप, भीष्म और कर्ण तथा संग्रामविजयी कृपाचार्य, अश्वत्थामा, विकर्ण और सोमदत्तपुत्र भूरिश्रवा हैं।",
+              "philosophical_note": "वह अपने पक्ष के अजेय योद्धाओं को गिनाता है, आदर दिखाने के लिए गुरु से शुरुआत करता है।"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः | नानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः ||",
+          "transliteration": "anye cha bahavah shura madarthe tyaktajivitah nanashastrapraharanah sarve yuddhavisharadah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "And there are many other heroes who are ready to lay down their lives for my sake. They are equipped with various weapons and are all skilled in military science.",
+              "philosophical_note": "'Ready to lay down their lives' ironically foreshadows their eventual death in the war."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "और भी बहुत-से शूरवीर हैं, जो मेरे लिए अपने प्राणों का त्याग करने को तैयार हैं। वे नाना प्रकार के शस्त्रों से सुसज्जित हैं और सभी युद्धकला में निपुण हैं।",
+              "philosophical_note": "'प्राणों का त्याग करने को तैयार' विडंबनापूर्ण रूप से युद्ध में उनकी आगामी मृत्यु का संकेत देता है।"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् | पर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् ||",
+          "transliteration": "aparyaptam tadasmakam balam bhishmabhirakshitam paryaptam tvidametesham balam bhimabhirakshitam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Our strength is immeasurable and we are perfectly protected by Grandfather Bhishma, whereas the strength of the Pandavas, carefully protected by Bhima, is limited.",
+              "philosophical_note": "Duryodhana compares the experience of Bhishma with the relative inexperience of Bhima."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "भीष्म पितामह द्वारा रक्षित हमारी वह सेना अपरिमेय (असीमित) है, और भीम द्वारा रक्षित इन लोगों की यह सेना सीमित है।",
+              "philosophical_note": "दुर्योधन भीष्म के अनुभव की तुलना भीम की सापेक्ष अनुभवहीनता से करता है।"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः | भीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि ||",
+          "transliteration": "ayaneshu cha sarveshu yathabhagamavasthitah bhishmamevabhirakshantu bhavantah sarva eva hi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore, I call upon all the generals of the Kaurava army now to give full support to Grandsire Bhishma, even as you defend your respective strategic points.",
+              "philosophical_note": "Duryodhana emphasizes the strategic importance of protecting their commander, Bhishma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए सब मोर्चों पर अपनी-अपनी जगह स्थित रहते हुए आप लोग सब-के-सब ही भीष्मपितामह की ही सब ओर से रक्षा करें।",
+              "philosophical_note": "दुर्योधन अपने सेनापति भीष्म की रक्षा के रणनीतिक महत्व पर जोर देता है।"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः | सिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ||",
+          "transliteration": "tasya sanjanayanharsham kuruvriddhah pitamahah simhanadam vinadyochchaihi shankham dadhmau pratapavan",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "To encourage him, the glorious grandsire Bhishma, the oldest of the Kuru dynasty, roared like a lion and blew his conch shell.",
+              "philosophical_note": "Bhishma's action is meant to inspire confidence in Duryodhana, essentially signaling the start of the war."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कुरुवंश के वृद्ध प्रतापी पितामह भीष्म ने उस (दुर्योधन) के हृदय में हर्ष उत्पन्न करते हुए उच्च स्वर से सिंह की दहाड़ के समान गरजकर शंख बजाया।",
+              "philosophical_note": "भीष्म का यह कार्य दुर्योधन में आत्मविश्वास जगाने के लिए था, जो एक तरह से युद्ध के आगाज का संकेत था।"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः | सहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ||",
+          "transliteration": "tatah shankhashcha bheryashcha panavanakagomukhah sahasaivabhyahanyanta sa shabdastumulo bhavat",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Then, conches, kettledrums, tabors, drums, and cow-horns suddenly blared forth, and the sound was tumultuous.",
+              "philosophical_note": "The cacophony of war instruments sets the intense atmosphere of the battlefield."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसके पश्चात शंख, नगाड़े, ढोल, मृदंग और नरसिंघे आदि बाजे एक साथ ही बज उठे। उनका वह शब्द बड़ा भयंकर हुआ।",
+              "philosophical_note": "युद्ध के वाद्ययंत्रों का कोलाहल युद्धभूमि के गहन वातावरण को स्थापित करता है।"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ | माधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः ||",
+          "transliteration": "tatah shvetairhayairyukte mahati syandane sthitau madhavah pandavashchaiva divyau shankhau pradadhmatuh",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": " Then, seated in a magnificent chariot drawn by white horses, Lord Krishna and Arjuna blew their divine conch shells.",
+              "philosophical_note": "The entry of Krishna and Arjuna signifies the presence of the divine on the side of Dharma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसके अनन्तर सफेद घोड़ों से युक्त उत्तम रथ में बैठे हुए श्रीकृष्ण महाराज और अर्जुन ने भी अपने दिव्य शंख बजाये।",
+              "philosophical_note": "श्रीकृष्ण और अर्जुन का प्रवेश धर्म के पक्ष में दिव्यता की उपस्थिति का प्रतीक है।"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः | पौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ||",
+          "transliteration": "panchajanyam hrishikesho devadattam dhananjayah paundram dadhmau mahashankham bhimakarma vrikodarah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Hrishikesha blew the Panchajanya, Dhananjaya (Arjuna) blew the Devadatta, and Vrikodara (Bhima), the doer of terrible deeds, blew the great conch Paundra.",
+              "philosophical_note": "Each conch has a name and significance, representing the specific power and role of the warrior."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्रीकृष्ण महाराज ने पाञ्चजन्य नामक, अर्जुन ने देवदत्त नामक और भयानक कर्म वाले भीमसेन ने पौण्ड्र नामक महाशंख बजाया।",
+              "philosophical_note": "प्रत्येक शंख का एक नाम और महत्व है, जो योद्धा की विशिष्ट शक्ति और भूमिका का प्रतिनिधित्व करता है।"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः | नकुलः सहदेवश्च सुघोषमणिपुष्पकौ ||",
+          "transliteration": "anantavijayam raja kuntiputro yudhishthirah nakulah sahadevashcha sughoshamanipushpakau",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "King Yudhishthira, the son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosha and Manipushpaka.",
+              "philosophical_note": "The collective sound of the Pandava conches symbolizes their unity and readiness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कुन्तीपुत्र राजा युधिष्ठिर ने अनन्तविजय नामक और नकुल तथा सहदेव ने सुघोष और मणिपुष्पक नामक शंख बजाये।",
+              "philosophical_note": "पाण्डव शंखों की सामूहिक ध्वनि उनकी एकता और तत्परता का प्रतीक है।"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः | धृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः ||",
+          "transliteration": "kashyashcha parameshvasah shikhandi cha maharathah dhrishtadyumno viratashcha satyakishchaparajitah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The King of Kashi, an excellent archer, Shikhandi, the Maharathi, Dhrishtadyumna, Virata, and the unconquerable Satyaki...",
+              "philosophical_note": "The list continues, showcasing the diverse and powerful allies of the Pandavas."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्रेष्ठ धनुष वाले काशीराज और महारथी शिखण्डी, धृष्टद्युम्न तथा राजा विराट और अजेय सात्यकि...",
+              "philosophical_note": "सूची जारी है, जो पाण्डवों के विविध और शक्तिशाली सहयोगियों को प्रदर्शित करती है।"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते | सौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक् ||",
+          "transliteration": "drupado draupadeyashcha sarvashah prithivipate saubhadrashcha mahabahuh shankhandadhmuh prithakprithak",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...Drupada, the sons of Draupadi, and the mighty-armed son of Subhadra, all blew their respective conches, O Lord of the Earth.",
+              "philosophical_note": "The individual blowing of conches asserts the individual resolve of each warrior alongside their collective purpose."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...राजा द्रुपद, द्रौपदी के पाँचों पुत्र और बड़ी भुजा वाले सुभद्रापुत्र अभिमन्यु—इन सबने, हे राजन्! सब ओर से अलग-अलग अपने-अपने शंख बजाये।",
+              "philosophical_note": "शंखों का अलग-अलग बजना सामूहिक उद्देश्य के साथ-साथ प्रत्येक योद्धा के व्यक्तिगत संकल्प को भी दर्शाता है।"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् | नभश्च पृथिवीं चैव तुमुलो व्यनुनादयन् ||",
+          "transliteration": "sa ghosho dhartarashtranam hridayani vyadarayat nabhashcha prithivim chaiva tumulo vyanunadayan",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "That tumultuous sound rent the hearts of the sons of Dhritarashtra, vibrating both in the sky and on the earth.",
+              "philosophical_note": "The psychological impact of the Pandavas' confidence strikes fear into the Kauravas."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "और उस भयानक शब्द ने आकाश और पृथ्वी को भी गुंजाते हुए धृतराष्ट्र के पुत्रों के (कौरवों के) हृदय विदीर्ण कर दिए।",
+              "philosophical_note": "पाण्डवों के आत्मविश्वास का मनोवैज्ञानिक प्रभाव कौरवों में भय पैदा करता है।"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः | प्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः ||",
+          "transliteration": "atha vyavasthitandrishtva dhartarashtran kapidhvajah pravritte shastrasampate dhanurudyamya pandavah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Then, seeing the sons of Dhritarashtra arrayed for battle and the clash of weapons about to begin, Arjuna, whose banner bore the image of Hanuman, raised his bow.",
+              "philosophical_note": "Arjuna is addressed as 'Kapidhvajah', signifying Hanuman's presence on his flag, ensuring victory."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे राजन्! इसके बाद कपिध्वज अर्जुन ने मोर्चा बाँधकर डटे हुए धृतराष्ट्र-सम्बन्धियों को देखकर, उस शस्त्र चलने की तैयारी के समय धनुष उठाकर...",
+              "philosophical_note": "अर्जुन को 'कपिध्वज' कहा गया है, जो उनके ध्वज पर हनुमान की उपस्थिति को दर्शाता है, जो विजय सुनिश्चित करता है।"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "sanskrit": "हृषीकेशं तदा वाक्यमिदमाह महीपते | अर्जुन उवाच | सेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ||",
+          "transliteration": "hrishikesham tada vakyamidamaha mahipate arjuna uvaca senayorubhayormadhye ratham sthapaya mechyuta",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...and spoke these words to Hrishikesha: 'O Achyuta (Infallible One), please place my chariot between the two armies.'",
+              "philosophical_note": "Arjuna asks Krishna to place him in the middle to observe, marking the transition from warrior to observer/seeker."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...और श्रीकृष्ण महाराज से यह वचन कहा: 'हे अच्युत! मेरे रथ को दोनों सेनाओं के बीच में खड़ा कीजिये।'",
+              "philosophical_note": "अर्जुन कृष्ण से उसे बीच में खड़ा करने के लिए कहते हैं ताकि वह निरीक्षण कर सके, यह योद्धा से निरीक्षक/साधक बनने का संक्रमण है।"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् | कैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे ||",
+          "transliteration": "yavadetanniriksheham yoddhukamanavasthitan kairmaya saha yoddhavyamasmin ranasamudyame",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "'...So that I may behold those who act here, eager for fighting, and know with whom I must fight in this great battle.'",
+              "philosophical_note": "Arjuna wants to assess the opposition, unaware that this sight will trigger his emotional collapse."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "'...ताकि मैं यहाँ उपस्थित इन युद्ध-अभिलाषी वीरों को देख लूँ और यह जान लूँ कि इस युद्ध-रूप व्यापार में मुझे किन-किन के साथ युद्ध करना योग्य है।'",
+              "philosophical_note": "अर्जुन विपक्ष का आकलन करना चाहता है, इस बात से अनजान कि यह दृश्य उसके भावनात्मक पतन का कारण बनेगा।"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः | धार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः ||",
+          "transliteration": "yotsyamanananaveksheh ham ya etetra samagatah dhartarashtrasya durbuddheryuddhe priyachikirshavah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "'I wish to look at those who are assembled here, ready to fight, desiring to please the evil-minded son of Dhritarashtra in this war.'",
+              "philosophical_note": "Arjuna labels Duryodhana as 'durbuddhi' (evil-minded), highlighting the moral high ground of the Pandavas."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "'दुर्बुद्धि दुर्योधन का युद्ध में प्रिय चाहने वाले जो-जो ये राजा लोग इस सेना में आये हैं, इन युद्ध करने वालों को मैं देखूँगा।'",
+              "philosophical_note": "अर्जुन दुर्योधन को 'दुर्बुद्धि' कहता है, जो पाण्डवों की नैतिक श्रेष्ठता को उजागर करता है।"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "sanskrit": "सञ्जय उवाच | एवमुक्तो हृषीकेशो गुडाकेशेन भारत | सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम् ||",
+          "transliteration": "sanjaya uvaca evamukto hrishikesho gudakeshena bharata senayorubhayormadhye sthapayitva rathottamam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sanjaya said: O Descendant of Bharata, having been thus addressed by Gudakesha (Arjuna), Hrishikesha placed that magnificent chariot in the midst of the two armies.",
+              "philosophical_note": "Krishna follows Arjuna's command as his charioteer, showing God's willingness to serve his devotee."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "संजय बोले: हे भरतवंशी राजन्! निद्राजयी अर्जुन द्वारा इस प्रकार कहे जाने पर अन्तर्यामी श्रीकृष्ण महाराज ने दोनों सेनाओं के बीच में उस उत्तम रथ को खड़ा कर...",
+              "philosophical_note": "कृष्ण अर्जुन के आदेश का पालन करते हुए उसके सारथी बनते हैं, जो ईश्वर की अपने भक्त की सेवा करने की इच्छा को दर्शाता है।"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम् | उवाच पार्थ पश्यैतान्समवेतान्कुरूनिति ||",
+          "transliteration": "bhishmadronapramukhatah sarvesham cha mahikshitam uvacha partha pashyaitansamavetankuruniti",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...in front of Bhishma, Drona and all the rulers of the world, and said: 'O Partha, behold these Kurus gathered together.'",
+              "philosophical_note": "Krishna deliberately places the chariot in front of Bhishma and Drona to spark Arjuna's attachment."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...भीष्म और द्रोणाचार्य के सामने तथा सम्पूर्ण राजाओं के सामने खड़ा करके इस प्रकार कहा कि 'हे पार्थ! इन इकट्ठे हुए कुरुवंशियों को देख'।",
+              "philosophical_note": "कृष्ण जानबूझकर रथ को भीष्म और द्रोण के सामने खड़ा करते हैं ताकि अर्जुन की आसक्ति जागृत हो सके।"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "sanskrit": "तत्रापश्यत्स्थितान् पार्थः पितॄनथ पितामहान् | आचार्यान्मातुलान् भ्रातॄन् पुत्रान् पौत्रान् सखींस्तथा || श्वशुरान् सुहृदश्चैव सेनयोरुभयोरपि |",
+          "transliteration": "tatrapashyat sthitan parthah pitrin atha pitamahan acharyan matulan bhratrin putran pautran sakhinstatha shvashuran suhridashchaiva senayorubhayorapi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There, Arjuna could see, within the midst of the armies of both parties, his fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, friends, and also his fathers-in-law and well-wishers.",
+              "philosophical_note": "Arjuna's vision shifts from the enemy soldiers to his relationships with them, marking the onset of attachment (Moha)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "वहां पार्थ (अर्जुन) ने दोनों ही सेनाओं में स्थित ताऊ-चाचाओं को, दादों-परदादों को, गुरुओं को, मामाओं को, भाइयों को, पुत्रों को, पौत्रों को तथा मित्रों को, ससुरों को और सुहृदों को भी देखा।",
+              "philosophical_note": "अर्जुन की दृष्टि शत्रु सैनिकों से हटकर उनसे अपने रिश्तों पर चली जाती है, जो मोह की शुरुआत का प्रतीक है।"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "sanskrit": "तान् समीक्ष्य स कौन्तेयः सर्वान् बन्धूनवस्थितान् | कृपया परयाविष्टो विषीदन्निदमब्रवीत् ||",
+          "transliteration": "tan samikshya sa kaunteyah sarvan bandhun Avasthitan kripaya parayavishto vishidannidamabravit",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Seeing all these kinsmen present there, the son of Kunti was overwhelmed with deep compassion and spoke thus in sorrow.",
+              "philosophical_note": "This 'compassion' is misplaced pity born of attachment, not true spiritual compassion (Daya)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "उन उपस्थित सम्पूर्ण बन्धुओं को देखकर वे कुन्तीपुत्र अर्जुन अत्यन्त करुणा से युक्त होकर शोक करते हुए यह वचन बोले।",
+              "philosophical_note": "यह 'करुणा' आसक्ति से उत्पन्न भ्रमित दया है, वास्तविक आध्यात्मिक दया नहीं।"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "sanskrit": "अर्जुन उवाच | दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् | सीदन्ति मम गात्राणि मुखं च परिशुष्यति ||",
+          "transliteration": "arjuna uvaca drishtvemam svajanam krishna yuyutsum samupasthitam sidanti mama gatrani mukham cha parishushyati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: O Krishna, seeing my own kinsmen gathered here eager for battle, my limbs are failing and my mouth is parched.",
+              "philosophical_note": "The physical symptoms of anxiety indicate a conflict between his duty (Kshatriya Dharma) and his personal attachments."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: हे कृष्ण! युद्धक्षेत्र में डटे हुए युद्ध के अभिलाषी इस स्वजन-समुदाय को देखकर मेरे अंग शिथिल हुए जा रहे हैं और मुख सूखा जा रहा है।",
+              "philosophical_note": "व्याकुलता के शारीरिक लक्षण उसके कर्तव्य (क्षत्रिय धर्म) और व्यक्तिगत आसक्तियों के बीच संघर्ष का संकेत देते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "sanskrit": "वेपथुश्च शरीरे मे रोमहर्षश्च जायते | गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते ||",
+          "transliteration": "vepathushcha sharire me romaharshashcha jayate gandivam sramsate hastat tvakchaiva paridahyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "My body is trembling, my hair stands on end, the Gandiva bow slips from my hand, and my skin burns.",
+              "philosophical_note": "Arjuna, the great warrior, loses control over his body, illustrating how attachment can incapacitate the strongest."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तथा मेरे शरीर में कम्प एवं रोमांच हो रहा है; हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी बहुत जल रही है।",
+              "philosophical_note": "महान योद्धा अर्जुन अपने शरीर पर नियंत्रण खो देता है, यह दर्शाता है कि आसक्ति कैसे सबसे बलवान को भी अक्षम कर सकती है।"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "sanskrit": "न च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः | निमित्तानि च पश्यामि विपरीतानि केशव ||",
+          "transliteration": "na cha shaknomyavasthatum bhramativa cha me manah nimittani cha pashyami viparitani keshava",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "I am unable to stand and my mind seems to be reeling. I see adverse omens, O Keshava.",
+              "philosophical_note": "Mentally unstable, he begins to interpret omens negatively to justify his desire to retreat."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तथा मेरा मन भ्रमित-सा हो रहा है, इसलिए मैं खड़ा रहने को भी समर्थ नहीं हूँ। हे केशव! मैं लक्षणों को भी विपरीत ही देख रहा हूँ।",
+              "philosophical_note": "मानसिक रूप से अस्थिर, वह पीछे हटने की अपनी इच्छा को सही ठहराने के लिए शकुनों की नकारात्मक व्याख्या करने लगता है।"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "sanskrit": "न च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे | न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च ||",
+          "transliteration": "na cha shreyo nupashyami hatva svajanamahave na kankshe vijayam krishna na cha rajyam sukhani cha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "I do not see any good in killing my kinsmen in battle. O Krishna, I desire neither victory, nor kingdom, nor pleasures.",
+              "philosophical_note": "Arjuna questions the very outcome of the war, equating victory with sin, a classic sign of delusion."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तथा युद्ध में स्वजन-समुदाय को मारकर कल्याण भी नहीं देखता। हे कृष्ण! मैं न तो विजय चाहता हूँ और न राज्य तथा सुखों को ही।",
+              "philosophical_note": "अर्जुन युद्ध के परिणाम पर ही सवाल उठाता है, जीत को पाप के समान मानता है, जो मोह का एक क्लासिक संकेत है।"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "sanskrit": "किं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा | येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च ||",
+          "transliteration": "kim no rajyena govinda kim bhogairjivitena va yeshamarthe kankshitam no rajyam bhogah sukhani cha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": " What use is a kingdom to us, O Govinda, or enjoyments, or even life itself? Those for whose sake we desire kingdom, enjoyments, and pleasures...",
+              "philosophical_note": "He argues that enjoyment needs sharing; if those to share with are dead, the prize is worthless."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे गोविन्द! हमें ऐसे राज्य से क्या प्रयोजन है अथवा ऐसे भोगों से और जीवन से भी क्या लाभ है? हमें जिनके लिये राज्य, भोग और सुखादि की इच्छा है...",
+              "philosophical_note": "वह तर्क देता है कि आनंद को साझा करने की आवश्यकता है; यदि साझा करने वाले ही मर गए, तो पुरस्कार व्यर्थ है।"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "sanskrit": "त इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च | आचार्याः पितरः पुत्रास्तथैव च पितामहाः ||",
+          "transliteration": "ta imevasthita yuddhe prananstyaktva dhanani cha acharyah pitarah putrastathaiva cha pitamahah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...stand here in battle, having renounced life and wealth—teachers, fathers, sons, and also grandfathers...",
+              "philosophical_note": "Arjuna lists the relationships again, reinforcing his emotional attachment over his warrior duty."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...वे ही सब धन और जीवन की आशा को त्यागकर युद्ध में खड़े हैं। गुरुजन, ताऊ-चाचा, लड़के और उसी प्रकार दादे...",
+              "philosophical_note": "अर्जुन रिश्तों को फिर से गिनाता है, अपने योद्धा कर्तव्य के ऊपर अपनी भावनात्मक आसक्ति को मजबूत करता है।"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "sanskrit": "मातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा | एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन ||",
+          "transliteration": "matulah shvashurah pautrah shyalah sambandhinastatha etanna hantumicchami ghnatopi madhusudana",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...maternal uncles, fathers-in-law, grandsons, brothers-in-law, and other relatives. I do not wish to kill them, O Madhusudana, even if they kill me...",
+              "philosophical_note": "His refusal is absolute, preferring his own death over killing his kin."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...मामे, ससुर, पोते, साले तथा और भी सम्बन्धी लोग हैं। हे मधुसूदन! मुझे मारने पर भी अथवा तीनों लोकों के राज्य के लिये भी मैं इन सबको मारना नहीं चाहता...",
+              "philosophical_note": "उसका इनकार पूर्ण है, वह अपने परिजनों को मारने के बजाय अपनी मृत्यु को पसंद करता है।"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "sanskrit": "अपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते | निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन ||",
+          "transliteration": "api trailokyarajyasya hetoh kim nu mahikrite nihatya dhartarashtrannah ka pritih syaj janardana",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...even for the sovereignty of the three worlds, let alone for this earth. What satisfaction can we derive from killing the sons of Dhritarashtra, O Janardana?",
+              "philosophical_note": "Arjuna questions the value of worldly power gained at such a high moral cost."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...फिर पृथ्वी के लिये तो कहना ही क्या है? हे जनार्दन! धृतराष्ट्र के पुत्रों को मारकर हमें क्या प्रसन्नता होगी?",
+              "philosophical_note": "अर्जुन इतनी उच्च नैतिक कीमत पर प्राप्त सांसारिक शक्ति के मूल्य पर सवाल उठाता है।"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "sanskrit": "पापमेवाश्रयेदस्मान् हत्वैतानातातायिनः | तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्नः स्वबान्धवान् | स्वजनं हि कथं हत्वा सुखिनः स्याम माधव ||",
+          "transliteration": "papamevashrayed asman hatvaitanatatayinah tasmannarha vayam hantum dhartarashtran svabandhavan svajanam hi katham hatva sukhinah syama madhava",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sin will only overtake us if we slay these aggressors. Therefore, it is not proper for us to kill the sons of Dhritarashtra and our friends. How should we be happy by killing our own kinsmen, O Madhava?",
+              "philosophical_note": "Though shastras allow killing 'atataayinah' (aggressors), Arjuna feels killing kin is a greater sin."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन आततायियों को मारकर तो हमें पाप ही लगेगा। अतएव अपने बान्धव धृतराष्ट्र के पुत्रों को मारने के लिये हम योग्य नहीं हैं। क्योंकि अपने ही कुटुम्ब को मारकर हम कैसे सुखी होंगे?",
+              "philosophical_note": "यद्यपि शास्त्र 'आततायियों' (आ aggressors) को मारने की अनुमति देते हैं, अर्जुन को लगता है कि परिजनों को मारना एक बड़ा पाप है।"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः | कुलक्षयकृतं दोषं मित्रद्रोहे च पातकम् ||",
+          "transliteration": "yadyapyete na pashyanti lobhopahatachetasah kulakshayakritam dosham mitradrohe cha patakam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Even if they, blinded by greed, do not see the evil in the destruction of the family or the sin in treachery to friends...",
+              "philosophical_note": "Arjuna acknowledges their greed but believes he should be wiser and not retaliate."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यद्यपि लोभ से भ्रष्टचित्त हुए ये लोग कुल के नाश से उत्पन्न दोष को और मित्रों से विरोध करने में पाप को नहीं देखते...",
+              "philosophical_note": "अर्जुन उनके लोभ को स्वीकार करता है लेकिन मानता है कि उसे समझदार होना चाहिए और बदला नहीं लेना चाहिए।"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् | कुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन ||",
+          "transliteration": "katham na jneyamasma bhih papadasmannivartitum kulakshayakritam dosham prapashyadbhirjanardana",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "...why should not we, who see clearly the evil in the destruction of the family, learn to turn away from this sin, O Janardana?",
+              "philosophical_note": "He assumes superior moral standing, believing that restraint is better than participation in mutual destruction."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...तो भी हे जनार्दन! कुल के नाश से उत्पन्न दोष को जानने वाले हम लोगों को इस पाप से हटने के लिये क्यों नहीं विचार करना चाहिये?",
+              "philosophical_note": "वह श्रेष्ठ नैतिक स्थिति मानता है, यह विश्वास करते हुए कि आपसी विनाश में भाग लेने की तुलना में संयम बेहतर है।"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः | धर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ||",
+          "transliteration": "kulakshaye pranashyanti kuladharmah sanatanah dharme nashte kulam kritsnam adharmobhibhavatyuta",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "With the destruction of the family, the eternal family traditions die; and when the law violates, lawlessness overwhelms the whole family.",
+              "philosophical_note": "Arjuna worries about the sociological collapse that follows war—the loss of values and tradition."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कुल के नाश से सनातन कुल-धर्म नष्ट हो जाते हैं, धर्म के नाश हो जाने पर सम्पूर्ण कुल में पाप भी बहुत फैल जाता है।",
+              "philosophical_note": "अर्जुन युद्ध के बाद होने वाले सामाजिक पतन—मान्यों और परंपरा के नुकसान—के बारे में चिंतित है।"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः | स्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः ||",
+          "transliteration": "adharmabhibhavat krishna pradushyanti kulastriyah strishu dushtasu varshneya jayate varnasankarah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "When lawlessness prevails, O Krishna, the women of the family become corrupt; and when women are corrupted, O Descendant of Vrishni, confusion of castes (varṇa-saṅkara) arises.",
+              "philosophical_note": "He connects social order to the purity of lineage, fearing war will destroy the moral fabric of society."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे कृष्ण! पाप के अधिक बढ़ जाने से कुल की स्त्रियाँ दूषित हो जाती हैं और हे वार्ष्णेय! स्त्रियों के दूषित होने पर वर्णशंकर उत्पन्न होता है।",
+              "philosophical_note": "वह सामाजिक व्यवस्था को वंश की शुद्धता से जोड़ता है, इस डर से कि युद्ध समाज के नैतिक ताने-बाने को नष्ट कर देगा।"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च | पतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ||",
+          "transliteration": "sankaro narakayaiva kulaghnanam kulasya cha patanti pitaro hyesham luptapindodakakriyah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "This confusion leads the family and the destroyers of the family to hell; for their ancestors fall, deprived of the offerings of rice-balls and water.",
+              "philosophical_note": "The consequences extend to the ancestors, who suffer when the descendants fail to perform sraddha due to cultural decay."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "वर्णशंकर कुलघातियों को और कुल को नरक में ले जाने के लिये ही होता है। लुप्त हुई पिण्ड और जल की क्रिया वाले अर्थात् श्राद्ध और तर्पण से वंचित इनके पितर लोग भी अधोगति को प्राप्त होते हैं।",
+              "philosophical_note": "इसके परिणाम पूर्वजों तक भी पहुंचते हैं, जो सांस्कृतिक पतन के कारण वंशजों द्वारा श्राद्ध न करने पर कष्ट पाते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः | उत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ||",
+          "transliteration": "doshairetaih kulaghnanam varnasankarakarakaih utsadyante jatidharmah kuladharmashcha shashvatah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "By these evil deeds of the destroyers of the family which produce confusion of castes, the eternal traditions of the caste and the family are destroyed.",
+              "philosophical_note": "Arjuna fears total anarchy where timeless duties (Dharma) are forgotten."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन वर्णशंकरकारक दोषों से कुलघातियों के सनातन कुल-धर्म और जाति-धर्म नष्ट हो जाते हैं।",
+              "philosophical_note": "अर्जुन को पूर्ण अराजकता का डर है जहाँ शाश्वत कर्तव्य (धर्म) भुला दिए जाते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 43,
+          "sanskrit": "उत्सन्नकुलधर्माणाम् मनुष्याणां जनार्दन | नरके नियतं वासो भवतीत्यनुशुश्रुम ||",
+          "transliteration": "utsannakuladharmanam manushyanam janardana narake niyatam vaso bhavatityanushushruma",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "We have heard, O Janardana, that men whose family traditions are destroyed dwell largely in hell.",
+              "philosophical_note": "He cites scripture or tradition ('we have heard') to validate his fear of hellish consequences."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे जनार्दन! जिनका कुल-धर्म नष्ट हो गया है, ऐसे मनुष्यों का अनिश्चित काल तक नरक में वास होता है, ऐसा हम सुनते आये हैं।",
+              "philosophical_note": "वह नरक के परिणामों के अपने डर को सत्यापित करने के लिए शास्त्र या परंपरा ('हमने सुना है') का हवाला देता है।"
+            }
+          ]
+        },
+        {
+          "number": 44,
+          "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् | यद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ||",
+          "transliteration": "aho bata mahat papam kartum vyavasita vayam yadrajyasukhalobhena hantum svajanamudyatah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Alas! We are involved in a great sin, in that we are prepared to kill our kinsmen through greed for the pleasures of a kingdom.",
+              "philosophical_note": "He condemns himself and his side for being driven by the same greed he accused Duryodhana of earlier."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हा! शोक! हम लोग बुद्धिमान होकर भी महान पाप करने को तैयार हो गये हैं, जो राज्य और सुख के लोभ से स्वजनों को मारने के लिये उद्यत हुए हैं।",
+              "philosophical_note": "वह स्वयं और अपने पक्ष की निंदा करता है कि वे उसी लोभ से प्रेरित हैं जिसका आरोप उसने पहले दुर्योधन पर लगाया था।"
+            }
+          ]
+        },
+        {
+          "number": 45,
+          "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः | धार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ||",
+          "transliteration": "yadi mamapratikaramashastram shastrapanayah dhartarashtra rane hanyustanme kshemataram bhavet",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "If the sons of Dhritarashtra, weapons in hand, were to kill me in battle, unarmed and unresisting, that would be better for me.",
+              "philosophical_note": "Arjuna concludes that dying as a martyr for peace is better than living as a victor through slaughter."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यदि मुझ शस्त्ररहित एवं सामना न करने वाले को शस्त्र हाथ में लिये हुए धृतराष्ट्र के पुत्र रण में मार डालें तो वह मारना भी मेरे लिये अधिक कल्याणकारक होगा।",
+              "philosophical_note": "अर्जुन निष्कर्ष निकालता है कि हत्या के माध्यम से विजेता के रूप में जीने की तुलना में शांति के लिए शहीद होकर मरना बेहतर है।"
+            }
+          ]
+        },
+        {
+          "number": 46,
+          "sanskrit": "सञ्जय उवाच | एवमुक्त्वार्जुनः संख्ये रथोपस्थ उपाविशत् | विसृज्य सशरं चापं शोकसंविग्नमानसः ||",
+          "transliteration": "sanjaya uvaca evamuktvarjunah sankhye rathopastha upavishat visrijya sasharam chapam shokasamvignamanasah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sanjaya said: Having spoken thus on the battlefield, Arjuna cast aside his bow and arrow and sat down on the seat of the chariot, his mind overwhelmed with sorrow.",
+              "philosophical_note": "The chapter ends with Arjuna in a state of total collapse, setting the stage for Krishna to begin his teachings in Chapter 2."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "संजय बोले: रणभूमि में शोक से उद्विग्न मन वाले अर्जुन इस प्रकार कहकर, बाणसहित धनुष को त्यागकर रथ के पिछले भाग में बैठ गये।",
+              "philosophical_note": "अध्याय अर्जुन के पूर्ण पतन की स्थिति के साथ समाप्त होता है, जो अध्याय 2 में कृष्ण द्वारा अपनी शिक्षाओं को शुरू करने के लिए मंच तैयार करता है।"
             }
           ]
         }
