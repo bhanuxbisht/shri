@@ -3,6 +3,7 @@
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
+import android.util.Log
 import com.seva.scripture.AppContainer
 import com.seva.scripture.domain.model.AppSettings
 import com.seva.scripture.domain.model.ChapterSummary
@@ -59,10 +60,14 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
 
     init {
         viewModelScope.launch {
-            container.scriptureRepository.seedIfNeeded()
-            container.scriptureRepository.getLastRead()?.let { (chapter, verse) ->
-                selectedChapter.update { chapter }
-                selectedVerse.update { verse }
+            try {
+                container.scriptureRepository.seedIfNeeded()
+                container.scriptureRepository.getLastRead()?.let { (chapter, verse) ->
+                    selectedChapter.update { chapter }
+                    selectedVerse.update { verse }
+                }
+            } catch (exception: Exception) {
+                Log.e("ScriptureViewModel", "Startup seed failed", exception)
             }
         }
     }
