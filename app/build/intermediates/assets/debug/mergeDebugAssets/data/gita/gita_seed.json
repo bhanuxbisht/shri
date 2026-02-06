@@ -803,19 +803,784 @@
       "theme": "The immortality of the Self and duty without attachment.",
       "verses": [
         {
+          "number": 1,
+          "sanskrit": "सञ्जय उवाच | तं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् | विषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||",
+          "transliteration": "sanjaya uvaca tam tatha kripayavishtamashrupurnakulekshanam vishidantamidam vakyamuvacha madhusudanah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sanjaya said: To him who was thus overwhelmed with pity and sorrow, and whose eyes were full of tears and agitated, Madhusudana (Krishna) spoke these words.",
+              "philosophical_note": "Arjuna's pity is born of ignorance, not spiritual compassion. Krishna begins his teaching to remove this delusion."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "संजय बोले: उस प्रकार करुणा से व्याप्त और आंसुओं से पूर्ण तथा व्याकुल नेत्रों वाले शोकयुक्त अर्जुन से मधुसूदन (कृष्ण) ने यह वचन कहा।",
+              "philosophical_note": "अर्जुन की करुणा अज्ञान से उत्पन्न हुई है, आध्यात्मिक दया से नहीं। इस मोह को दूर करने के लिए कृष्ण अपना उपदेश शुरू करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "sanskrit": "श्रीभगवानुवाच | कुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् | अनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||",
+          "transliteration": "shri bhagavan uvaca kutastva kashmalamidam vishame samupasthitam anaryajushtamasvargyamakirtikaramarjuna",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Supreme Lord said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a man who knows the value of life. They lead not to higher planets but to infamy.",
+              "philosophical_note": "Krishna rebukes Arjuna's weakness as 'anarya' (ignoble), highlighting that yielding to emotion at the moment of duty is unrighteous."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: हे अर्जुन! तुम्हें इस विषम अवसर पर यह मोह किस हेतु से प्राप्त हुआ है? क्योंकि यह न तो श्रेष्ठ पुरुषों द्वारा आचरित है, न स्वर्ग को देने वाला है और न ही कीर्ति को करने वाला है।",
+              "philosophical_note": "कृष्ण अर्जुन की कमजोरी को 'अनार्य' कहते हैं, यह बताते हुए कि कर्तव्य के क्षण में भावना के वश में होना अधर्म है।"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते | क्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||",
+          "transliteration": "klaibyam ma sma gamah partha naitattvayyupapadyate kshudram hridayadaurbalyam tyaktvottishtha parantapa",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O son of Pritha, do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
+              "philosophical_note": "Krishna calls for strength, urging Arjuna to overcome the temporary weakness of heart (hridaya-daurbalyam) and stand up for Dharma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पृथापुत्र! इस नपुंसकता को मत प्राप्त हो, यह तुम्हें शोभा नहीं देती। हे परन्तप! हृदय की इस तुच्छ दुर्बलता को त्यागकर युद्ध के लिए खड़े हो जाओ।",
+              "philosophical_note": "कृष्ण शक्ति का आह्वान करते हैं, अर्जुन को हृदय की क्षणिक कमजोरी (हृदय-दौर्बल्य) को दूर करने और धर्म के लिए खड़े होने का आग्रह करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "sanskrit": "अर्जुन उवाच | कथं भीष्ममहं संख्ये द्रोणं च मधुसूदन | इषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ||",
+          "transliteration": "arjuna uvaca katham bhishmamaham sankhye dronam cha madhusudana ishubhih pratiyotsyami pujarhavarisudana",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: O Killer of enemies, O Killer of Madhu, how can I counterattack with arrows in battle men like Bhishma and Drona, who are worthy of my worship?",
+              "philosophical_note": "Arjuna's dilemma is rooted in social ethics—respect for elders vs. the duty of a warrior."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: हे मधुसूदन! मैं रणभूमि में भीष्म और द्रोण—जैसे पूजनीय बड़ों के विरुद्ध बाणों से कैसे लड़ूंगा? हे अरिसूदन! वे तो पूजा के योग्य हैं।",
+              "philosophical_note": "अर्जुन की दुविधा सामाजिक नैतिकता में निहित है—बड़ों का सम्मान बनाम एक योद्धा का कर्तव्य।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "sanskrit": "गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके | हत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ||",
+          "transliteration": "gurunahatva hi mahanubhavan shreyo bhoktum bhaikshyamapiha loke hatvarthakamamstu gurunihaiva bhunjiya bhogan rudhirapradigdhan",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "It would be better to live in this world by begging than to live at the cost of the lives of great souls who are my teachers. Even though desiring worldly gain, they are superiors. If they are killed, everything we enjoy will be tainted with blood.",
+              "philosophical_note": "Arjuna fears the karmic consequences of killing his gurus, seeing any resulting victory as blood-stained enjoyment."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "महानुभाव गुरुजनों को न मारकर मैं इस लोक में भिक्षा का अन्न भी खाना कल्याणकारक समझता हूँ; क्योंकि गुरुजनों को मारकर भी मैं इस लोक में रुधिर से सने हुए अर्थ और कामरूप भोगों को ही तो भोगूँगा।",
+              "philosophical_note": "अर्जुन अपने गुरुओं को मारने के कर्मिक दुष्परिणामों से डरता है, और किसी भी परिणामी जीत को खून से sani हुई मानता है।"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः | यानेव हत्वा न जिजीविषाम- स्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ||",
+          "transliteration": "na caitadvidmah kataranno gariyo yadva jayema yadi va no jayeyuh yaneva hatva na jijivishama stevasthitah pramukhe dhartarashtrah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Nor do we know which is better—conquering them or being conquered by them. If we killed the sons of Dhritarashtra, we should not care to live. Yet they are now standing before us on the battlefield.",
+              "philosophical_note": "Confusion (Moha) has completely clouded Arjuna's judgment; he cannot decide between victory and defeat."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हम यह भी नहीं जानते कि हमारे लिये क्या श्रेष्ठ है—उनको जीतना या उनके द्वारा जीते जाना। जिन्हें मारकर हम जीना भी नहीं चाहते, वे ही धृतराष्ट्र के पुत्र हमारे सामने खड़े हैं।",
+              "philosophical_note": "मोह ने अर्जुन के निर्णय को पूरी तरह से धूमिल कर दिया है; वह जीत और हार के बीच निर्णय नहीं कर सकता।"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "sanskrit": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः | यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||",
+          "transliteration": "karpanyadoshopahatasvabhavah pricchami tvam dharmasammudhachetah yacchreyah syannishcitam bruhi tanme shishyasteham shadhi mam tvam prapannam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Now I am confused about my duty and have lost all composure because of miserly weakness. In this condition I am asking You to tell me for certain what is best for me. I am Your disciple, and a soul surrendered unto You. Please instruct me.",
+              "philosophical_note": "Crucial turning point: Arjuna surrenders as a disciple (Shishya) to Krishna (Guru), seeking spiritual instruction over friendly advice."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "मैं कायरता-रूप दोष से उपहत हुए स्वभाव वाला और धर्म के विषय में मोहित चित्त वाला आपसे पूछता हूँ। जो मेरे लिये निश्चित कल्याणकारक हो, वह कहिए। मैं आपका शिष्य हूँ, आपकी शरण में हूँ, मुझे शिक्षा दीजिये।",
+              "philosophical_note": "महत्वपूर्ण मोड़: अर्जुन कृष्ण (गुरु) को शिष्य के रूप में आत्मसमर्पण करता है, और मित्रवत सलाह के बजाय आध्यात्मिक निर्देश मांगता है।"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "sanskrit": "न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् | अवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ||",
+          "transliteration": "na hi prapashyami mamapanudyad yacchokamucchoshanamindriyanam avapya bhumavasapatnamriddham rajyam suranamapi chadhipatyam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "I can find no means to drive away this grief which is drying up my senses. I will not be able to dispel it even if I win a prosperous, unrivaled kingdom on earth with sovereignty like the demigods in heaven.",
+              "philosophical_note": "Arjuna realizes that material gain (kingdom) cannot solve his spiritual crisis and existential sorrow."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "भले ही मुझे पृथ्वी पर निष्कंटक और समृद्ध राज्य मिल जाए या देवताओं का स्वामित्व भी मिल जाए, फिर भी मैं उस उपाय को नहीं देखता जो मेरी इन्द्रियों को सुखाने वाले इस शोक को दूर कर सके।",
+              "philosophical_note": "अर्जुन को यह अहसास होता है कि भौतिक लाभ (राज्य) उसके आध्यात्मिक संकट और अस्तित्वगत दुःख का समाधान नहीं कर सकता।"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "sanskrit": "सञ्जय उवाच | एवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप | न योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ||",
+          "transliteration": "sanjaya uvaca evamuktva hrishikesham gudakeshah parantapa na yotsya iti govindamuktva tushnim babhuva ha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Sanjaya said: Having spoken thus, Arjuna, chastiser of enemies, told Krishna, 'Govinda, I shall not fight,' and fell silent.",
+              "philosophical_note": "Arjuna declares his final refusal to fight, reaching the peak of his dejection before the divine teaching begins."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "संजय बोले: हे राजन्! निद्राजयी और शत्रुओं को तपाने वाले अर्जुन, श्रीकृष्ण से 'हे गोविंद! मैं युद्ध नहीं करूँगा', यह स्पष्ट कहकर चुप हो गये।",
+              "philosophical_note": "अर्जुन ने युद्ध करने से अपना अंतिम इनकार घोषित किया, दिव्य शिक्षण शुरू होने से पहले अपनी निराशा के चरम पर पहुँच गया।"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत | सेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ||",
+          "transliteration": "tamuvacha hrishikeshah prahasanniva bharata senayorubhayormadhye vishidantamidam vacah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O descendant of Bharata, at that time Krishna, smiling, in the midst of both the armies, spoke the following words to the grief-stricken Arjuna.",
+              "philosophical_note": "Krishna smiles because He knows the solution to Arjuna's grief is spiritual wisdom, and the drama of life is ultimately an illusion (Maya)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे भरतवंशी धृतराष्ट्र! उस समय दोनों सेनाओं के बीच में शोक करते हुए अर्जुन को हँसते हुए से श्रीकृष्ण ने यह वचन कहा।",
+              "philosophical_note": "कृष्ण मुस्कुराते हैं क्योंकि वे जानते हैं कि अर्जुन के दुख का समाधान आध्यात्मिक ज्ञान है, और जीवन का नाटक अंततः एक भ्रम (माया) है।"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "sanskrit": "श्रीभगवानुवाच | अशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे | गतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ||",
+          "transliteration": "shri bhagavan uvaca ashocyananvashocastvam prajnavadamshcha bhashase gatasunagatasumshcha nanushocanti panditah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Supreme Lord said: While speaking learned words, you are mourning for what is not worthy of grief. Those who are wise lament neither for the living nor for the dead.",
+              "philosophical_note": "Krishna challenges Arjuna's wisdom. True wisdom understands the eternal nature of the soul, erasing grief for the temporary body."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: तुम न शोक करने योग्य मनुष्यों के लिये शोक करते हो और पण्डितों के से वचनों को कहते हो; परन्तु जिनके प्राण चले गये हैं, उनके लिये और जिनके प्राण नहीं गये हैं उनके लिये भी पण्डितजन शोक नहीं करते।",
+              "philosophical_note": "कृष्ण अर्जुन की बुद्धिमत्ता को चुनौती देते हैं। सच्चा ज्ञान आत्मा की शाश्वत प्रकृति को समझता है, जो नश्वर शरीर के लिए शोक को मिटा देता है।"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः | न चैव न भविष्यामः सर्वे वयमतः परम् ||",
+          "transliteration": "na tvevaham jatu nasam na tvam neme janadhipah na caiva na bhavishyamah sarve vayamatah param",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.",
+              "philosophical_note": "Verification of the soul's individuality and eternity. We are not merely the body but eternal spiritual beings."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "न तो ऐसा ही है कि मैं किसी काल में नहीं था, तू नहीं था अथवा ये राजा लोग नहीं थे और न ऐसा ही है कि इससे आगे हम सब नहीं रहेंगे।",
+              "philosophical_note": "आत्मा के व्यक्तित्व और अनंतता का सत्यापन। हम केवल शरीर नहीं हैं बल्कि शाश्वत आध्यात्मिक प्राणी हैं।"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा | तथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||",
+          "transliteration": "dehinosmin yatha dehe kaumaram yauvanam jara tatha dehantarapraptirdhirastatra na muhyati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change.",
+              "philosophical_note": "Key analogy: Death is just like growing up—a natural transition, not an end. This is the doctrine of Reincarnation."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जैसे जीवात्मा की इस देह में बालकपन, जवानी और वृद्धावस्था होती है, वैसे ही अन्य शरीर की प्राप्ति होती है; उस विषय में धीर पुरुष मोहित नहीं होता।",
+              "philosophical_note": "प्रमुख उपमा: मृत्यु बड़े होने जैसी ही है—एक स्वाभाविक संक्रमण, अंत नहीं। यह पुनर्जन्म का सिद्धांत है।"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः | आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ||",
+          "transliteration": "matrasparshastu kaunteya shitoshnasukhaduhkhadah agamapayino nityastamstitikshasva bharata",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O son of Kunti, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons. They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed.",
+              "philosophical_note": "Titiksha (forbearance): Learning to endure life's dualities (pleasure/pain) without losing balance."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे कुन्तीपुत्र! सर्दी-गर्मी और सुख-दुःख को देने वाले इन्द्रिय और विषयों के संयोग तो उत्पत्ति-विनाशशील और अनित्य हैं; इसलिए हे भारत! उनको तू सहन कर।",
+              "philosophical_note": "तितिक्षा (सहनशीलता): जीवन के द्वंद्वों (सुख/दुख) को संतुलन खोए बिना सहना सीखना।"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ | समदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ||",
+          "transliteration": "yam hi na vyathayantyete purusham purusharshabha samaduhkhasukham dhiram somritatvaya kalpate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O best among men (Arjuna), the person who is not disturbed by happiness and distress and is steady in both is certainly eligible for liberation.",
+              "philosophical_note": "Equanimity (Samatvam) is the qualification for immortality (Moksha)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पुरुषश्रेष्ठ! दुःख-सुख को समान समझने वाले जिस धीर पुरुष को ये इन्द्रिय और विषयों के संयोग व्याकुल नहीं करते, वह मोक्ष के योग्य होता है।",
+              "philosophical_note": "समत्व (संतुलन) मोक्ष के लिए योग्यता है।"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः | उभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ||",
+          "transliteration": "nasato vidyate bhavo nabhavo vidyate satah ubhayorapi drishto ntastvanayostattvadarshibhih",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Those who are seers of the truth have concluded that of the nonexistent (the material body) there is no endurance and of the eternal (the soul) there is no change. This they have concluded by studying the nature of both.",
+              "philosophical_note": "Sat (Truth/Real) is eternal; Asat (Unreal/Illusory) is temporary. The wise distinguish between the two."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "असत् (शरीर) का तो भाव (सत्ता) नहीं है और सत् (आत्मा) का अभाव नहीं है। तत्त्वदर्शी महापुरुषों ने इन दोनों का ही अन्त (तत्व) देखा है।",
+              "philosophical_note": "सत (सत्य/वास्तविक) शाश्वत है; असत (अवास्तविक/भ्रम) अस्थायी है। ज्ञानी इन दोनों के बीच अंतर करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् | विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ||",
+          "transliteration": "avinashi tu tadviddhi yena sarvamidam tatam vinashamavyayasyasya na kashcitkartumarhati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "That which pervades the entire body you should know to be indestructible. No one is able to destroy that imperishable soul.",
+              "philosophical_note": "The soul is defined as consciousness that pervades the body, and it is unconquerable."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "नाशरहित तो तू उसको जान, जिससे यह सम्पूर्ण जगत व्याप्त है। इस अविनाशी का विनाश करने में कोई भी समर्थ नहीं है।",
+              "philosophical_note": "आत्मा को चेतना के रूप में परिभाषित किया गया है जो शरीर में व्याप्त है, और यह अजेय है।"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः | अनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ||",
+          "transliteration": "antavanta ime deha nityasyoktah sharirinah anashino prameyasya tasmadyudhyasva bharata",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The material body of the indestructible, immeasurable and eternal living entity is sure to come to an end; therefore, fight, O descendant of Bharata.",
+              "philosophical_note": "Since the body is destined to die anyway and the soul cannot be killed, Arjuna should not shrink from his duty."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस नाशराहित, अप्रमेय, नित्यस्वरूप जीवात्मा के ये सब शरीर नाशवान कहे गये हैं, इसलिए हे भरतवंशी अर्जुन! तू युद्ध कर।",
+              "philosophical_note": "चूंकि शरीर को वैसे भी मरना है और आत्मा को मारा नहीं जा सकता, इसलिए अर्जुन को अपने कर्तव्य से पीछे नहीं हटना चाहिए।"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् | उभौ तौ न विजानीतो नायं हन्ति न हन्यते ||",
+          "transliteration": "ya enam vetti hantaram yashcainam manyate hatam ubhau tau na vijanito nayam hanti na hanyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "He who thinks that the living entity slays or he who thinks that it is slain does not understand. One who is in knowledge knows that the self slays not nor is slain.",
+              "philosophical_note": "The soul is neither the doer (agent of killing) nor the victim. It is a witness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो इस आत्मा को मारने वाला समझता है और जो इसको मरा मानता है, वे दोनों ही नहीं जानते; क्योंकि यह आत्मा वास्तव में न तो किसी को मारता है और न किसी के द्वारा मारा जाता है।",
+              "philosophical_note": "आत्मा न तो कर्ता (मारने वाला) है और न ही शिकार। यह एक साक्षी है।"
+            }
+          ]
+        },
+        {
           "number": 20,
           "sanskrit": "न जायते म्रियते वा कदाचिन् नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
           "transliteration": "na jayate mriyate va kadacin nayam bhutva bhavita va na bhuyah ajo nityah sasvatoyam purano na hanyate hanyamane sarire",
           "translations": [
             {
               "language_code": "en",
-              "simple_meaning": "The Self is never born and never dies. It is eternal, ancient, and not destroyed when the body is destroyed.",
-              "philosophical_note": "Krishna distinguishes the immortal atman from the perishable body to free Arjuna from fear."
+              "simple_meaning": "For the soul there is neither birth nor death at any time. He has not come into being, does not come into being, and will not come into being. He is unborn, eternal, ever-existing and primeval. He is not slain when the body is slain.",
+              "philosophical_note": "One of the most famous verses defining the Atman's transcendance over time and mortality."
             },
             {
               "language_code": "hi",
               "simple_meaning": "आत्मा न जन्म लेती है, न मरती है। शरीर के नष्ट होने पर भी वह नष्ट नहीं होती।",
-              "philosophical_note": "श्रीकृष्ण आत्मा और शरीर का भेद बताकर भय को दूर करते हैं।"
+              "philosophical_note": "आत्मन् की समय और मृत्यु से परे अस्तित्व को परिभाषित करने वाले सबसे प्रसिद्ध श्लोकों में से एक।"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् | कथं स पुरुषः पार्थ कं घातयति हन्ति कम् ||",
+          "transliteration": "vedavinasinam nityam ya enamajamavyayam katham sa purushah partha kam ghatayati hanti kam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O Partha, how can a person who knows that the soul is indestructible, eternal, unborn and immutable kill anyone or cause anyone to kill?",
+              "philosophical_note": "A realized soul knows that killing the body does not kill the Self, thus removing the moral weight of 'killing' in a dharmic war."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पृथापुत्र! जो पुरुष इस आत्मा को अविनाशी, नित्य, अजन्मा और अव्यय जानता है, वह पुरुष कैसे किसी को मरवाता है और कैसे किसी को मारता है?",
+              "philosophical_note": "एक आत्मज्ञानी जानता है कि शरीर को मारने से आत्मा नहीं मरती, इस प्रकार धर्मयुद्ध में 'हत्या' के नैतिक भार को दूर करता है।"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "sanskrit": "वासांसि जीर्णानि यथा विहाय नवनि गृह्णाति नरोऽपराणि | तथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवनि देही ||",
+          "transliteration": "vasamsi jirnani yatha vihaya navani grihnati naro parani tatha sharirani vihaya jirnanyanyani samyati navani dehi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones.",
+              "philosophical_note": "Famous analogy of clothes: The body is merely a garment for the soul. Changing bodies (reincarnation) is as natural as changing clothes."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जैसे मनुष्य पुराने वस्त्रों को त्यागकर दूसरे नए वस्त्रों को ग्रहण करता है, वैसे ही जीवात्मा पुराने शरीरों को त्यागकर दूसरे नए शरीरों को प्राप्त होता है।",
+              "philosophical_note": "कपड़ों की प्रसिद्ध उपमा: शरीर आत्मा के लिए केवल एक वस्त्र है। शरीर बदलना (पुनर्जन्म) कपड़े बदलने जैसा ही स्वाभाविक है।"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः | न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ||",
+          "transliteration": "nainam chindanti shastrani nainam dahati pavakah na chainam kledayantyapo na shoshayati marutah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The soul can never be cut to pieces by any weapon, nor burned by fire, nor moistened by water, nor withered by the wind.",
+              "philosophical_note": "The Soul is immune to all material elements (earth, water, fire, air, ether). It is beyond physics."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस आत्मा को शस्त्र नहीं काट सकते, इसको आग नहीं जला सकती, इसको जल नहीं गला सकता और वायु नहीं सुखा सकता।",
+              "philosophical_note": "आत्मा सभी भौतिक तत्वों (पृथ्वी, जल, अग्नि, वायु, आकाश) से सुरक्षित है। यह भौतिकी से परे है।"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च | नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ||",
+          "transliteration": "acchedyoyam adahyoyam akledyo shoshya eva ca nityah sarvagatah sthanur acaloyam sanatanah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "This individual soul is unbreakable and insoluble, and can be neither burned nor dried. He is everlasting, present everywhere, unchangeable, immovable and eternally the same.",
+              "philosophical_note": "The adjectives used here emphasize the soul's immutability and omnipresence."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यह आत्मा अच्छेद्य है, यह आत्मा अदाह्य, अक्लेद्य और निःसंदेह अशोष्य है; तथा यह आत्मा नित्य, सर्वव्यापी, अचल, स्थिर रहने वाला और सनातन है।",
+              "philosophical_note": "यहाँ प्रयुक्त विशेषण आत्मा की अपरिवर्तनीयता और सर्वव्यापकता पर जोर देते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽमुच्यते | तस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ||",
+          "transliteration": "avyaktoyam acintyoyam avikaryoyam ucyate tasmadevam viditvainam nanushocitumarhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "It is said that the soul is invisible, inconceivable and immutable. Knowing this, you should not grieve for the body.",
+              "philosophical_note": "The soul cannot be perceived by senses (avyakta) or mind (acintya). Realizing this brings peace."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यह आत्मा अव्यक्त है, यह आत्मा अचिन्त्य है और यह आत्मा विकाररहित कहा जाता है। इससे इस आत्मा को उपर्युक्त प्रकार से जानकर तू शोक करने के योग्य नहीं है।",
+              "philosophical_note": "आत्मा को इंद्रियों (अव्यक्त) या मन (अचिंत्य) द्वारा नहीं जाना जा सकता है। यह जानकर शांति मिलती है।"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् | तथापि त्वं महाबाहो नैवं शोचितुमर्हसि ||",
+          "transliteration": "atha chainam nityajatam nityam va manyase mritam tathapi tvarn mahabaho naivam shocitumarhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "If, however, you think that the soul [or the symptoms of life] is always born and dies forever, you still have no reason to lament, O mighty-armed Arjuna.",
+              "philosophical_note": "Even if one believes in materialism (soul dies with body), death is still inevitable and natural, so grief is illogical."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "किन्तु यदि तू इस आत्मा को सदा जन्मने वाला और सदा मरने वाला मानता है, तो भी हे महाबाहो! तू इस प्रकार शोक करने के योग्य नहीं है।",
+              "philosophical_note": "भले ही कोई भौतिकवाद (शरीर के साथ आत्मा मर जाती है) में विश्वास करता हो, फिर भी मृत्यु अपरिहार्य और स्वाभाविक है, इसलिए दुख अतार्किक है।"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च | तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||",
+          "transliteration": "jatasya hi dhruvo mrityur dhruvam janma mritasya ca tasmadapariharye rthe na tvam shocitumarhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who has taken his birth is sure to die, and after death one is sure to take birth again. Therefore, in the unavoidable discharge of your duty, you should not lament.",
+              "philosophical_note": "The cycle of birth and death is a fixed law of nature. Acceptance of this law removes sorrow."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "क्योंकि पैदा हुए की मृत्यु निश्चित है और मरे हुए का जन्म निश्चित है; इससे इस बिना उपाय वाले विषय में तू शोक करने के योग्य नहीं है।",
+              "philosophical_note": "जन्म और मृत्यु का चक्र प्रकृति का एक निश्चित नियम है। इस कानून की स्वीकृति दुख को दूर करती है।"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत | अव्यक्तनिधनान्येव तत्र का परिदेवना ||",
+          "transliteration": "avyaktadini bhutani vyaktamadhyani bharata avyaktanidhananyeva tatra ka paridevana",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All created beings are unmanifest in their beginning, manifest in their interim state, and unmanifest again when annihilated. So what need is there for lamentation?",
+              "philosophical_note": "We come from the unknown and return to the unknown. The visible life is just a brief interval."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! सम्पूर्ण प्राणी जन्म से पहले अप्रकट थे और मरने के बाद भी अप्रकट हो जाने वाले हैं, केवल बीच में ही प्रकट हैं; फिर ऐसी स्थिति में क्या शोक करना?",
+              "philosophical_note": "हम अज्ञात से आते हैं और अज्ञात में लौट जाते हैं। दृश्य जीवन बस एक संक्षिप्त अंतराल है।"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "sanskrit": "आश्चर्यवत्पश्यति कश्चिदेन- माश्चर्यवद्वदति तथैव चान्यः | आश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ||",
+          "transliteration": "ascharyavat pashyati kashcidenam ascharyavad vadati tathaiva canyah ascharyavacchainamanya srinoti shrutvapyenam veda na caiva kascit",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Some look on the soul as amazing, some describe him as amazing, and some hear of him as amazing, while others, even after hearing about him, cannot understand him at all.",
+              "philosophical_note": "The concept of Atman is profound and difficult to grasp, evoking wonder in those who realize it."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कोई एक महापुरुष ही इस आत्मा को आश्चर्य की भांति देखता है और वैसे ही दूसरा कोई महापुरुष ही इसके तत्त्व का आश्चर्य की भांति वर्णन करता है तथा दूसरा कोई अधिकारी पुरुष ही इसे आश्चर्य की भांति सुनता है और कोई-कोई तो सुनकर भी इसको नहीं जानता।",
+              "philosophical_note": "आत्मन् की अवधारणा गहन और समझने में कठिन है, जो इसे महसूस करने वालों में आश्चर्य पैदा करती है।"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत | तस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ||",
+          "transliteration": "dehi nityamavadhyoyam dehe sarvasya bharata tasmatsarvani bhutani na tvam shocitumarhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being.",
+              "philosophical_note": "Summary of 2.11-2.30: The soul is immortal, so do not grieve for the body."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! यह आत्मा सबके शरीरों में ही सदा अवध्य है। इस कारण सम्पूर्ण प्राणियों के लिये तू शोक करने के योग्य नहीं है।",
+              "philosophical_note": "2.11-2.30 का सारांश: आत्मा अमर है, इसलिए शरीर के लिए शोक न करें।"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि | धर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ||",
+          "transliteration": "svadharmam api caveksya na vikampitum arhasi dharmyaddhi yuddhacchreyo nyatksatriyasya na vidyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Considering your specific duty as a kshatriya, you should know that there is no better engagement for you than fighting on religious principles; and so there is no need for hesitation.",
+              "philosophical_note": "Svadharma (own duty) for a warrior is to uphold righteousness. Shrinking from it is unnatural and sinful."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तथा अपने धर्म को देखकर भी तू भय करने योग्य नहीं है; क्योंकि क्षत्रिय के लिये धर्मयुक्त युद्ध से बढ़कर दूसरा कोई कल्याणकारी कर्तव्य नहीं है।",
+              "philosophical_note": "एक योद्धा के लिए स्वधर्म (अपना कर्तव्य) धर्म को बनाए रखना है। इससे पीछे हटना अप्राकृतिक और पाप है।"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् | सुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ||",
+          "transliteration": "yadricchaya chopapannam svargadvaramapavritam sukhinah kshatriyah partha labhante yuddhamidrisham",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O Partha, happy are the kshatriyas to whom such fighting opportunities come unsought, opening for them the doors of the heavenly planets.",
+              "philosophical_note": "A righteous war is seen as a gateway to heaven for a warrior."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पार्थ! अपने-आप प्राप्त हुए और खुले हुए स्वर्ग के द्वार रूप इस प्रकार के युद्ध को भाग्यवान क्षत्रिय लोग ही पाते हैं।",
+              "philosophical_note": "एक धर्मयुद्ध को योद्धा के लिए स्वर्ग का द्वार माना जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "sanskrit": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि | ततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ||",
+          "transliteration": "atha cet tvam imam dharmyam sangramam na karishyasi tatah svadharmam kirtim cha hitva papamavapsyasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "If, however, you do not perform your religious duty of fighting, then you will certainly incur sins for neglecting your duties and thus lose your reputation as a fighter.",
+              "philosophical_note": "Neglecting duty (Dharma) leads to sin and loss of honor."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "किन्तु यदि तू इस धर्मयुक्त युद्ध को नहीं करेगा, तो स्वधर्म और कीर्ति को खोकर पाप को प्राप्त होगा।",
+              "philosophical_note": "कर्तव्य (धर्म) की उपेक्षा करने से पाप और सम्मान की हानि होती है।"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् | सम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ||",
+          "transliteration": "akirtim chapi bhutani kathayishyanti tevyayam sambhavitasya chakirtir maranadatiricyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "People will always speak of your infamy, and for a respectable person, dishonor is worse than death.",
+              "philosophical_note": "Social disgrace is painful for a noble person. Krishna uses worldly arguments here to motivate Arjuna."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तथा सब लोग तेरी बहुत काल तक रहने वाली अपकीर्ति का भी कथन करेंगे; और माननीय पुरुष के लिये अपकीर्ति मरण से भी बढ़कर है।",
+              "philosophical_note": "एक कुलीन व्यक्ति के लिए सामाजिक अपमान दर्दनाक होता है। कृष्ण यहाँ अर्जुन को प्रेरित करने के लिए सांसारिक तर्कों का उपयोग करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः | येषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ||",
+          "transliteration": "bhayad ranad uparatam mamsyante tvam maharathah yesham ca tvam bahumato bhutva yasyasi laghavam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The great generals who have highly esteemed your name and fame will think that you have left the battlefield out of fear only, and thus they will consider you insignificant.",
+              "philosophical_note": "Arjuna's compassion will be misinterpreted as cowardice by his peers."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "और जिनकी दृष्टि में तू पहले बहुत सम्मानित होकर अब लघुता को प्राप्त होगा, वे महारथी लोग तुझे भय के कारण युद्ध से हटा हुआ मानेंगे।",
+              "philosophical_note": "अर्जुन की करुणा को उसके साथियों द्वारा कायरता के रूप में गलत समझा जाएगा।"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "sanskrit": "अवाच्यवादांश्च बहून् वदिष्यन्ति तवाहिताः | निन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ||",
+          "transliteration": "avachyavadamshcha bahun vadishyanti tavahitah nindantastava samarthyam tato duhkhataram nu kim",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Your enemies will describe you in many unkind words and scorn your ability. What could be more painful for you?",
+              "philosophical_note": "Ridicule from enemies is deeply painful for a warrior."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तेरे बैरी लोग तेरे सामर्थ्य की निन्दा करते हुए तुझे बहुत से न कहने योग्य वचन भी कहेंगे; उससे अधिक दुःख की बात और क्या होगी?",
+              "philosophical_note": "शत्रुओं द्वारा उपहास एक योद्धा के लिए अत्यंत पीड़ादायक होता है।"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् | तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ||",
+          "transliteration": "hato va prapsyasi svargam jitva va bhokshyase mahim tasmaduttishtha kaunteya yuddhaya kritanishcayah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O son of Kunti, either you will be killed on the battlefield and attain the heavenly planets, or you will conquer and enjoy the earthly kingdom. Therefore, get up with determination and fight.",
+              "philosophical_note": "Lose-Lose? No, Win-Win. Death means heaven, victory means kingdom. Inaction is the only loss."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "या तो तू युद्ध में मारा जाकर स्वर्ग को प्राप्त होगा अथवा संग्राम में जीतकर पृथ्वी का राज्य भोगेगा। इस कारण हे अर्जुन! तू युद्ध के लिये निश्चय करके खड़ा हो जा।",
+              "philosophical_note": "हार-हार? नहीं, जीत-जीत। मृत्यु का अर्थ है स्वर्ग, विजय का अर्थ है राज्य। निष्क्रियता ही एकमात्र नुकसान है।"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ | ततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ||",
+          "transliteration": "sukhaduhkhe same kritva labhalabhau jayajayau tato yuddhaya yujyasva naivam papamavapsyasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Do thou fight for the sake of fighting, without considering happiness or distress, loss or gain, victory or defeat—and by so doing you shall never incur sin.",
+              "philosophical_note": "Karma Yoga Principle: Action performed as duty, without attachment to the outcome (Samatvam), brings no karmic reaction."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जय-पराजय, लाभ-हानि और सुख-दुःख को समान समझकर, उसके बाद युद्ध के लिये तैयार हो जा; इस प्रकार युद्ध करने से तू पाप को नहीं प्राप्त होगा।",
+              "philosophical_note": "कर्मयोग का सिद्धांत: कर्तव्य के रूप में किया गया कर्म, परिणाम (समत्व) के प्रति आसक्ति के बिना, कोई कर्मिक प्रतिक्रिया नहीं लाता है।"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "sanskrit": "एषा तेऽभिहिता सांख्ये बुद्धिर्योगे त्विमां शृणु | बुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ||",
+          "transliteration": "esha te bhihita sankhye buddhir yoge tvimam shrinu buddhya yukto yaya partha karmabandham prahasyasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Thus far I have described this knowledge to you through analytical study. Now listen as I explain it in terms of working without fruitive results. O son of Pritha, when you act in such knowledge you can free yourself from the bondage of works.",
+              "philosophical_note": "Transition from Sankhya (Theory/Knowledge) to Karma Yoga (Practice/Action)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पार्थ! यह बुद्धि तेरे लिये ज्ञानयोग के विषय में कही गयी और अब तू इसको कर्मयोग के विषय में सुन—जिस बुद्धि से युक्त होकर तू कर्मबन्धन को भलीभांति त्याग देगा।",
+              "philosophical_note": "सांख्य (सिद्धांत/ज्ञान) से कर्म योग (अभ्यास/क्रिया) की ओर संक्रमण।"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते | स्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ||",
+          "transliteration": "nehabhikramanasosti pratyavayo na vidyate svalpamapyasya dharmasya trayate mahato bhayat",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In this endeavor there is no loss or diminution, and a little advancement on this path can protect one from the most dangerous type of fear.",
+              "philosophical_note": "Spiritual progress is never lost. Even a little Karma Yoga saves one from great fear (samsara)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस कर्मयोग में आरम्भ का अर्थात बीज का नाश नहीं है और उलटा फलरूप दोष भी नहीं है, बल्कि इस धर्म का थोड़ा सा भी साधन जन्म-मृत्यु रूप महान भय से रक्षा कर लेता है।",
+              "philosophical_note": "आध्यात्मिक प्रगति कभी नहीं खोती। थोड़ा सा भी कर्म योग व्यक्ति को महान भय (संसार) से बचाता है।"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन | बहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ||",
+          "transliteration": "vyavasayatmika buddhirekeha kurunandana bahushakha hyanantashcha buddhayo vyavasayinam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Those who are on this path are resolute in purpose, and their aim is one. O beloved child of the Kurus, the intelligence of those who are irresolute is many-branched.",
+              "philosophical_note": "Single-pointed focus (Ekagrata) vs. Scattered mind. The resolute mind focuses on the Goal (Self/God)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! इस कर्मयोग में निश्चयात्मिका बुद्धि एक ही होती है; किन्तु अस्थिर विचार वाले विवेकहीन सकाम मनुष्यों की बुद्धियां निश्चय ही बहुत भेदों वाली और अनन्त होती हैं।",
+              "philosophical_note": "एकाग्रता (एकाग्रता) बनाम बिखरा हुआ मन। दृढ़ मन लक्ष्य (स्वयं/ईश्वर) पर केंद्रित होता है।"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः | वेदवादरताः पार्थ नान्यदस्तीति वादिनः ||",
+          "transliteration": "yamimam pushpitam vacam pravadantyavipashcitah vedavadaratah partha nanyadastiti vadinah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Men of small knowledge are very much attached to the flowery words of the Vedas, which recommend various fruitive activities for elevation to heavenly planets, resultant good birth, power, and so forth.",
+              "philosophical_note": "Critique of ritualism: Those chasing heavenly pleasures through rituals miss the ultimate goal of liberation."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! जो भोगों में तन्मय हो रहे हैं, जो कर्मफल के प्रशंसक वेदवाक्यों में ही प्रीति रखते हैं, जिनकी बुद्धि में स्वर्गादि ले बढ़कर और कुछ है ही नहीं, वे अविवेकीजन इस प्रकार की जिस पुष्पित वाणी को कहा करते हैं...",
+              "philosophical_note": "कर्मकांड की आलोचना: जो लोग अनुष्ठानों के माध्यम से स्वर्गीय सुख का पीछा करते हैं, वे मुक्ति के अंतिम लक्ष्य से चूक जाते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 43,
+          "sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् | क्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ||",
+          "transliteration": "kamatmanah svargapara janmakarmaphalapradam kriyavisheshabahulam bhogaisvaryagatim prati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Desirous of sense gratification and opulent life, they say that there is nothing more than this.",
+              "philosophical_note": "Continued critique of materialistic religion."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "...वे भोगों को ही प्रधान मानने वाले, स्वर्ग को ही परम प्राप्य वस्तु मानने वाले, भोग और ऐश्वर्य की प्राप्ति के लिये बहुत सी क्रियाओं का वर्णन करने वाली, जन्मरूप कर्मफल को देने वाली (वाणी को कहा करते हैं)।",
+              "philosophical_note": "भौतिकवादी धर्म की निरंतर आलोचना।"
+            }
+          ]
+        },
+        {
+          "number": 44,
+          "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् | व्यवसायात्मिका बुद्धिः समाधौ न विधीयते ||",
+          "transliteration": "bhogaisvaryaprasaktanam tayapahritachetasam vyavasayatmika buddhih samadhau na vidhiyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
+              "philosophical_note": "Attachment to pleasure prevents deep meditation (Samadhi)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "उस पुष्पित वाणी द्वारा जिनका चित्त हर लिया गया है, जो भोग और ऐश्वर्य में अत्यन्त आसक्त हैं, उन पुरुषों की परमात्मा में निश्चयात्मिका बुद्धि नहीं होती।",
+              "philosophical_note": "सुख के प्रति आसक्ति गहरे ध्यान (समाधि) को रोकती है।"
+            }
+          ]
+        },
+        {
+          "number": 45,
+          "sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन | निर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ||",
+          "transliteration": "traigunyavishaya veda nistraigunyo bhavarjuna nirdvandvo nityasattvastho niryogakshema atmavan",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Vedas deal mainly with the subject of the three modes of material nature. O Arjuna, become transcendental to these three modes. Be free from all dualities and from all anxieties for gain and safety, and be established in the self.",
+              "philosophical_note": "Go beyond rituals (Gunas) to the Absolute Truth. Transcend duality."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! वेद तीनों गुणों (सत्व, रज, तम) के कार्य रूप समस्त भोगों और उनके साधनों का प्रतिपादन करने वाले हैं; इसलिए तू उन भोगों और उनके साधनों में आसक्तिहीन, हर्ष-शोकादि द्वंद्वों से रहित, नित्यवस्तु परमात्मा में स्थित, योग-क्षेम को न चाहने वाला और स्वाधीन अन्तःकरण वाला हो जा।",
+              "philosophical_note": "कर्मकांडों (गुणों) से परे परम सत्य की ओर बढ़ें। द्वंद्व से परे होजाओ।"
+            }
+          ]
+        },
+        {
+          "number": 46,
+          "sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके | तावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ||",
+          "transliteration": "yavanartha udapane sarvatali samplutodake tavansarveshu vedeshu brahmanasya vijanatah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All purposes served by a small well can at once be served by a great reservoir of water. Similarly, all the purposes of the Vedas can be served to one who knows the purpose behind them.",
+              "philosophical_note": "Self-realization encompasses and surpasses all ritualistic benefits."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "सब ओर से परिपूर्ण जलाशय के प्राप्त हो जाने पर छोटे जलाशय में मनुष्य का जितना प्रयोजन रहता है, ब्रह्म को तत्व से जानने वाले ब्राह्मण का समस्त वेदों में उतना ही प्रयोजन रहता है।",
+              "philosophical_note": "आत्म-साक्षात्कार सभी अनुष्ठानों के लाभों को शामिल करता है और उनसे आगे निकल जाता है।"
             }
           ]
         },
@@ -826,13 +1591,438 @@
           "translations": [
             {
               "language_code": "en",
-              "simple_meaning": "You have a right only to action, never to its results. Do not act for reward, and do not cling to inaction.",
-              "philosophical_note": "This is the foundation of karma yoga: disciplined action offered without egoistic claim."
+              "simple_meaning": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
+              "philosophical_note": "The core verse of Gita: Nishkama Karma (Action without desire for fruit)."
             },
             {
               "language_code": "hi",
-              "simple_meaning": "तुम्हारा अधिकार केवल कर्म पर है, फल पर कभी नहीं। फल की आसक्ति से कर्म मत करो और अकर्मण्यता में भी मत फंसो।",
-              "philosophical_note": "यह कर्मयोग का मूल है: निष्काम होकर कर्तव्य का पालन।"
+              "simple_meaning": "तेरा कर्म करने में ही अधिकार है, उसके फलों में कभी नहीं। इसलिए तू कर्मों के फल का हेतु मत हो तथा तेरी कर्म न करने में भी आसक्ति न हो।",
+              "philosophical_note": "गीता का मुख्य श्लोक: निष्काम कर्म (फल की इच्छा के बिना कर्म)।"
+            }
+          ]
+        },
+        {
+          "number": 48,
+          "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय | सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||",
+          "transliteration": "yogasthah kuru karmani sangam tyaktva dhananjaya siddhyasiddhyoh samo bhutva samatvam yoga ucyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Perform your duty equiposed, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
+              "philosophical_note": "Definition of Yoga: Samatvam (Equanimity) in success and failure."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे धनञ्जय! तू आसक्ति को त्यागकर तथा सिद्धि और असिद्धि में समान बुद्धिवाला होकर योग में स्थित हुआ कर्तव्य कर्मों को कर, (क्योंकि) समत्व ही योग कहलाता है।",
+              "philosophical_note": "योग की परिभाषा: सफलता और विफलता में समत्व (समानता)।"
+            }
+          ]
+        },
+        {
+          "number": 49,
+          "sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय | बुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ||",
+          "transliteration": "durena hyavaram karma buddhiyogaddhananjaya buddhau sharanamanviccha kripanah phalahetavah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O Dhananjaya, keep all abominable activities far distant by devotional service, and in that consciousness surrender unto the Lord. Those who want to enjoy the fruits of their work are misers.",
+              "philosophical_note": "Selfish action is far inferior to Buddhi Yoga (Intellect united with the Divine)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस बुद्धियोग से सकाम कर्म अत्यन्त ही निम्न श्रेणी का है। इसलिए हे धनञ्जय! तू समबुद्धि में ही रक्षा का उपाय ढूँढ; क्योंकि फल के हेतु बनने वाले अत्यन्त दीन हैं।",
+              "philosophical_note": "स्वार्थी कर्म बुद्धि योग (ईश्वर के साथ संयुक्त बुद्धि) से कहीं अधिक हीन है।"
+            }
+          ]
+        },
+        {
+          "number": 50,
+          "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते | तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ||",
+          "transliteration": "buddhiyukto jahatiha ubhe sukritadushkrite tasmadyogaya yujyasva yogah karmasu kaushalam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A man engaged in devotional service rids himself of both good and bad reactions even in this life. Therefore strive for yoga, which is the art of all work.",
+              "philosophical_note": "Yoga comes from skill in action (Karmasu Kaushalam). It frees one from Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "समबुद्धि युक्त पुरुष पुण्य और पाप दोनों को इसी लोक में त्याग देता है; अर्थात उनसे मुक्त हो जाता है। इससे तू समत्व योग में लग जा; यह समत्व रूप योग ही कर्मों में कुशलता है।",
+              "philosophical_note": "योग कर्म में कुशलता (कर्मसु कौशलम्) से आता है। यह व्यक्ति को कर्म से मुक्त करता है।"
+            }
+          ]
+        },
+        {
+          "number": 51,
+          "sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः | जन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ||",
+          "transliteration": "karmajam buddhiyukta hi phalam tyaktva manishinah janmabandhavinirmuktah padam gacchantyanamayam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead].",
+              "philosophical_note": "Result of Karma Yoga: Liberation from birth and attainment of the Supreme abode."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "क्योंकि समबुद्धि से युक्त ज्ञानीजन कर्मों से उत्पन्न होने वाले फल को त्यागकर जन्मरूप बन्धन से मुक्त हो निर्विकार परम पद को प्राप्त हो जाते हैं।",
+              "philosophical_note": "कर्म योग का परिणाम: जन्म से मुक्ति और परम धाम की प्राप्ति।"
+            }
+          ]
+        },
+        {
+          "number": 52,
+          "sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति | तदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ||",
+          "transliteration": "yada te mohakalilam buddhirvyatitarishyati tada gantasi nirvedam shrotavyasya shrutasya ca",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "When your intelligence has passed out of the dense forest of delusion, you shall become indifferent to all that has been heard and all that is to be heard.",
+              "philosophical_note": "Dispassion towards rituals and scriptures arises when delusion is overcome."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिस काल में तेरी बुद्धि मोहरूपी दलदल को भलीभांति पार कर जाएगी, उस समय तू सुने हुए और सुनने में आने वाले इस लोक और परलोक सम्बन्धी सभी भोगों से वैराग्य को प्राप्त हो जाएगा।",
+              "philosophical_note": "मोह पर विजय प्राप्त करने पर अनुष्ठानों और शास्त्रों के प्रति वैराग्य उत्पन्न होता है।"
+            }
+          ]
+        },
+        {
+          "number": 53,
+          "sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला | समाधावचला बुद्धिस्तदा योगमवाप्स्यसि ||",
+          "transliteration": "shrutivipratipanna te yada sthasyati nishcala samadhau acala buddhistada yogamavapsyasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "When your mind is no longer disturbed by the flowery language of the Vedas, and when it remains fixed in the trance of self-realization, then you will have attained the divine consciousness.",
+              "philosophical_note": "Real Yoga is attained when the intellect is unshakable and steady in Samadhi."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "भांति-भांति के वचनों को सुनने से विचलित हुई तेरी बुद्धि जब परमात्मा में अचल और स्थिर ठहर जाएगी, तब तू योग को प्राप्त हो जाएगा।",
+              "philosophical_note": "सच्चा योग तब प्राप्त होता है जब बुद्धि समाधि में अडिग और स्थिर होती है।"
+            }
+          ]
+        },
+        {
+          "number": 54,
+          "sanskrit": "अर्जुन उवाच | स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव | स्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ||",
+          "transliteration": "arjuna uvaca sthitaprajnasya ka bhasha samadhisthasya keshava sthitadhih kim prabhasheta kimasita vrajeta kim",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: O Krishna, what are the symptoms of one whose consciousness is thus merged in transcendence? How does he speak, and how does he sit, and how does he walk?",
+              "philosophical_note": "Arjuna asks for practical signs of an enlightened person (Sthita-prajna: 'steady wisdom')."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: हे केशव! समाधि में स्थित परमात्मा को प्राप्त हुए स्थिरबुद्धि पुरुष का क्या लक्षण है? वह स्थिरबुद्धि पुरुष कैसे बोलता है? कैसे बैठता है? और कैसे चलता है?",
+              "philosophical_note": "अर्जुन एक प्रबुद्ध व्यक्ति (स्थित-प्रज्ञ) के व्यावहारिक लक्षण पूछता है।"
+            }
+          ]
+        },
+        {
+          "number": 55,
+          "sanskrit": "श्रीभगवानुवाच | प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान् | आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ||",
+          "transliteration": "shri bhagavan uvaca prajahati yada kaman sarvan partha manogatan atmanyevatmana tushtah sthitaprajnastadocyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Supreme Lord said: O Partha, when a man gives up all varieties of desire for sense gratification, which arise from mental concoction, and when his mind, thus purified, finds satisfaction in the self alone, then he is said to be in pure transcendental consciousness.",
+              "philosophical_note": "Key definition: One who is satisfied in the Self (Atman) and abandons all material desires."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: हे पार्थ! जिस काल में यह पुरुष मन में स्थित सम्पूर्ण कामनाओं को भलीभांति त्याग देता है और आत्मा से आत्मा में ही संतुष्ट रहता है, उस काल में वह स्थितप्रज्ञ कहा जाता है।",
+              "philosophical_note": "मुख्य परिभाषा: वह जो स्वयं (आत्मा) में संतुष्ट है और सभी भौतिक इच्छाओं को त्याग देता है।"
+            }
+          ]
+        },
+        {
+          "number": 56,
+          "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः | वीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||",
+          "transliteration": "duhkheshvanudvignamanah sukheshu vigatasprihah vitaragabhayakrodhah sthitadhirmunirucyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who is not disturbed in mind even amidst the threefold miseries or elated when there is happiness, and who is free from attachment, fear and anger, is called a sage of steady mind.",
+              "philosophical_note": "Emotional stability in face of duality (pain/pleasure) is the mark of a sage."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "दुःखों की प्राप्ति होने पर जिसके मन में उद्वेग नहीं होता, सुखों की प्राप्ति में जो सर्वथा निःस्पृह है तथा जिसके राग, भय और क्रोध नष्ट हो गये हैं, ऐसा मुनि स्थिरबुद्धि कहा जाता है।",
+              "philosophical_note": "द्वंद्व (दुख/सुख) के सामने भावनात्मक स्थिरता एक ऋषि की पहचान है।"
+            }
+          ]
+        },
+        {
+          "number": 57,
+          "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् | नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ||",
+          "transliteration": "yah sarvatranabhisnehastattatprapya shubhashubham nabhinandati na dveshti tasya prajna pratishthita",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In the material world, one who is unaffected by whatever good or evil may be obtained, neither praising it nor despising it, is firmly fixed in perfect knowledge.",
+              "philosophical_note": "Neutrality towards favorable and unfavorable events indicates steady wisdom."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो पुरुष सर्वत्र स्नेहरहित हुआ उस-उस शुभ या अशुभ वस्तु को प्राप्त होकर न प्रसन्न होता है और न द्वेष करता है, उसकी बुद्धि स्थिर है।",
+              "philosophical_note": "अनुकूल और प्रतिकूल घटनाओं के प्रति तटस्थता स्थिर ज्ञान का संकेत देती है।"
+            }
+          ]
+        },
+        {
+          "number": 58,
+          "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः | इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
+          "transliteration": "yada samharate chayam kurmonganiva sarvashah indriyanindriyarthebhyastasya prajna pratishthita",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who is able to withdraw his senses from sense objects, as the tortoise draws its limbs within the shell, is firmly fixed in perfect consciousness.",
+              "philosophical_note": "Pratyahara (withdrawal of senses) illustrated by the tortoise analogy."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "और कछुआ सब ओर से अपने अंगों को जैसे समेट लेता है, वैसे ही जब यह पुरुष इन्द्रियों के विषयों से इन्द्रियों को सब प्रकार से हटा लेता है, तब उसकी बुद्धि स्थिर है (ऐसा समझना चाहिए)।",
+              "philosophical_note": "प्रत्याहार (इंद्रियों की वापसी) को कछुए की उपमा से समझाया गया है।"
+            }
+          ]
+        },
+        {
+          "number": 59,
+          "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः | रसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ||",
+          "transliteration": "vishaya vinivartante niraharasya dehinah rasavarjam rasopyasya param drishtva nivartate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The embodied soul may be restricted from sense enjoyment, though the taste for sense objects remains. But, ceasing such engagements by experiencing a higher taste, he is fixed in consciousness.",
+              "philosophical_note": "Artificial restraint fails without a higher spiritual taste (Param Drishtva)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन्द्रियों द्वारा विषयों को ग्रहण न करने वाले पुरुष के भी केवल विषय तो निवृत्त हो जाते हैं, परन्तु उनमें रहने वाली आसक्ति निवृत्त नहीं होती। इस स्थितप्रज्ञ पुरुष की तो आसक्ति भी परमात्मा का साक्षात्कार करके निवृत्त हो जाती है।",
+              "philosophical_note": "उच्च आध्यात्मिक स्वाद (परम दृष्ट्वा) का अनुभव किए बिना कृत्रिम संयम विफल हो जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 60,
+          "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः | इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ||",
+          "transliteration": "yatato hyapi kaunteya purushasya vipashcitah indriyani pramathini haranti prasabham manah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them.",
+              "philosophical_note": "Warning: Even wise men can fall if they underestimate the power of senses."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! आसक्ति का नाश न होने के कारण ये प्रमथन स्वभाव वाली इन्द्रियां यत्न करते हुए बुद्धिमान पुरुष के मन को भी बलात् हर लेती हैं।",
+              "philosophical_note": "चेतावनी: अगर ज्ञानी लोग भी इंद्रियों की शक्ति को कम करके आंकते हैं तो वे गिर सकते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 61,
+          "sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः | वशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ||",
+          "transliteration": "tani sarvani samyamya yukta asita matparah vashe hi yasyendriyani tasya prajna pratishthita",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who restrains his senses, keeping them under full control, and fixes his consciousness upon Me, is known as a man of steady intelligence.",
+              "philosophical_note": "Control of senses requires focus on the Divine (Mat-parah)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए साधक को चाहिए कि वह उन सम्पूर्ण इन्द्रियों को वश में करके समाहित चित्त हुआ मेरे परायण होकर बैठे; क्योंकि जिसकी इन्द्रियां वश में होती हैं, उसी की बुद्धि स्थिर हो जाती है।",
+              "philosophical_note": "इंद्रियों के नियंत्रण के लिए ईश्वर (मत-परः) पर ध्यान देने की आवश्यकता होती है।"
+            }
+          ]
+        },
+        {
+          "number": 62,
+          "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते | सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||",
+          "transliteration": "dhyayato vishayanpumsah sangasteshupajayate sangatsanjayate kamah kamatkrodhobhijayate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.",
+              "philosophical_note": "The Ladder of Fall (Part 1): Contemplation -> Attachment -> Desire -> Anger."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "विषयों का चिन्तन करने वाले पुरुष की उन विषयों में आसक्ति हो जाती है, आसक्ति से उन विषयों की कामना उत्पन्न होती है और कामना में विघ्न पड़ने से क्रोध उत्पन्न होता है।",
+              "philosophical_note": "पतन की सीढ़ी (भाग 1): चिंतन -> आसक्ति -> कामना -> क्रोध।"
+            }
+          ]
+        },
+        {
+          "number": 63,
+          "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः | स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||",
+          "transliteration": "krodhadbhavati sammohah sammohatsmritivibhramah smritibhramshad buddhinasho buddhinashatpranashyati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "From anger, complete delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down again into the material pool.",
+              "philosophical_note": "The Ladder of Fall (Part 2): Anger -> Delusion -> Loss of Memory -> Loss of Intelligence -> Destruction."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "क्रोध से अत्यन्त मूढ़भाव उत्पन्न हो जाता है, मूढ़भाव से स्मृति में भ्रम हो जाता है, स्मृति में भ्रम हो जाने से बुद्धि अर्थात् ज्ञानशक्ति का नाश हो जाता है और बुद्धि का नाश हो जाने से यह पुरुष अपनी स्थिति से गिर जाता है।",
+              "philosophical_note": "पतन की सीढ़ी (भाग 2): क्रोध -> मोह -> स्मृति नाश -> बुद्धि नाश -> विनाश।"
+            }
+          ]
+        },
+        {
+          "number": 64,
+          "sanskrit": "रागद्वेषवियुक्तैस्तु विषयान्निन्द्रियैश्चरन् | आत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ||",
+          "transliteration": "ragadveshaviyuktaistu vishayanindriyaishcharan atmavashyairvidheyatma prasadamadhigacchati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "But a person free from all attachment and aversion and able to control his senses through regulative principles of freedom can obtain the complete mercy of the Lord.",
+              "philosophical_note": "Freedom is not license but regulated control of senses, leading to Grace (Prasadam)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "परन्तु अपने अधीन किये हुए अन्तःकरण वाला साधक अपने वश में की हुई, राग-द्वेष से रहित इन्द्रियों द्वारा विषयों में विचरण करता हुआ अन्तःकरण की प्रसन्नता को प्राप्त होता है।",
+              "philosophical_note": "स्वतंत्रता लाइसेंस नहीं है बल्कि अनुग्रह (प्रसाद) के लिए अग्रणी इंद्रियों का विनियमित नियंत्रण है।"
+            }
+          ]
+        },
+        {
+          "number": 65,
+          "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते | प्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ||",
+          "transliteration": "prasade sarvaduhkhanam hanirasyopajayate prasannachetaso hyashu buddhih paryavatishthate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "For one thus satisfied [in Krishna consciousness], the threefold miseries of material existence exist no longer; in such satisfied consciousness, one's intelligence is soon well established.",
+              "philosophical_note": "Peace of mind ends misery and steadies the intellect."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अन्तःकरण की प्रसन्नता होने पर इसके सम्पूर्ण दुःखों का अभाव हो जाता है और उस प्रसन्नचित्त वाले कर्मयोगी की बुद्धि शीघ्र ही सब ओर से हटकर एक परमात्मा में ही भलीभांति स्थिर हो जाती है।",
+              "philosophical_note": "मन की शांति दुख को समाप्त करती है और बुद्धि को स्थिर करती है।"
+            }
+          ]
+        },
+        {
+          "number": 66,
+          "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना | न चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ||",
+          "transliteration": "nasti buddhirayuktasya na chayuktasya bhavana na chabhavayatah shantirashantasya kutah sukham",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who is not connected with the Supreme [in Krishna consciousness] can have neither transcendental intelligence nor a steady mind, without which there is no possibility of peace. And how can there be any happiness without peace?",
+              "philosophical_note": "No peace without discipline; no happiness without peace."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "ना जीते हुए मन और इन्द्रियों वाले पुरुष में निश्चयात्मिका बुद्धि नहीं होती और उस अयुक्त मनुष्य के अन्तःकरण में भावना भी नहीं होती तथा भावनाहीन मनुष्य को शान्ति नहीं मिलती और शान्तिरहित मनुष्य को सुख कैसे मिल सकता है?",
+              "philosophical_note": "अनुशासन के बिना शांति नहीं; शांति के बिना सुख नहीं।"
+            }
+          ]
+        },
+        {
+          "number": 67,
+          "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते | तदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ||",
+          "transliteration": "indriyanam hi charatam yanmanonuvidhiyate tadasya harati prajnam vayurnavamivambhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As a strong wind sweeps away a boat on the water, even one of the roaming senses on which the mind focuses can carry away a man's intelligence.",
+              "philosophical_note": "Just one uncontrolled sense is enough to sink the boat of wisdom."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "क्योंकि जैसे जल में चलने वाली नाव को वायु हर लेती है, वैसे ही विषयों में विचरती हुई इन्द्रियों में से मन जिस इन्द्रिय के साथ रहता है, वह एक ही इन्द्रिय इस अयुक्त पुरुष की बुद्धि को हर लेती है।",
+              "philosophical_note": "ज्ञान की नाव को डुबोने के लिए केवल एक अनियंत्रित इंद्रिय ही काफी है।"
+            }
+          ]
+        },
+        {
+          "number": 68,
+          "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः | इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
+          "transliteration": "tasmadyasya mahabaho nigrihitani sarvashah indriyanindriyarthebhyastasya prajna pratishthita",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore, O mighty-armed, one whose senses are restrained from their objects is certainly of steady intelligence.",
+              "philosophical_note": "Reiteration: Sense control is the foundation of steady wisdom."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए हे महाबाहो! जिस पुरुष की इन्द्रियां इन्द्रियों के विषयों से सब प्रकार से निग्रह की हुई हैं, उसी की बुद्धि स्थिर है।",
+              "philosophical_note": "पुनरावृत्ति: इंद्रिय नियंत्रण स्थिर ज्ञान की नींव है।"
+            }
+          ]
+        },
+        {
+          "number": 69,
+          "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी | यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ||",
+          "transliteration": "ya nisha sarvabhutanam tasyam jagarti samyami yasyam jagrati bhutani sa nisha pashyato muneh",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "What is night for all beings is the time of awakening for the self-controlled; and the time of awakening for all beings is night for the introspective sage.",
+              "philosophical_note": "Total reversal of values: Worldly activity is darkness (night) for a sage; Spiritual reality (night for world) is day for a sage."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "सम्पूर्ण प्राणियों के लिये जो रात्रि के समान है, उस नित्य ज्ञानस्वरूप परमानन्द की प्राप्ति में स्थितप्रज्ञ योगी जागता है; और जिस नाशवान सांसारिक सुख की प्राप्ति में सब प्राणी जागते हैं, परमात्मा के तत्त्व को जानने वाले मुनि के लिये वह रात्रि के समान है।",
+              "philosophical_note": "मूल्यों का पूर्ण उलटफेर: दुनियादार गतिविधि एक ऋषि के लिए अंधेरा (रात) है; आध्यात्मिक वास्तविकता (दुनिया के लिए रात) एक ऋषि के लिए दिन है।"
+            }
+          ]
+        },
+        {
+          "number": 70,
+          "sanskrit": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् | तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ||",
+          "transliteration": "apuryamanam achalapratishtham samudramapah pravishanti yadvat tadvatkama yam pravishanti sarve sa shantimapnoti na kamakami",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A person who is not disturbed by the incessant flow of desires—that enter like rivers into the ocean, which is ever being filled but is always still—can alone achieve peace, and not the man who strives to satisfy such desires.",
+              "philosophical_note": "Desires are endless; peace comes not from fulfilling them, but by being unaffected by them like the ocean."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जैसे नाना नदियों के जल सब ओर से परिपूर्ण, अचल प्रतिष्ठा वाले समुद्र में उसको विचलित न करते हुए ही समा जाते हैं, वैसे ही सब भोग जिस स्थितप्रज्ञ पुरुष में किसी प्रकार का विकार उत्पन्न किए बिना ही समा जाते हैं, वही पुरुष परम शान्ति को प्राप्त होता है, भोगों को चाहने वाला नहीं।",
+              "philosophical_note": "इच्छाएं अनंत हैं; शांति उन्हें पूरा करने से नहीं आती, बल्कि समुद्र की तरह उनसे प्रभावित न होने से आती है।"
+            }
+          ]
+        },
+        {
+          "number": 71,
+          "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः | निर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||",
+          "transliteration": "vihaya kamanyah sarvanpumanshcharati nihsprihah nirmamo nirahankarah sa shantimadhigacchati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego—he alone can attain real peace.",
+              "philosophical_note": "Four conditions for peace: No desires, No yearning, No 'mine' (possession), No 'I' (ego)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो पुरुष सम्पूर्ण कामनाओं को त्यागकर ममतारहित, अहंकाररहित और स्पृहारहित हुआ विचरता है, वही शान्ति को प्राप्त होता है, अर्थात वह शान्ति को प्राप्त है।",
+              "philosophical_note": "शांति के लिए चार शर्तें: कोई इच्छा नहीं, कोई लालसा नहीं, कोई 'मेरा' (कब्जा) नहीं, कोई 'मैं' (अहंकार) नहीं।"
+            }
+          ]
+        },
+        {
+          "number": 72,
+          "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति | स्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ||",
+          "transliteration": "esha brahmi sthitih partha nainam prapya vimuhyati sthitvasyamantakalepi brahmanirvanamricchati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "That is the way of the spiritual and godly life, after attaining which a man is not bewildered. If one is thus situated even at the hour of death, he can enter into the kingdom of God.",
+              "philosophical_note": "Conclusion of Chapter 2: Achieving the 'Brahmi state' grants liberation (Nirvana) even if attained at the last moment."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! यह ब्रह्म को प्राप्त हुए पुरुष की स्थिति है, इसको प्राप्त होकर योगी कभी मोहित नहीं होता और अन्तकाल में भी इस ब्राह्मी स्थिति में स्थित होकर ब्रह्मानन्द को प्राप्त हो जाता है।",
+              "philosophical_note": "अध्याय 2 का निष्कर्ष: 'ब्राह्मी स्थिति' प्राप्त करना मुक्ति (निर्वाण) प्रदान करता है, भले ही अंतिम क्षण में प्राप्त किया गया हो।"
             }
           ]
         }
@@ -845,19 +2035,733 @@
       "theme": "Selfless action as a path to purity and liberation.",
       "verses": [
         {
+          "number": 1,
+          "sanskrit": "ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन | तत्किं कर्मणि घोरे मां नियोजयसि केशव ||",
+          "transliteration": "jyayasi cet karmanas te mata buddhir janardana tat kim karmani ghore mam niyojayasi keshava",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: O Janardana, O Keshava, why do You want to engage me in this ghastly warfare, if You think that intelligence is better than fruitive work?",
+              "philosophical_note": "Arjuna is confused between Knowledge (Buddhi) and Action (Karma), thinking they are contradictory."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: हे जनार्दन! हे केशव! यदि आप कर्म से बुद्धि को श्रेष्ठ मानते हैं, तो फिर मुझे इस घोर कर्म में क्यों लगाते हैं?",
+              "philosophical_note": "अर्जुन ज्ञान (बुद्धि) और कर्म (क्रिया) के बीच भ्रमित है, यह सोचकर कि वे विरोधाभासी हैं।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे | तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||",
+          "transliteration": "vyamishreneva vakyena buddhim mohayasiva me tad ekam vada nishcitya yena sreyo ham apnuyam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "My intelligence is bewildered by Your equivocal instructions. Therefore, please tell me decisively which will be most beneficial for me.",
+              "philosophical_note": "A seeker needs clear instructions. Arjuna asks for a definitive path: Action or Renunciation?"
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "आप मिले हुए से वचनों से मेरी बुद्धि को मानो मोहित कर रहे हैं। इसलिए उस एक बात को निश्चय करके कहिये, जिससे मैं कल्याण को प्राप्त होऊं।",
+              "philosophical_note": "साधक को स्पष्ट निर्देशों की आवश्यकता होती है। अर्जुन एक निश्चित मार्ग मांगता है: कर्म या सन्यास?"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "sanskrit": "श्रीभगवानुवाच | लोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ | ज्ञानयोगेन सांख्यानां कर्मयोगेन योगिनाम् ||",
+          "transliteration": "shri bhagavan uvaca lokesmin dvividha nishtha pura prokta mayanagha jnanayogena sankhyanam karmayogena yoginam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Supreme Personality of Godhead said: O sinless Arjuna, I have already explained that there are two classes of men who try to realize the self. Some are inclined to understand it by empirical, philosophical speculation, and others by devotional service.",
+              "philosophical_note": "Two paths for two types of people: Jnana Yoga for the contemplative, Karma Yoga for the active."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: हे निष्पाप अर्जुन! इस लोक में दो प्रकार की निष्ठा मेरे द्वारा पहले कही गयी है—ज्ञानियों की ज्ञानयोग से और योगियों की कर्मयोग से।",
+              "philosophical_note": "दो प्रकार के लोगों के लिए दो मार्ग: चिंतनशील के लिए ज्ञान योग, सक्रिय के लिए कर्म योग।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते | न च संन्यसनादेव सिद्धिं समधिगच्छति ||",
+          "transliteration": "na karmanamanarambhannaischkarmyam purushoshnute na cha sannyasanadeva siddhim samadhigacchati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Not by merely abstaining from work can one achieve freedom from reaction, nor by renunciation alone can one attain perfection.",
+              "philosophical_note": "True renunciation is not abandonment of action, but abandonment of the fruit of action."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "न तो कर्मों का आरम्भ किए बिना मनुष्य निष्कामभाव को प्राप्त होता है और न कर्मों के त्यागमात्र से सिद्धि यानी भगवत्प्राप्ति को ही प्राप्त होता है।",
+              "philosophical_note": "सच्चा त्याग कर्म का त्याग नहीं है, बल्कि कर्म के फल का त्याग है।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "sanskrit": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् | कार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||",
+          "transliteration": "na hi kashchit kshanam api jatu tishthatyakarmakrit karyate hy avashah karma sarvah prakritijair gunaih",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Everyone is forced to act helplessly according to the qualities he has acquired from the modes of material nature; therefore no one can refrain from doing something, not even for a moment.",
+              "philosophical_note": "Inaction is impossible physically. Even breathing is action. The Gunas force us to act."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "निस्संदेह कोई भी मनुष्य किसी काल में क्षणमात्र भी बिना कर्म किए नहीं रहता; क्योंकि सारा मनुष्य समुदाय प्रकृति जनित गुणों द्वारा परवश हुआ कर्म करने के लिये बाध्य किया जाता है।",
+              "philosophical_note": "शारीरिक रूप से निष्क्रियता असंभव है। सांस लेना भी क्रिया है। गुण हमें कार्य करने के लिए मजबूर करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् | इन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||",
+          "transliteration": "karmendriyani samyamya ya aste manasa smaran indriyarthanvimudhatma mithyacharah sa ucyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who restrains the senses of action but whose mind dwells on sense objects certainly deludes himself and is called a pretender.",
+              "philosophical_note": "Mental hypocrisy: Appearing renounced externally while craving internally is condemned."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो मूढबुद्धि मनुष्य समस्त इन्द्रियों को हठपूर्वक ऊपर से रोककर मन से उन इन्द्रियों के विषयों का चिन्तन करता रहता है, वह मिथ्याचारी अर्थात दम्भी कहा जाता है।",
+              "philosophical_note": "मानसिक पाखंड: आंतरिक रूप से लालसा करते हुए बाहरी रूप से त्यागी दिखना निंदनीय है।"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन | कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||",
+          "transliteration": "yastvindriyani manasa niyamyarabhaterjuna karmendriyaih karmayogamasaktah sa vishishyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "On the other hand, if a sincere person tries to control the active senses by the mind and begins karma-yoga [in Krshna consciousness] without attachment, he is by far superior.",
+              "philosophical_note": "Action with detachment is better than hypocritical inaction."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "किन्तु हे अर्जुन! जो पुरुष मन से इन्द्रियों को वश में करके अनासक्त हुआ समस्त इन्द्रियों द्वारा कर्मयोग का आचरण करता है, वह श्रेष्ठ है।",
+              "philosophical_note": "अनासक्ति के साथ कर्म पाखंडी निष्क्रियता से बेहतर है।"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः | शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||",
+          "transliteration": "niyatam kuru karma tvam karma jyayo hy akarmanah sharirayatrapi ca te na prasiddhyed akarmanah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Perform your prescribed duty, for doing so is better than not working. One cannot even maintain one's physical body without work.",
+              "philosophical_note": "Duty sustains life. Parasitism is not spirituality."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तू शास्त्रविहित कर्तव्य कर्म कर; क्योंकि कर्म न करने की अपेक्षा कर्म करना श्रेष्ठ है तथा कर्म न करने से तेरा शरीर निर्वाह भी नहीं सिद्ध होगा।",
+              "philosophical_note": "कर्तव्य जीवन को बनाए रखता है। परजीविता आध्यात्मिकता नहीं है।"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः | तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||",
+          "transliteration": "yajnarthat karmano nyatra lokoyam karmabandhanah tadartham karma kaunteya muktasangah samacara",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Work done as a sacrifice for Vishnu has to be performed; otherwise work causes bondage in this material world. Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain free from bondage.",
+              "philosophical_note": "Yajna (Sacrifice/Selfless Service) breaks the chain of Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यज्ञ के निमित्त किए जाने वाले कर्मों से अतिरिक्त दूसरे कर्मों में लगा हुआ यह मनुष्य समुदाय कर्मों से बंधता है। इसलिए हे अर्जुन! तू आसक्ति से रहित होकर उस यज्ञ के निमित्त ही भलीभांति कर्तव्य कर्म कर।",
+              "philosophical_note": "यज्ञ (बलिदान/निस्वार्थ सेवा) कर्म की श्रृंखला को तोड़ता है।"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः | अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||",
+          "transliteration": "sahayajnah prajah srishtva purovaca prajapatih anena prasavishyadhvamesha vostvishtakamadhuk",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In the beginning of creation, the Lord of all creatures sent forth generations of men and demigods, along with sacrifices for Vishnu, and blessed them by saying, 'Be thou happy by this yajna [sacrifice] because its performance will bestow upon you everything desirable for living and happily attaining liberation.'",
+              "philosophical_note": "The universe is built on the principle of mutual sacrifice and cooperation."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "प्रजापति ब्रह्मा ने कल्प के आदि में यज्ञ सहित प्रजाओं को रचकर उनसे कहा कि तुम लोग इस यज्ञ द्वारा वृद्धि को प्राप्त होओ और यह यज्ञ तुम लोगों को इच्छित भोग प्रदान करने वाला हो।",
+              "philosophical_note": "ब्रह्मांड आपसी बलिदान और सहयोग के सिद्धांत पर बना है।"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः | परस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||",
+          "transliteration": "devan bhavayatanena te deva bhavayantu vah parasparam bhavayantah sreyah param avapsyatha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The demigods, being pleased by sacrifices, will also please you, and thus, by cooperation between men and demigods, prosperity will reign for all.",
+              "philosophical_note": "Ecological harmony: Respect nature (Devas), and nature will respect you."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तुम लोग इस यज्ञ द्वारा देवताओं को उन्नत करो और वे देवता तुम लोगों को उन्नत करें। इस प्रकार निस्वार्थ भाव से एक-दूसरे को उन्नत करते हुए तुम लोग परम कल्याण को प्राप्त हो जाओगे।",
+              "philosophical_note": "पारिस्थितिक सद्भाव: प्रकृति (देवताओं) का सम्मान करें, और प्रकृति आपका सम्मान करेगी।"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः | तैर्दत्तान्प्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||",
+          "transliteration": "ishtan bhogan hi vo deva dasyante yajnabhavitah tairdattanapradayaibhyo yo bhunkte stena eva sah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In charge of the various necessities of life, the demigods, being satisfied by the performance of yajna [sacrifice], will supply all necessities to you. But he who enjoys such gifts without offering them to the demigods in return is certainly a thief.",
+              "philosophical_note": "To take from the universe without giving back is theft."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यज्ञ द्वारा बढ़ाए हुए देवता तुम लोगों को बिना मांगे ही इच्छित भोग निश्चय ही देते रहेंगे। इस प्रकार उन देवताओं द्वारा दिए हुए भोगों को जो पुरुष उनको बिना दिए स्वयं भोगता है, वह चोर ही है।",
+              "philosophical_note": "ब्रह्मांड से वापस दिए बिना लेना चोरी है।"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः | भुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||",
+          "transliteration": "yajnasishtasinah santo mucyante sarvakilbishaih bhunjate te tv agham papa ye pacanty atmakaranat",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The devotees of the Lord are released from all kinds of sins because they eat food which is offered first for sacrifice. Others, who prepare food for personal sense enjoyment, verily eat only sin.",
+              "philosophical_note": "Sanctified food (Prasadam) purifies. Eating for oneself alone creates Karma (sin)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यज्ञ से बचे हुए अन्न को खाने वाले श्रेष्ठ पुरुष सब पापों से मुक्त हो जाते हैं; और जो पापी लोग अपने शरीर-पोषण के लिए ही पकाते हैं, वे तो पाप को ही खाते हैं।",
+              "philosophical_note": "पवित्र भोजन (प्रसाद) शुद्ध करता है। अकेले अपने लिए खाना कर्म (पाप) पैदा करता है।"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः | यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||",
+          "transliteration": "annad bhavanti bhutani parjanyad annasambhavah yajnad bhavati parjanyo yajnah karmasamudbhavah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All living bodies subsist on food grains, which are produced from rains. Rains are produced by performance of yajna [sacrifice], and yajna is born of prescribed duties.",
+              "philosophical_note": "The Cycle of Life: Duty -> Yajna -> Rain -> Food -> Life."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "सम्पूर्ण प्राणी अन्न से उत्पन्न होते हैं, अन्न की उत्पत्ति वृष्टि से होती है, वृष्टि यज्ञ से होती है और यज्ञ विहित कर्मों से उत्पन्न होता है।",
+              "philosophical_note": "जीवन का चक्र: कर्तव्य -> यज्ञ -> बारिश -> भोजन -> जीवन।"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् | तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||",
+          "transliteration": "karma brahmodbhavam viddhi brahmaksharasamudbhavam tasmatsarvagatam brahma nityam yajne pratishthitam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Regulated activities are prescribed in the Vedas, and the Vedas are directly manifested from the Supreme Personality of Godhead. Consequently the all-pervading Transcendence is eternally situated in acts of sacrifice.",
+              "philosophical_note": "Duty is divine. God is present in Selfless Service."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कर्म समुदाय को तू वेद से उत्पन्न जान और वेद को अविनाशी परमात्मा से उत्पन्न हुआ जान। इससे सिद्ध होता है कि सर्वव्यापी परम अक्षर परमात्मा सदा ही यज्ञ में प्रतिष्ठित है।",
+              "philosophical_note": "कर्तव्य दिव्य है। ईश्वर निःस्वार्थ सेवा में मौजूद है।"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः | अघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||",
+          "transliteration": "evam pravartitam chakram nanuvartayatiha yah aghayurindriyaramo mogham partha sa jivati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "My dear Arjuna, one who does not follow in human life the cycle of sacrifice thus established by the Vedas certainly leads a life full of sin. Living only for the satisfaction of the senses, such a person lives in vain.",
+              "philosophical_note": "A life lived only for sensory pleasure, breaking the cosmic cycle of giving, is wasted."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे पार्थ! जो पुरुष इस लोक में इस प्रकार परम्परा से प्रचलित सृष्टिचक्र के अनुकूल नहीं बरतता अर्थात अपने कर्त्तव्य का पालन नहीं करता, वह इन्द्रियों के द्वारा भोगों में रमण करने वाला आपायु पुरुष व्यर्थ ही जीता है।",
+              "philosophical_note": "केवल इंद्रिय सुख के लिए जीया गया जीवन, देने के लौकिक चक्र को तोड़ना, बर्बाद हो जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः | आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||",
+          "transliteration": "yastvatmaratireva syadatmatriptashcha manavah atmanyeva cha santushtastasya karyam na vidyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "But for one who takes pleasure in the self, whose human life is one of self-realization, and who is satisfied in the self only, fully satiated—for him there is no duty.",
+              "philosophical_note": "The enlightened soul is beyond duty because they are naturally in harmony with the cosmos."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "परन्तु जो मनुष्य आत्मा में ही रमण करने वाला और आत्मा में ही तृप्त तथा आत्मा में ही संतुष्ट हो, उसके लिए कोई कर्तव्य नहीं है।",
+              "philosophical_note": "ज्ञानी आत्मा कर्तव्य से परे है क्योंकि वे स्वाभाविक रूप से ब्रह्मांड के साथ सद्भाव में हैं।"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन | न चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||",
+          "transliteration": "naiva tasya kritenartho nakriteneha kashcana na chasya sarvabhuteshu kashcidarthavyapashrayah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A self-realized man has no purpose to fulfill in the discharge of his prescribed duties, nor has he any reason not to perform such work. Nor has he any need to depend on any other living being.",
+              "philosophical_note": "Absolute independence (Kaivalya) of the realized soul."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "उस महापुरुष का इस विश्व में न तो कर्म करने से कोई प्रयोजन रहता है और न कर्मों के न करने से ही कोई प्रयोजन रहता है; तथा सम्पूर्ण प्राणियों में भी इसका किञ्चिन्मात्र भी स्वार्थ का सम्बन्ध नहीं रहता।",
+              "philosophical_note": "साक्षात् आत्मा की पूर्ण स्वतंत्रता (कैवल्य)।"
+            }
+          ]
+        },
+        {
           "number": 19,
           "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पुरुषः ||",
           "transliteration": "tasmad asaktah satatam karyam karma samacara asakto hy acaran karma param apnoti purusah",
           "translations": [
             {
               "language_code": "en",
-              "simple_meaning": "Therefore, perform your duty constantly without attachment; by detached action a person reaches the Supreme.",
-              "philosophical_note": "Detachment purifies intention and turns worldly work into spiritual practice."
+              "simple_meaning": "Therefore, without being attached to the fruits of activities, one should act as a matter of duty, for by working without attachment one attains the Supreme.",
+              "philosophical_note": "The central advice: Act without attachment to reach the Supreme."
             },
             {
               "language_code": "hi",
-              "simple_meaning": "इसलिए आसक्ति रहित होकर अपना कर्तव्य निरंतर करो; ऐसा कर्म मनुष्य को परम अवस्था तक पहुंचाता है।",
-              "philosophical_note": "अनासक्ति कर्म को साधना बना देती है।"
+              "simple_meaning": "इसलिए तू निरंतर आसक्ति से रहित होकर कर्तव्य कर्म का भलीभांति आचरण कर; क्योंकि आसक्ति से रहित होकर कर्म करता हुआ मनुष्य परमात्मा को प्राप्त हो जाता है।",
+              "philosophical_note": "केंद्रीय सलाह: परमात्मा तक पहुंचने के लिए आसक्ति के बिना कार्य करें।"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः | लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||",
+          "transliteration": "karmanaiva hi samsiddhimasthita janakadayah lokasangrahamevapi sampashyankartumarhasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Kings such as Janaka attained perfection solely by performance of prescribed duties. Therefore, just for the sake of educating the people in general, you should perform your work.",
+              "philosophical_note": "Loka-sangraha: Setting an example for the world is a duty of leaders."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जनकादि ज्ञानीजन भी आसक्ति रहित कर्मद्वारा ही परम सिद्धि को प्राप्त हुए थे। इसलिए तथा लोकसंग्रह को देखते हुए भी तू कर्म करने के ही योग्य है।",
+              "philosophical_note": "लोक-संग्रह: दुनिया के लिए एक उदाहरण स्थापित करना नेताओं का कर्तव्य है।"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः | स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||",
+          "transliteration": "yad yad acharati sresthas tat tad evetaro janah sa yat pramanam kurute lokas tad anuvartate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues.",
+              "philosophical_note": "Leadership Principle: People follow actions, not just words. Be a role model."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्रेष्ठ पुरुष जो-जो आचरण करता है, अन्य पुरुष भी वैसा-वैसा ही आचरण करते हैं। वह जो कुछ प्रमाण कर देता है, समस्त मनुष्य-समुदाय उसी के अनुसार बरतने लग जाता है।",
+              "philosophical_note": "नेतृत्व सिद्धांत: लोग कार्यों का पालन करते हैं, न कि केवल शब्दों का। एक आदर्श बनें।"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन | नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||",
+          "transliteration": "na me parthasti kartavyam trishu lokeshu kincana nanavaptamavaptavyam varta eva ca karmani",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O son of Pritha, there is no work prescribed for Me within all the three worlds. Nor am I in want of anything, nor have I a need to obtain anything—and yet I am engaged in prescribed duties.",
+              "philosophical_note": "God acts not out of need, but to set a standard for Dharma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! मुझे इन तीनों लोकों में न तो कुछ कर्तव्य है और न कोई प्राप्त करने योग्य वस्तु अप्राप्त है, तो भी मैं कर्म में ही बरतता हूँ।",
+              "philosophical_note": "भगवान आवश्यकता के कारण नहीं, बल्कि धर्म का मानक स्थापित करने के लिए कार्य करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः | मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||",
+          "transliteration": "yadi hy aham na varteyam jatu karmany atandritah mama vartmanuvartante manushyah partha sarvashah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "For if I ever failed to engage in carefully performing prescribed duties, O Partha, certainly all men would follow My path.",
+              "philosophical_note": "If God neglected duty, humanity would follow suit into laziness and chaos."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "क्योंकि हे पार्थ! यदि मैं किसी समय सावधान होकर कर्म न करूं तो बड़ी हानि हो जाए; क्योंकि मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करते हैं।",
+              "philosophical_note": "यदि भगवान कर्तव्य की उपेक्षा करते, तो मानवता आलस्य और अराजकता में उनका अनुसरण करती।"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् | सङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||",
+          "transliteration": "utsideyur ime loka na kuryam karma ced aham sankarasya ca karta syam upahanyam imah prajah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "If I did not perform prescribed duties, all these worlds would be put to ruination. I would be the cause of creating unwanted population, and I would thereby destroy the peace of all living beings.",
+              "philosophical_note": "Order (Dharma) depends on everyone doing their part."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यदि मैं कर्म न करूं तो ये सब लोक भ्रष्ट हो जाएं और मैं वर्णसंकर का करने वाला हो जाऊं तथा इस समस्त प्रजा को नष्ट करने वाला बनूं।",
+              "philosophical_note": "व्यवस्था (धर्म) हर किसी के द्वारा अपना हिस्सा करने पर निर्भर करती है।"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत | कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ||",
+          "transliteration": "saktah karmany avidvamso yatha kurvanti bharata kuryad vidvams tathasaktas cikirshur loka-sangraham",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As the ignorant perform their duties with attachment to results, the learned may similarly act, but without attachment, for the sake of leading people on the right path.",
+              "philosophical_note": "Do exactly what the ignorant do (work), but with a different consciousness (detachment)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे भारत! कर्म में आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं, आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे।",
+              "philosophical_note": "वही करो जो अज्ञानी करते हैं (काम), लेकिन एक अलग चेतना (अनासक्ति) के साथ।"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् | जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||",
+          "transliteration": "na buddhi-bhedam janayed ajnanam karma-sanginam joshayet sarva-karmani vidvan yuktah samacaran",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "So as not to disrupt the minds of ignorant men attached to the fruitive results of prescribed duties, a learned person should not induce them to stop work. Rather, by working in the spirit of devotion, he should engage them in all sorts of activities.",
+              "philosophical_note": "Don't confuse the ignorant by preaching renunciation prematurelly. Encourage them to work selflessly."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "परमात्मा के स्वरूप में अटल स्थित हुए ज्ञानी पुरुष को चाहिए कि वह शास्त्रविहित कर्मों में आसक्ति वाले अज्ञानियों की बुद्धि में भ्रम अर्थात कर्मों में अश्रद्धा उत्पन्न न करे, किन्तु स्वयं शास्त्रविहित समस्त कर्म भलीभांति करता हुआ उनसे भी वैसे ही करवाए।",
+              "philosophical_note": "अज्ञानियों को समय से पहले संन्यास का उपदेश देकर भ्रमित न करें। उन्हें निस्वार्थ भाव से काम करने के लिए प्रोत्साहित करें।"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः | अहंकारविमूढात्मा कर्ताहमिति मन्यते ||",
+          "transliteration": "prakriteh kriyamanani gunaih karmani sarvashah ahankaravimudhatma kartahamiti manyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The spirit soul bewildered by the influence of false ego thinks himself the doer of activities that are in actuality carried out by the three modes of material nature.",
+              "philosophical_note": "Ego makes us think 'I did this', when actually Nature (Prakriti) executes all actions."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "वास्तव में सम्पूर्ण कर्म सब प्रकार से प्रकृति के गुणों द्वारा किए जाते हैं, तो भी जिसका अंतःकरण अहंकार से मोहित हो रहा है, ऐसा अज्ञानी 'मैं कर्ता हूँ' ऐसा मानता है।",
+              "philosophical_note": "अहंकार हमें यह सोचने पर मजबूर करता है कि 'मैंने यह किया', जबकि वास्तव में प्रकृति (प्रकृति) सभी कार्यों को निष्पादित करती है।"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः | गुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||",
+          "transliteration": "tattvavit tu mahabaho gunakarmavibhagayoh guna guneshu vartanta iti matva na sajjate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who is in knowledge of the Absolute Truth, O mighty-armed, does not engage himself in the senses and sense gratification, knowing well the differences between work in devotion and work for fruitive results.",
+              "philosophical_note": "The wise know: 'Senses (Gunas) are interacting with Sense Objects (Gunas)'. I am the Witness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "परन्तु हे महाबाहो! गुण विभाग और कर्म विभाग के तत्त्व को जानने वाला ज्ञानी-योगी 'सम्पूर्ण गुण ही गुणों में बरत रहे हैं' ऐसा समझकर उनमें आसक्त नहीं होता।",
+              "philosophical_note": "ज्ञानी जानते हैं: 'इंद्रियां (गुण) इंद्रिय विषयों (गुण) के साथ बातचीत कर रही हैं'। मैं साक्षी हूँ।"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु | तानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||",
+          "transliteration": "prakritergunasammudhah sajjante gunakarmasu tanakritsnavido mandankritsnavinna vichalayet",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Bewildered by the modes of material nature, the ignorant fully engage themselves in material activities and become attached. But the wise should not unsettle them, although these duties are inferior due to the performers' lack of knowledge.",
+              "philosophical_note": "Compassion for the ignorant: Don't disturb their faith, gradually elevate them."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "प्रकृति के गुणों से अत्यन्त मोहित हुए मनुष्य गुणों में और कर्मों में आसक्त रहते हैं, उन पूर्णतया न समझने वाले मन्दबुद्धि अज्ञानियों को पूर्णतया जानने वाला ज्ञानी विचलित न करे।",
+              "philosophical_note": "अज्ञानियों के प्रति करुणा: उनके विश्वास को भंग न करें, उन्हें धीरे-धीरे ऊपर उठाएं।"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||",
+          "transliteration": "mayi sarvani karmani sannyasyadhyatmacetasa nirashirnirmamo bhutva yudhyasva vigatajvarah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore, O Arjuna, surrendering all your works unto Me, with full knowledge of Me, without desires for profit, with no claims to proprietorship, and free from lethargy, fight.",
+              "philosophical_note": "Dedicate all actions to God. Fight without fever (anxiety)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए हे अर्जुन! तू ध्याननिष्ठ चित्त से सम्पूर्ण कर्मों को मुझमें अर्पण करके आशारहित, ममतारहित और संतापरहित होकर युद्ध कर।",
+              "philosophical_note": "सभी कार्यों को भगवान को समर्पित करें। बुखार (चिंता) के बिना लड़ें।"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः | श्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||",
+          "transliteration": "ye me matam idam nityam anutishthanti manavah shraddhavantonasuyanto mucyante tepi karmabhih",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Those persons who execute these duties according to My injunctions and who follow this teaching faithfully, without envy, become free from the bondage of fruitive actions.",
+              "philosophical_note": "Faith in these teachings brings liberation from Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो कोई मनुष्य दोषदृष्टि से रहित और श्रद्धा से युक्त होकर मेरे इस मत का सदा अनुसरण करते हैं, वे भी सम्पूर्ण कर्मों से छूट जाते हैं।",
+              "philosophical_note": "इन शिक्षाओं में विश्वास कर्म से मुक्ति दिलाता है।"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् | सर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||",
+          "transliteration": "ye tvetadabhyasuyanto nanutishthanti me matam sarvajnanavimudhamstanviddhi nashtanacetasah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "But those who, out of envy, do not follow these teachings are to be considered bereft of all knowledge, befooled, and ruined in their endeavors for perfection.",
+              "philosophical_note": "Envy of God's instructions leads to spiritual ruin."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "परन्तु जो मनुष्य मुझमें दोषारोपण करते हुए मेरे इस मत के अनुसार नहीं चलते हैं, उन मूर्खों को तू सम्पूर्ण ज्ञानों में मोहित और नष्ट हुए ही समझ।",
+              "philosophical_note": "ईश्वर के निर्देशों से ईर्ष्या आध्यात्मिक विनाश की ओर ले जाती है।"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि | प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||",
+          "transliteration": "sadrisham cheshtate svasyah prakriterjnanavanapi prakritim yanti bhutani nigrahah kim karishyati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Even a man of knowledge acts according to his own nature, for everyone follows the nature he has acquired from the three modes. What can repression accomplish?",
+              "philosophical_note": "Suppression of nature is futile. Transmute it through Yoga instead."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "सभी प्राणी प्रकृति को प्राप्त होते हैं अर्थात अपने स्वभाव के परवश हुए कर्म करते हैं; ज्ञानवान भी अपनी प्रकृति के अनुसार चेष्टा करता है। फिर इसमें किसी का हठ क्या करेगा?",
+              "philosophical_note": "प्रकृति का दमन व्यर्थ है। इसके बजाय इसे योग के माध्यम से बदलें।"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ | तयोर्न वशमागच्छेत् तौ ह्यस्य परिपन्थिनौ ||",
+          "transliteration": "indriyasyendriyasyarthe ragadveshau vyavasthitau tayorna vashamagacchet tau hyasya paripanthinau",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There are principles to regulate attachment and aversion pertaining to the senses and their objects. One should not come under the control of such attachment and aversion, because they are stumbling blocks on the path of self-realization.",
+              "philosophical_note": "Use senses according to Dharma alone, not by Attraction (Raga) or Aversion (Dvesha)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन्द्रिय-इन्द्रिय के अर्थ में अर्थात प्रत्येक इन्द्रिय के विषय में राग और द्वेष छिपे हुए स्थित हैं। मनुष्य को उन दोनों के वश में नहीं होना चाहिए, क्योंकि वे दोनों ही इसके कल्याण मार्ग में विघ्न करने वाले महान शत्रु हैं।",
+              "philosophical_note": "आकर्षण (राग) या द्वेष (द्वेष) से नहीं, बल्कि केवल धर्म के अनुसार इंद्रियों का उपयोग करें।"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||",
+          "transliteration": "sreyan svadharmo vigunah paradharmatsvanushthitat svadharme nidhanam sreyah paradharmo bhayavahah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "It is far better to discharge one's prescribed duties, even though faultily, than another's duties perfectly. Destruction in the course of performing one's own duty is better than engaging in another's duty, for to follow another's path is dangerous.",
+              "philosophical_note": "Better to die doing your own duty (Svadharma) than to live mimicking someone else."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अच्छी प्रकार आचरण में लाए हुए दूसरे के धर्म से गुणरहित भी अपना धर्म अति उत्तम है। अपने धर्म में तो मरना भी कल्याणकारक है और दूसरे का धर्म भय को देने वाला है।",
+              "philosophical_note": "किसी और की नकल करने की तुलना में अपना कर्तव्य (स्वधर्म) करते हुए मरना बेहतर है।"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "sanskrit": "अर्जुन उवाच | अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः | अनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||",
+          "transliteration": "arjuna uvaca atha kena prayuktoyam papam charati purushah anicchannapi varshneya baladiva niyojitah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: O descendant of Vrishni, by what is one impelled to sinful acts, even unwillingly, as if engaged by force?",
+              "philosophical_note": "The eternal question: Why do we sin even when we don't want to? What is the force?"
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: हे कृष्ण! तो फिर यह मनुष्य स्वयं न चाहता हुआ भी बलात् लगाए हुए की भांति किससे प्रेरित होकर पाप का आचरण करता है?",
+              "philosophical_note": "शाश्वत प्रश्न: हम न चाहते हुए भी पाप क्यों करते हैं? वह शक्ति क्या है?"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "sanskrit": "श्रीभगवानुवाच | काम एष क्रोध एष रजोगुणसमुद्भवः | महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||",
+          "transliteration": "shri bhagavan uvaca kama esha krodha esha rajogunasamudbhavah mahashano mahapapma viddhyenamiha vairinam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Supreme Personality of Godhead said: It is lust only, Arjuna, which is born of contact with the material mode of passion and later transformed into wrath, and which is the all-devouring sinful enemy of this world.",
+              "philosophical_note": "The Enemy identified: Lust (Kama) born of Rajas. It turns into Anger when obstructed."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: रजोगुण से उत्पन्न हुआ यह काम ही क्रोध है; यह बहुत खाने वाला अर्थात भोगों से कभी न अघाने वाला और बड़ा पापी है। इसको ही तू इस विषय में वैरी जान।",
+              "philosophical_note": "शत्रु की पहचान: रजस से उत्पन्न काम (काम)। बाधित होने पर यह क्रोध में बदल जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "sanskrit": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च | यथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||",
+          "transliteration": "dhumenavriyate vahniryathadarsho malena cha yatholbenavrito garbhastatha tenedamavritam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As fire is covered by smoke, as a mirror is covered by dust, or as the embryo is covered by the womb, the living entity is similarly covered by different degrees of this lust.",
+              "philosophical_note": "Lust covers wisdom. The covering can be light (smoke), medium (dust), or thick (womb)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिस प्रकार धुएं से अग्नि और मैल से दर्पण ढका जाता है तथा जिस प्रकार जेर से गर्भ ढका रहता है, वैसे ही उस काम के द्वारा यह ज्ञान ढका रहता है।",
+              "philosophical_note": "काम ज्ञान को ढक लेता है। आवरण हल्का (धुआं), मध्यम (धूल) या मोटा (गर्भ) हो सकता है।"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा | कामरूपेण कौन्तेय दुष्पूरेणानलेन च ||",
+          "transliteration": "avritam jnanametena jnanino nityavairina kamarupena kaunteya dushpurenanalena cha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Thus the wise living entity's pure consciousness becomes covered by his eternal enemy in the form of lust, which is never satisfied and which burns like fire.",
+              "philosophical_note": "Kama is insatiable fire. Feeding it only makes it grow stronger."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "और हे अर्जुन! इस अग्नि के समान कभी न पूर्ण होने वाले कामरूप ज्ञानियों के नित्य वैरी के द्वारा मनुष्य का ज्ञान ढका हुआ है।",
+              "philosophical_note": "काम अतृप्त अग्नि है। इसे खिलाने से यह और मजबूत ही होता है।"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "sanskrit": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते | एतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||",
+          "transliteration": "indriyani mano buddhirasyadhishthanamucyate etairvimohayatyesha jnanamavritya dehinam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The senses, the mind and the intelligence are the sitting places of this lust. Through them lust covers the real knowledge of the living entity and bewilders him.",
+              "philosophical_note": "Fortresses of the Enemy: Senses, Mind, Intelligence. It attacks from these vantage points."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन्द्रियां, मन और बुद्धि—ये सब इसके वासस्थान कहे जाते हैं। यह काम इन मन, बुद्धि और इन्द्रियों के द्वारा ही ज्ञान को आच्छादित करके जीवात्मा को मोहित करता है।",
+              "philosophical_note": "शत्रु के किले: इंद्रियां, मन, बुद्धि। यह इन सहूलियत बिंदुओं से हमला करता है।"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ | पाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||",
+          "transliteration": "tasmattvamindriyanyadau niyamya bharatarshabha papmanam prajahi hyenam jnanavijnananashanam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore, O Arjuna, best of the Bharatas, in the very beginning curb this great symbol of sin [lust] by regulating the senses, and slay this destroyer of knowledge and self-realization.",
+              "philosophical_note": "Strategy: Control senses first to starve the enemy."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए हे अर्जुन! तू पहले इन्द्रियों को वश में करके इस ज्ञान और विज्ञान का नाश करने वाले महान पापी काम को अवश्य ही बलपूर्वक मार डाल।",
+              "philosophical_note": "रणनीति: शत्रु को भूखा मारने के लिए पहले इंद्रियों को नियंत्रित करें।"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः | मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||",
+          "transliteration": "indriyani paranyahurindriyebhyah param manah manasastu para buddhiryo buddheh paratastu sah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The working senses are superior to dull matter; mind is higher than the senses; intelligence is still higher than the mind; and he [the soul] is even higher than the intelligence.",
+              "philosophical_note": "Hierarchy of Being: Matter < Senses < Mind < Intelligence < Atman."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इन्द्रियों को स्थूल शरीर से पर यानी श्रेष्ठ, बलवान और सूक्ष्म कहते हैं; इन इन्द्रियों से पर मन है, मन से भी पर बुद्धि है और जो बुद्धि से भी अत्यन्त पर है, वह आत्मा है।",
+              "philosophical_note": "अस्तित्व का पदानुक्रम: पदार्थ < इंद्रियां < मन < बुद्धि < आत्मा।"
+            }
+          ]
+        },
+        {
+          "number": 43,
+          "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना | जहि शत्रुं महाबाहो कामरूपं दुरासदम् ||",
+          "transliteration": "evam buddheh param buddhva samstabhyatmanamatmana jahi shatrum mahabaho kamarupam durasadam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Thus knowing oneself to be transcendental to the material senses, mind and intelligence, O mighty-armed Arjuna, one should steady the mind by deliberate spiritual intelligence and thus—by spiritual strength—conquer this insatiable enemy known as lust.",
+              "philosophical_note": "Victory comes by knowing the Self (which is higher than intelligence) and conquering the lower nature."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस प्रकार बुद्धि से पर अर्थात सूक्ष्म, बलवान और अत्यन्त श्रेष्ठ आत्मा को जानकर और बुद्धि द्वारा मन को वश में करके, हे महाबाहो! तू इस कामरूप दुर्जय शत्रु को मार डाल।",
+              "philosophical_note": "विजय स्वयं को (जो बुद्धि से भी ऊंचा है) जानने और निम्न प्रकृति पर विजय प्राप्त करने से मिलती है।"
             }
           ]
         }
@@ -868,7 +2772,722 @@
       "title_sanskrit": "ज्ञानकर्मसंन्यासयोग",
       "title_english": "Jnana Karma Sannyasa Yoga",
       "theme": "Wisdom, divine descent, and sanctified action.",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्रीभगवानुवाच | इमं विवस्वते योगं प्रोक्तवानहमव्ययम् | विवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ||",
+          "transliteration": "shri bhagavan uvaca imam vivasvate yogam proktavan aham avyayam vivasvan manave praha manur ikshvakavebravit",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Personality of Godhead Lord Sri Krishna said: I instructed this imperishable science of yoga to the sun-god, Vivasvan, and Vivasvan instructed it to Manu, the father of mankind, and Manu in turn instructed it to Ikshvaku.",
+              "philosophical_note": "Yoga is eternal. It was taught at the dawn of creation."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: मैंने इस अविनाशी योग को सूर्यदेव विवस्वान से कहा था, विवस्वान ने अपने पुत्र वैवस्वत मनु से कहा और मनु ने अपने पुत्र राजा इक्ष्वाकु से कहा।",
+              "philosophical_note": "योग शाश्वत है। इसे सृष्टि के भोर में सिखाया गया था।"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः | स कालेनेह महता योगो नष्टः परंतप ||",
+          "transliteration": "evam parampara-praptam imam rajarshayo viduh sa kaleneha mahata yogo nashtah parantapa",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "This supreme science was thus received through the chain of disciplic succession, and the saintly kings understood it in that way. But in course of time the succession was broken, and therefore the science as it is appears to be lost.",
+              "philosophical_note": "Parampara (Disciplic Succession) preserves the purity of knowledge. Time corrupts it."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे परंतप अर्जुन! इस प्रकार परम्परा से प्राप्त इस योग को राजर्षियों ने जाना; किन्तु उसके बाद वह योग बहुत काल से इस पृथ्वी लोक में लुप्तप्राय हो गया।",
+              "philosophical_note": "परम्परा (शिष्य परंपरा) ज्ञान की शुद्धता को संरक्षित करती है। समय इसे भ्रष्ट करता है।"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः | भक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ||",
+          "transliteration": "sa evayam maya tedya yogah proktah puratanah bhaktosi me sakha cheti rahasyam hyetaduttamam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "That very ancient science of the relationship with the Supreme is today told by Me to you because you are My devotee as well as My friend and can therefore understand the transcendental mystery of this science.",
+              "philosophical_note": "Qualification for understanding Gita: Devotion (Bhakti) and Friendship/Intimacy with God."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "तू मेरा भक्त और प्रिय सखा है, इसलिए वही यह पुरातन योग आज मैंने तुझको कहा है; क्योंकि यह बड़ा ही उत्तम रहस्य है अर्थात गुप्त रखने योग्य विषय है।",
+              "philosophical_note": "गीता को समझने की योग्यता: भक्ति और भगवान के साथ मित्रता/निकटता।"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "sanskrit": "अर्जुन उवाच | अपरं भवतो जन्म परं जन्म विवस्वतः | कथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ||",
+          "transliteration": "arjuna uvaca aparam bhavato janma param janma vivasvatah katham etad vijaniyam tvam adau proktavan iti",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Arjuna said: The sun-god Vivasvan is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?",
+              "philosophical_note": "Arjuna asks this not for himself, but to clarify Krishna's divinity for the world."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अर्जुन बोले: आपका जन्म तो अर्वाचीन (अभी हाल का) है और सूर्य का जन्म बहुत पुराना है; अर्थात कल्प के आदि में हो चुका था। तब मैं इस बात को कैसे समझूं कि आप ही ने कल्प के आदि में सूर्य से यह योग कहा था?",
+              "philosophical_note": "अर्जुन यह अपने लिए नहीं, बल्कि दुनिया के लिए कृष्ण की दिव्यता को स्पष्ट करने के लिए पूछता है।"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "sanskrit": "श्रीभगवानुवाच | बहूनि मे व्यतीतानि जन्मानि तव चार्जुन | तान्यहं वेद सर्वाणि न त्वं वेत्थ परंतप ||",
+          "transliteration": "shri bhagavan uvaca bahuni me vyatitani janmani tava carjuna tany aham veda sarvani na tvam vettha parantapa",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The Personality of Godhead said: Many, many births both you and I have passed. I can remember all of them, but you cannot, O subduer of the enemy!",
+              "philosophical_note": "Difference between Jiva and Ishvara: Jiva forgets past births due to Maya; Ishvara remembers all (Omniscient)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "श्री भगवान बोले: हे परंतप अर्जुन! मेरे और तेरे बहुत से जन्म हो चुके हैं। उन सबको मैं जानता हूँ, किन्तु तू नहीं जानता।",
+              "philosophical_note": "जीव और ईश्वर के बीच अंतर: माया के कारण जीव पिछले जन्मों को भूल जाता है; ईश्वर सब याद रखता है (सर्वज्ञ)।"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् | प्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ||",
+          "transliteration": "ajo pi sann avyayatma bhutanam ishvaro pi san prakritim svam adhishthaya sambhavamy atma-mayaya",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Although I am unborn and My transcendental body never deteriorates, and although I am the Lord of all living entities, I still appear in every millennium in My original transcendental form.",
+              "philosophical_note": "The mystery of Avatar (Incarnation): God descends using His own Yogamaya, remaining Lord of Maya."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "मैं अजन्मा और अविनाशीस्वरूप होते हुए भी तथा समस्त प्राणियों का ईश्वर होते हुए भी अपनी प्रकृति को अधीन करके अपनी योगमाया से प्रकट होता हूँ।",
+              "philosophical_note": "अवतार का रहस्य: भगवान अपनी योगमाया का उपयोग करके अवतरित होते हैं, माया के स्वामी बने रहते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+          "transliteration": "yada yada hi dharmasya glanir bhavati bharata abhyutthanam adharmasya tadatmanam srijamy aham",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time I descend Myself.",
+              "philosophical_note": "Purpose of Incarnation 1: Restoration of Dharma (Cosmic Order)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे भारत! जब-जब धर्म की हानि और अधर्म की वृद्धि होती है, तब-तब ही मैं अपने रूप को रचता हूँ अर्थात साकार रूप से लोगों के सम्मुख प्रकट होता हूँ।",
+              "philosophical_note": "अवतार का उद्देश्य 1: धर्म (लौकिक व्यवस्था) की पुनर्स्थापना।"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् | धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ||",
+          "transliteration": "paritranaya sadhunam vinashaya ca dushkritam dharma-samsthapanarthaya sambhavami yuge yuge",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "To deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I Myself appear, millennium after millennium.",
+              "philosophical_note": "Purpose of Incarnation 2: Protecting the good, destroying evil."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "साधु पुरुषों का उद्धार करने के लिए, पाप कर्म करने वालों का विनाश करने के लिए और धर्म की अच्छी तरह से स्थापना करने के लिए मैं युग-युग में प्रकट होता हूँ।",
+              "philosophical_note": "अवतार का उद्देश्य 2: अच्छे की रक्षा करना, बुराई को नष्ट करना।"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः | त्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ||",
+          "transliteration": "janma karma ca me divyam evam yo vetti tattvatah tyaktva deham punar janma naiti mam eti so rjuna",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna.",
+              "philosophical_note": "Simply understanding the divine nature of Krishna's actions leads to liberation (Moksha)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! मेरे जन्म और कर्म दिव्य अर्थात निर्मल और अलौकिक हैं—इस प्रकार जो मनुष्य तत्त्व से जान लेता है, वह शरीर को त्यागकर फिर जन्म को प्राप्त नहीं होता, किन्तु मुझे ही प्राप्त होता है।",
+              "philosophical_note": "कृष्ण के कार्यों की दिव्य प्रकृति को समझने मात्र से मुक्ति (मोक्ष) मिलती है।"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः | बहवो ज्ञानतपसा पूता मद्भावमागताः ||",
+          "transliteration": "vitaragabhayakrodha manmaya mamupashritah bahavo jnanatapasa puta madbhavamagatah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Being freed from attachment, fear and anger, being fully absorbed in Me and taking refuge in Me, many, many persons in the past became purified by knowledge of Me—and thus they all attained transcendental love for Me.",
+              "philosophical_note": "Path to purity: Free from attachment/fear/anger -> Absorbed in God -> Purified by Knowledge -> Attain God."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिनके राग, भय और क्रोध सर्वथा नष्ट हो गए हैं और जो मुझमें अनन्य प्रेमपूर्वक स्थित रहते हैं, ऐसे मेरे आश्रित रहने वाले बहुत से भक्त उपर्युक्त ज्ञान रूप तप से पवित्र होकर मेरे स्वरूप को प्राप्त हो चुके हैं।",
+              "philosophical_note": "पवित्रता का मार्ग: लगाव/भय/क्रोध से मुक्त -> भगवान में लीन -> ज्ञान से शुद्ध -> भगवान की प्राप्ति।"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् | मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||",
+          "transliteration": "ye yatha mam prapadyante tams tathaiva bhajamy aham mama vartmanuvartante manushyah partha sarvashah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As all surrender unto Me, I reward them accordingly. Everyone follows My path in all respects, O son of Pritha.",
+              "philosophical_note": "Reciprocity: God responds in the same mood as the devotee approaches (as Friend, Master, Child, or Enemy)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! जो भक्त मुझे जिस प्रकार भजते हैं, मैं भी उनको उसी प्रकार भजता हूँ; क्योंकि सभी मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करते हैं।",
+              "philosophical_note": "पारस्परिकता: भगवान उसी भाव में प्रतिक्रिया करते हैं जिस भाव में भक्त उनके पास आता है (मित्र, स्वामी, बच्चा, या दुश्मन के रूप में)।"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः | क्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ||",
+          "transliteration": "kanksantah karmanam siddhim yajanta iha devatah kshipram hi manushe loke siddhir bhavati karmaja",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Men in this world desire success in fruitive activities, and therefore they worship the demigods. Quickly, of course, men get results from fruitive work in this world.",
+              "philosophical_note": "Material success comes quickly from Demigod worship/Action, but it is temporary. Spiritual success takes time."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस मनुष्य लोक में कर्मों के फल को चाहने वाले लोग देवताओं का पूजन किया करते हैं; क्योंकि उनको कर्मों से उत्पन्न होने वाली सिद्धि शीघ्र मिल जाती है।",
+              "philosophical_note": "भौतिक सफलता देवता पूजा/कर्म से जल्दी आती है, लेकिन यह अस्थायी है। आध्यात्मिक सफलता में समय लगता है।"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः | तस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ||",
+          "transliteration": "catur-varnyam maya sristam guna-karma-vibhagashah tasya kartaram api mam viddhy akartaram avyayam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "According to the three modes of material nature and the work associated with them, the four divisions of human society were created by Me. And although I am the creator of this system, you should know that I am yet the nondoer, being unchangeable.",
+              "philosophical_note": "Varna system is based on Guna (Quality) and Karma (Work), not just birth. God created it but is above it."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "ब्राह्मण, क्षत्रिय, वैश्य और शूद्र—इन चार वर्णों का समूह, गुण और कर्मों के विभागपूर्वक मेरे द्वारा रचा गया है। इस प्रकार उस सृष्टि-रचनादि कर्म का कर्ता होने पर भी मुझ अविनाशी परमेश्वर को तू वास्तव में अकर्ता ही जान।",
+              "philosophical_note": "वर्ण व्यवस्था गुण (गुणवत्ता) और कर्म (काम) पर आधारित है, न कि केवल जन्म पर। भगवान ने इसे बनाया है लेकिन वे इससे ऊपर हैं।"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा | इति मां योऽभिजानाति कर्मभिर्न स बध्यते ||",
+          "transliteration": "na mam karmani limpanti na me karma-phale spriha iti mam yo bhijanati karmabhir na sa badhyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "There is no work that affects Me; nor do I aspire for the fruits of action. One who understands this truth about Me does not become entangled in the fruitive reactions of work.",
+              "philosophical_note": "Knowing God's detachment helps us become detached."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कर्मों के फल में मेरी स्पृहा नहीं है, इसलिए मुझे कर्म लिप्त नहीं करते—इस प्रकार जो मुझे तत्त्व से जान लेता है, वह भी कर्मों से नहीं बंधता।",
+              "philosophical_note": "भगवान की अनासक्ति को जानने से हमें अनासक्त होने में मदद मिलती है।"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः | कुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ||",
+          "transliteration": "evam jnatva kritam karma purvair api mumukshubhih kuru karmaiva tasmat tvam purvaih purvataram kritam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All the liberated souls in ancient times acted with this understanding of My transcendental nature. Therefore you should perform your duty, following in their footsteps.",
+              "philosophical_note": "Follow the path of the ancients (Mahajanas). Don't invent a new path."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "पूर्वकाल के मुमुक्षुओं ने भी इस प्रकार जानकर ही कर्म किए हैं। इसलिए तू भी पूर्वजों द्वारा सदा से किए जाने वाले कर्मों को ही कर।",
+              "philosophical_note": "पूर्वजों (महाजनों) के मार्ग का अनुसरण करें। नया रास्ता न खोजें।"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः | तत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||",
+          "transliteration": "kim karma kim akarmeti kavayo py atra mohitah tat te karma pravakshyami yaj jnatva mokshyase shubhat",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Even the intelligent are bewildered in determining what is action and what is inaction. If you listen, I shall explain to you what action is, knowing which you will be liberated from all worldly misfortune.",
+              "philosophical_note": "Action is complex. It's not just physical movement. It needs definition."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कर्म क्या है? और अकर्म क्या है? इस प्रकार इसका निर्णय करने में बुद्धिमान पुरुष भी मोहित हो जाते हैं। इसलिए वह कर्म-तत्त्व मैं तुझे भलीभांति समझाकर कहूँगा, जिसे जानकर तू अशुभ से अर्थात कर्मबंधन से मुक्त हो जाएगा।",
+              "philosophical_note": "कर्म जटिल है। यह केवल शारीरिक गति नहीं है। इसकी परिभाषा की आवश्यकता है।"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः | अकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ||",
+          "transliteration": "karmano hy api boddhavyam boddhavyam ca vikarmanah akarmanash ca boddhavyam gahana karmano gatih",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is, and what inaction is.",
+              "philosophical_note": "Three Types: Karma (Prescribed Action), Vikarma (Forbidden Action), Akarma (Renounced/Detached Action)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कर्म का स्वरूप भी जानना चाहिए और अकर्म का स्वरूप भी जानना चाहिए तथा विकर्म का स्वरूप भी जानना चाहिए; क्योंकि कर्म की गति गहन है।",
+              "philosophical_note": "तीन प्रकार: कर्म (निर्धारित क्रिया), विकर्म (निषिद्ध क्रिया), अकर्म (परित्यक्त/अनासक्त क्रिया)।"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः | स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||",
+          "transliteration": "karmany akarma yah pasyed akarmani ca karma yah sa buddhiman manushyeshu sa yuktah kritsna-karma-krit",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who sees inaction in action, and action in inaction, is intelligent among men, and he is in the transcendental position, although engaged in all sorts of activities.",
+              "philosophical_note": "Seeing Action in Inaction: Mental activity continues even when sitting still. Seeing Inaction in Action: Acting without attachment leaves no Karmic trace."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो मनुष्य कर्म में अकर्म देखता है और जो अकर्म में कर्म देखता है, वह मनुष्यों में बुद्धिमान है और वह योगी समस्त कर्मों को करने वाला है।",
+              "philosophical_note": "अकर्म में कर्म देखना: शांत बैठे रहने पर भी मानसिक गतिविधि जारी रहती है। कर्म में अकर्म देखना: अनासक्ति के साथ कार्य करने से कोई कर्मिक निशान नहीं छूटता।"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "sanskrit": "यस्य सर्वे समारम्भाः कामसंकल्पवर्जिताः | ज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ||",
+          "transliteration": "yasya sarve samarambhah kama-sankalpa-varjitah jnanagni-dagdha-karmanam tam ahuh panditam budhah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One is understood to be in full knowledge whose every endeavor is destitute of desire for sense gratification. He is said by sages to be a worker for whom the reactions of work have been burned up by the fire of perfect knowledge.",
+              "philosophical_note": "Actions burned by the fire of knowledge (Jnana-agni) produce no Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिसके सम्पूर्ण शास्त्रसम्मत कर्म बिना कामना और संकल्प के होते हैं तथा जिसके समस्त कर्म ज्ञानरूप अग्नि द्वारा भस्म हो गए हैं, उस महापुरुष को ज्ञानीजन भी पण्डित कहते हैं।",
+              "philosophical_note": "ज्ञान की अग्नि (ज्ञान-अग्नि) द्वारा जलाए गए कर्म कोई कर्म पैदा नहीं करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः | कर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ||",
+          "transliteration": "tyaktva karma-phalasangam nitya-tripto nirashrayah karmany abhipravritto pi naiva kincit karoti sah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Abandoning all attachment to the results of his activities, ever satisfied and independent, he performs no fruitive action, although engaged in all kinds of undertakings.",
+              "philosophical_note": "He works, but because he has no attachment, he is technically 'doing nothing' (no Karma accumulating)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो पुरुष समस्त कर्मों में और उनके फल में आसक्ति का सर्वथा त्याग करके संसार के आश्रय से रहित हो गया है और परमात्मा में नित्य तृप्त है, वह कर्मों में भलीभांति बरतता हुआ भी वास्तव में कुछ भी नहीं करता।",
+              "philosophical_note": "वह काम करता है, लेकिन चूंकि उसे कोई लगाव नहीं है, इसलिए वह तकनीकी रूप से 'कुछ नहीं कर रहा है' (कोई कर्म जमा नहीं हो रहा है)।"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः | शारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ||",
+          "transliteration": "nirasir yata-cittatma tyakta-sarva-parigrahah shariram kevalam karma kurvan napnoti kilbisham",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Such a man of understanding acts with mind and intelligence perfectly controlled, gives up all sense of proprietorship over his possessions, and acts only for the bare necessities of life. Thus working, he is not affected by sinful reactions.",
+              "philosophical_note": "Minimalism: Working only for bare necessities (Shariram Kevalam) prevents accumulation of Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिसका अन्तःकरण और इन्द्रियों सहित शरीर जीता हुआ है और जिसने समस्त भोगों की सामग्री का परित्याग कर दिया है, ऐसा आशारहित पुरुष केवल शरीर-सम्बन्धी कर्म करता हुआ भी पापों को नहीं प्राप्त होता।",
+              "philosophical_note": "अल्पतावाद: केवल नंगे आवश्यकताओं (शरीरम केवलम) के लिए काम करना कर्म के संचय को रोकता है।"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "sanskrit": "यदृच्छालाभसंतुष्टो द्वन्द्वातीतो विमत्सरः | समः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ||",
+          "transliteration": "yadriccha-labha-santusto dvandvatito vimatsarah samah siddhav asiddhau ca kritvapi na nibadhyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "He who is satisfied with gain which comes of its own accord, who is free from duality and does not envy, who is steady in both success and failure, is never entangled, although performing actions.",
+              "philosophical_note": "Contentment (Santosha): Accepting what comes naturally without greed or envy leads to freedom."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जो बिना इच्छा के अपने-आप प्राप्त हुए पदार्थ में सदा संतुष्ट रहता है, जिसमें ईर्ष्या का सर्वथा अभाव हो गया है, जो हर्ष-शोक आदि द्वंद्वों से सर्वथा अतीत हो गया है—ऐसा सिद्धि और असिद्धि में सम रहने वाला कर्मयोगी कर्म करता हुआ भी उनसे नहीं बंधता।",
+              "philosophical_note": "संतोष (संतोष): बिना लालच या ईर्ष्या के स्वाभाविक रूप से जो आता है उसे स्वीकार करना स्वतंत्रता की ओर ले जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः | यज्ञायाचरतः कर्म समग्रं प्रविलीयते ||",
+          "transliteration": "gata-sangasya muktasya jnanavasthita-cetasah yajnayacaratah karma samagram praviliyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence.",
+              "philosophical_note": "Karma dissolves entirely for the liberated soul who acts as Yajna (Sacrifice)."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिसकी आसक्ति सर्वथा नष्ट हो गई है, जो देहाभिमान और ममता से रहित हो गया है, जिसका चित्त निरंतर परमात्मा के ज्ञान में स्थित रहता है—ऐसे केवल यज्ञसम्पादन के लिए कर्म करने वाले मनुष्य के सम्पूर्ण कर्म भलीभांति विलीन हो जाते हैं।",
+              "philosophical_note": "मुक्त आत्मा के लिए कर्म पूरी तरह से घुल जाता है जो यज्ञ (बलिदान) के रूप में कार्य करता है।"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "sanskrit": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् | ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ||",
+          "transliteration": "brahmarpanam brahma havir brahmagnau brahmana hutam brahmaiva tena gantavyam brahma-karma-samadhina",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A person who is fully absorbed in Krshna consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature.",
+              "philosophical_note": "Everything is Brahman: The offering, the fire, the offerer, and the act. Non-dual vision."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिस यज्ञ में अर्पण अर्थात स्रुवा आदि भी ब्रह्म है और हवन किए जाने योग्य द्रव्य भी ब्रह्म है तथा ब्रह्मरूप कर्ता द्वारा ब्रह्मरूप अग्नि में आहुति दीना रूप क्रिया भी ब्रह्म है—उस ब्रह्मकर्म में स्थित रहने वाले योगी द्वारा प्राप्त किए जाने योग्य फल भी ब्रह्म ही है।",
+              "philosophical_note": "सब कुछ ब्रह्म है: प्रसाद, अग्नि, प्रस्तावक और कार्य। अद्वैत दृष्टि।"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते | ब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ||",
+          "transliteration": "daivam evapare yajnam yoginah paryupasate brahmagnav apare yajnam yajnenaivopajuhvati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Some yogis perfectly worship the demigods by offering different sacrifices to them, and some offer sacrifices in the fire of the Supreme Brahman.",
+              "philosophical_note": "Different paths of sacrifice: Some worship Devas, others worship the Formless Brahman."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "दूसरे योगीजन देवताओं के पूजनरूप यज्ञ का ही भलीभांति अनुष्ठान किया करते हैं और अन्य योगीजन परब्रह्म परमात्मा रूप अग्नि में अभेद दर्शनरूप यज्ञ द्वारा ही आत्मरूप यज्ञ का हवन किया करते हैं।",
+              "philosophical_note": "बलिदान के विभिन्न मार्ग: कुछ देवता की पूजा करते हैं, अन्य निराकार ब्रह्म की पूजा करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "sanskrit": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति | शब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ||",
+          "transliteration": "srotradinindriyany anye samyamagnishu juhvati sabdadin vishayan anya indriyagnishu juhvati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Some [the unadulterated brahmacaris] sacrifice the hearing process and the senses in the fire of mental control, and others [the regulated householders] sacrifice the objects of the senses in the fire of the senses.",
+              "philosophical_note": "Internal Yajna: Controlling senses (Brahmacharya) or regulating enjoyment (Grihastha) is also sacrifice."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "अन्य योगीजन श्रोत्र आदि समस्त इन्द्रियों को संयम रूप अग्नियों में हवन किया करते हैं और दूसरे योगीजन शब्दादि समस्त विषयों को इन्द्रिय रूप अग्नियों में हवन किया करते हैं।",
+              "philosophical_note": "आंतरिक यज्ञ: इंद्रियों को नियंत्रित करना (ब्रह्मचर्य) या आनंद को विनियमित करना (गृहस्थ) भी बलिदान है।"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे | आत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ||",
+          "transliteration": "sarvanindriya-karmani prana-karmani capare atma-samyama-yogagnau juhvati jnana-dipite",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Others, who are interested in achieving self-realization through control of the mind and senses, offer the functions of all the senses, and of the life breath, as oblations into the fire of the controlled mind.",
+              "philosophical_note": "Patanjali Yoga: Withdrawing all senses and suspending breath (Pranayama) into the fire of Self-Control."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "दूसरे योगीजन इन्द्रियों की सम्पूर्ण क्रियाओं को और प्राणों की समस्त क्रियाओं को ज्ञान से प्रकाशित आत्मसंयम योगरूप अग्नि में हवन किया करते हैं।",
+              "philosophical_note": "पतंजलि योग: सभी इंद्रियों को वापस लेना और आत्म-नियंत्रण की अग्नि में सांस (प्राणायाम) को निलंबित करना।"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे | स्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ||",
+          "transliteration": "dravya-yajnas tapo-yajna yoga-yajnas tathapare svadhyaya-jnana-yajnas ca yatayah samsita-vratah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Having accepted strict vows, some become enlightened by sacrificing their possessions, and others by performing severe austerities, by practicing the yoga of eightfold mysticism, or by studying the Vedas to advance in transcendental knowledge.",
+              "philosophical_note": "Charity, Austerity, Yoga practice, and Study are all forms of Yajna."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "कई पुरुष द्रव्य सम्बन्धी यज्ञ करने वाले हैं, कितने ही तपस्या रूप यज्ञ करने वाले हैं तथा दूसरे कितने ही योगरूप यज्ञ करने वाले हैं और कितने ही अहिंसादि तीक्ष्ण को धारण करने वाले प्रयत्नशील पुरुष स्वाध्याय और ज्ञानयज्ञ करने वाले हैं।",
+              "philosophical_note": "दान, तपस्या, योग अभ्यास और अध्ययन सभी यज्ञ के रूप हैं।"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "sanskrit": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे | प्राणापानगती रुद्ध्वा प्राणायामपरायणाः | अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति ||",
+          "transliteration": "apane juhvati pranam prane panam tathapare pranapana-gati ruddhva pranayama-parayanah apare niyataharah pranan praneshu juhvati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Still others, who are inclined to the process of breath restraint to remain in trance, practice by offering the movement of the outgoing breath into the incoming, and the incoming breath into the outgoing, and thus at last remain in trance, stopping all breathing. Others, curtailing the eating process, offer the outgoing breath into itself as a sacrifice.",
+              "philosophical_note": "Pranayama implies stopping the automatic cycle of breath to control the mind."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "दूसरे कितने ही योगीजन अपान वायु में प्राण वायु को हवन करते हैं, वैसे ही अन्य योगीजन प्राण वायु में अपान वायु को हवन करते हैं।",
+              "philosophical_note": "प्राणायाम का अर्थ है मन को नियंत्रित करने के लिए श्वास के स्वचालित चक्र को रोकना।"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "sanskrit": "सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः | यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् ||",
+          "transliteration": "sarve py ete yajna-vido yajna-kshapita-kalmashah yajna-shishtamrita-bhujo yanti brahma sanatanam",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All these performers who know the meaning of sacrifice become cleansed of sinful reactions, and, having tasted the nectar of the results of sacrifices, they advance toward the supreme eternal atmosphere.",
+              "philosophical_note": "Sacrifice purifies sins. The result (remnant) is nectar (Amrita) that grants immortality."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "ये सभी साधक यज्ञों द्वारा पापों का नाश कर देने वाले और यज्ञों को जानने वाले हैं।",
+              "philosophical_note": "बलिदान पापों को शुद्ध करता है। परिणाम (अवशेष) अमृत (अमृत) है जो अमरता प्रदान करता है।"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "sanskrit": "नायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ||",
+          "transliteration": "nayam lokostyayajnasya kuto nyah kuru-sattama",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O best of the Kuru dynasty, without sacrifice one can never live happily on this planet or in this life: what then of the next?",
+              "philosophical_note": "Without sacrifice (giving back), happiness is impossible anywhere in the cosmos."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे कुरुश्रेष्ठ! यज्ञ से बचे हुए अमृत का अनुभव करने वाले योगी सनातन ब्रह्म को प्राप्त होते हैं। और यज्ञ न करने वाले पुरुष के लिए तो यह मनुष्य लोक भी सुखदायक नहीं है, फिर परलोक कैसे सुखदायक हो सकता है?",
+              "philosophical_note": "बलिदान (वापस देने) के बिना, ब्रह्मांड में कहीं भी खुशी असंभव है।"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे | कर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ||",
+          "transliteration": "evam bahu-vidha yajna vitata brahmano mukhe karma-jan viddhi tan sarvan evam jnatva vimokshyase",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "All these different types of sacrifice are approved by the Vedas, and all of them are born of different types of work. Knowing them as such, you will become liberated.",
+              "philosophical_note": "Understanding that all these paths lead to the same goal (liberation) releases you from dogma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसी प्रकार और भी बहुत तरह के यज्ञ वेद की वाणी में विस्तार से कहे गए हैं। उन सबको तू मन, इन्द्रिय और शरीर की क्रिया द्वारा सम्पन्न होने वाले जान, इस प्रकार तत्त्व से जानकर उनके अनुष्ठान द्वारा तू कर्मबंधन से सर्वथा मुक्त हो जाएगा।",
+              "philosophical_note": "यह समझना कि ये सभी मार्ग एक ही लक्ष्य (मुक्ति) की ओर ले जाते हैं, आपको कट्टरता से मुक्त करते हैं।"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परंतप | सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ||",
+          "transliteration": "sreyan dravya-mayad yajnaj jnana-yajnah parantapa sarvam karmakhilam partha jnane parisamapyate",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pritha, all sacrifices of work culminate in transcendental knowledge.",
+              "philosophical_note": "Knowledge (Jnana) is superior to rituals (Dravya). Rituals are for training; Knowledge is the goal."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे परंतप अर्जुन! द्रव्यमय यज्ञ की अपेक्षा ज्ञानयज्ञ अत्यन्त श्रेष्ठ है; तथा यावनमात्र सम्पूर्ण कर्म ज्ञान में समाप्त हो जाते हैं।",
+              "philosophical_note": "ज्ञान (ज्ञान) अनुष्ठानों (द्रव्य) से श्रेष्ठ है। अनुष्ठान प्रशिक्षण के लिए हैं; ज्ञान लक्ष्य है।"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया | उपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ||",
+          "transliteration": "tad viddhi pranipatena pariprasnena sevaya upadekshyanti te jnanam jnaninas tattva-darshinah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Just try to learn the truth by approaching a spiritual master. Inquire from him submissively and render service unto him. The self-realized souls can impart knowledge unto you because they have seen the truth.",
+              "philosophical_note": "Method of Learning: Surrender (Pranipat), Inquiry (Pariprasna), and Service (Seva) to a Guru."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "उस ज्ञान को तू तत्त्वदर्शी ज्ञानियों के पास जाकर समझ, उनको भलीभांति दण्डवत् प्रणाम करने से, उनकी सेवा करने से और कपट छोड़कर सरलतापूर्वक प्रश्न करने से वे परमात्मतत्त्व को भलीभांति जानने वाले ज्ञानी महात्मा तुझे उस तत्त्वज्ञान का उपदेश करेंगे।",
+              "philosophical_note": "सीखने की विधि: समर्पण (प्राणीपात), पूछताछ (परिप्रस्ना), और सेवा (सेवा) गुरु के लिए।"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव | येन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि ||",
+          "transliteration": "yaj jnatva na punar moham evam yasyasi pandava yena bhutany asheshena drakshyasy atmany atho mayi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Having obtained real knowledge from a self-realized soul, you will never fall again into such illusion, for by this knowledge you will see that all living beings are but part of the Supreme, or, in other words, that they are Mine.",
+              "philosophical_note": "Result of Wisdom: Seeing all beings in God and God in all beings."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जिसको जानकर फिर तू इस प्रकार मोह को नहीं प्राप्त होगा तथा हे अर्जुन! जिस ज्ञान द्वारा तू सम्पूर्ण भूतों को निःशेषभाव से पहले अपने में और पीछे मुझ सच्चिदानन्दघन परमात्मा में देखेगा।",
+              "philosophical_note": "ज्ञान का परिणाम: ईश्वर में सभी प्राणियों को देखना और सभी प्राणियों में ईश्वर को देखना।"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः | सर्वं ज्ञानप्लवेनैव वृजिनं संतरिष्यसि ||",
+          "transliteration": "api ced asi papebhyah sarvebhyah papa-krittamah sarvam jnana-plavenaiva vrijinam santarishyasi",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Even if you are considered to be the most sinful of all sinners, when you are situated in the boat of transcendental knowledge you will be able to cross over the ocean of miseries.",
+              "philosophical_note": "Knowledge is a boat that can carry even the worst sinner across the ocean of Samsara."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "यदि तू सब पापियों से भी अधिक पाप करने वाला है, तो भी तू ज्ञानरूप नौका द्वारा निस्संदेह सम्पूर्ण पाप-समुद्र से अच्छी तरह तर जाएगा।",
+              "philosophical_note": "ज्ञान एक नाव है जो सबसे बुरे पापी को भी संसार के सागर के पार ले जा सकती है।"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन | ज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ||",
+          "transliteration": "yathaidhamsi samiddho gnir bhasmasat kurute rjuna jnanagnih sarva-karmani bhasmasat kurute tatha",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "As a blazing fire turns firewood to ashes, O Arjuna, so does the fire of knowledge burn to ashes all reactions to material activities.",
+              "philosophical_note": "Jnana is Fire. It consumes the seeds of Karma."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे अर्जुन! जैसे प्रज्वलित अग्नि ईंधनों को भस्ममय कर देता है, वैसे ही ज्ञानरूप अग्नि सम्पूर्ण कर्मों को भस्ममय कर देता है।",
+              "philosophical_note": "ज्ञान अग्नि है। यह कर्म के बीजों का उपभोग करता है।"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||",
+          "transliteration": "na hi jnanena sadrisam pavitram iha vidyate tat svayam yoga-samsiddhah kalenatmani vindati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "In this world, there is nothing so sublime and pure as transcendental knowledge. Such knowledge is the mature fruit of all mysticism. And one who has become accomplished in the practice of devotional service enjoys this knowledge within himself in due course of time.",
+              "philosophical_note": "Knowledge comes automatically in time to the perfected Yogi."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इस संसार में ज्ञान के समान पवित्र करने वाला निस्संदेह कुछ भी नहीं है। उस ज्ञान को कितने ही काल से योग द्वारा सिद्ध हुआ मनुष्य अपने-आप ही आत्मा में पा लेता है।",
+              "philosophical_note": "सिद्ध योगी को समय पर ज्ञान अपने आप मिल जाता है।"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "sanskrit": "श्रद्धावान् लभते ज्ञानं तत्परः संयतेन्द्रियः | ज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ||",
+          "transliteration": "sraddhavan labhate jnanam tat-parah samyatendriyah jnanam labdhva param santim acirenadhigacchati",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "A faithful man who is dedicated to transcendental knowledge and who subdues his senses is eligible to achieve such knowledge, and having achieved it he quickly attains the supreme spiritual peace.",
+              "philosophical_note": "Faith (Shraddha) is the key. Without faith, knowledge cannot enter."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "जितेन्द्रिय, साधनपरायण और श्रद्धावान मनुष्य ज्ञान को प्राप्त होता है तथा ज्ञान को प्राप्त होकर वह बिना विलम्ब के तत्काल ही भगवत्प्राप्तिरूप परम शान्ति को प्राप्त हो जाता है।",
+              "philosophical_note": "विश्वास (श्रद्धा) कुंजी है। विश्वास के बिना ज्ञान प्रवेश नहीं कर सकता।"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति | नायं लोकोऽस्ति न परो न सुखं संशयात्मनः ||",
+          "transliteration": "ajnas casraddadhanas ca samsayatma vinasyati nayam loko sti na paro na sukham samsayatmanah",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "But ignorant and faithless persons who doubt the revealed scriptures do not attain God consciousness; they fall down. For the doubting soul there is happiness neither in this world nor in the next.",
+              "philosophical_note": "Doubt (Samshaya) is the destroyer of happiness."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "विवेकहीन और श्रद्धारहित संशययुक्त मनुष्य परमार्थ से अवश्य भ्रष्ट हो जाता है। ऐसे संशययुक्त मनुष्य के लिए न यह लोक है, न परलोक है और न सुख ही है।",
+              "philosophical_note": "संदेह (संशय) सुख का विनाशक है।"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "sanskrit": "योगसंन्यस्तकर्माणं ज्ञानसंछिन्नसंशयम् | आत्मवन्तं न कर्माणि निबध्नन्ति धनंजय ||",
+          "transliteration": "yoga-sannyasta-karmanam jnana-sanchinna-samsayam atmavantam na karmani nibadhnanti dhananjaya",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "One who acts in devotional service, renouncing the fruits of his actions, and whose doubts have been destroyed by transcendental knowledge, is situated factually in the self. Thus he is not bound by the reactions of work, O conqueror of riches.",
+              "philosophical_note": "The Formula: Karma Yoga + Jnana = Freedom from Bondage."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "हे धनंजय! जिसने कर्मयोग की विधि से समस्त कर्मों का परमात्मा में अर्पण कर दिया है और जिसने विवेक द्वारा समस्त संशयों का नाश कर दिया है, ऐसे वश में किए हुए अन्त:करण वाले पुरुष को कर्म नहीं बांधते।",
+              "philosophical_note": "सूत्र: कर्म योग + ज्ञान = बंधन से मुक्ति।"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः | छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ||",
+          "transliteration": "tasmad ajnana-sambhutam hrit-stham jnanasinatmanah chittvainam samsayam yogam atishthottishtha bharata",
+          "translations": [
+            {
+              "language_code": "en",
+              "simple_meaning": "Therefore the doubts which have arisen in your heart out of ignorance should be slashed by the weapon of knowledge. Armed with yoga, O Bharata, stand and fight.",
+              "philosophical_note": "Final conclusion of Chapter 4: Cut doubt with the sword of knowledge and ACT."
+            },
+            {
+              "language_code": "hi",
+              "simple_meaning": "इसलिए हे भरतवंशी अर्जुन! तू हृदय में स्थित इस अज्ञानजनित अपने संशय को विवेकरूप ज्ञान की तलवार द्वारा छेदन करके समत्वरूप कर्मयोग में स्थित हो जा और युद्ध के लिए खड़ा हो जा।",
+              "philosophical_note": "अध्याय 4 का अंतिम निष्कर्ष: ज्ञान की तलवार से संदेह को काटें और कार्य करें।"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 5,
