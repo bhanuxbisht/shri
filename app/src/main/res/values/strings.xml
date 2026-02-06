@@ -1,0 +1,9 @@
+﻿<resources>
+    <string name="app_name">Bhagavad Gita Seva</string>
+    <string name="settings">Settings</string>
+    <string name="daily_shloka">Daily Shloka</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="search_hint">Search chapter, verse, or keyword</string>
+    <string name="toggle_transliteration">Transliteration</string>
+    <string name="toggle_explanation">Philosophical Note</string>
+</resources>
