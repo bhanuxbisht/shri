@@ -9,6 +9,7 @@ import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
 import androidx.room.SharedSQLiteStatement;
+import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import com.seva.scripture.data.local.entity.BookmarkEntity;
@@ -298,6 +299,78 @@ public final class ScriptureDao_Impl implements ScriptureDao {
           }
         } finally {
           __preparedStmtOfRemoveBookmark.release(_stmt);
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Flow<List<ScriptureEntity>> observeScriptures() {
+    final String _sql = "SELECT * FROM scriptures";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    return CoroutinesRoom.createFlow(__db, false, new String[] {"scriptures"}, new Callable<List<ScriptureEntity>>() {
+      @Override
+      @NonNull
+      public List<ScriptureEntity> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+          final int _cursorIndexOfTradition = CursorUtil.getColumnIndexOrThrow(_cursor, "tradition");
+          final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
+          final List<ScriptureEntity> _result = new ArrayList<ScriptureEntity>(_cursor.getCount());
+          while (_cursor.moveToNext()) {
+            final ScriptureEntity _item;
+            final String _tmpId;
+            _tmpId = _cursor.getString(_cursorIndexOfId);
+            final String _tmpName;
+            _tmpName = _cursor.getString(_cursorIndexOfName);
+            final String _tmpTradition;
+            _tmpTradition = _cursor.getString(_cursorIndexOfTradition);
+            final String _tmpDescription;
+            _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            _item = new ScriptureEntity(_tmpId,_tmpName,_tmpTradition,_tmpDescription);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+        }
+      }
+
+      @Override
+      protected void finalize() {
+        _statement.release();
+      }
+    });
+  }
+
+  @Override
+  public Object hasScripture(final String scriptureId,
+      final Continuation<? super Integer> $completion) {
+    final String _sql = "SELECT COUNT(*) FROM scriptures WHERE id = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindString(_argIndex, scriptureId);
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<Integer>() {
+      @Override
+      @NonNull
+      public Integer call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final Integer _result;
+          if (_cursor.moveToFirst()) {
+            final int _tmp;
+            _tmp = _cursor.getInt(0);
+            _result = _tmp;
+          } else {
+            _result = 0;
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+          _statement.release();
         }
       }
     }, $completion);

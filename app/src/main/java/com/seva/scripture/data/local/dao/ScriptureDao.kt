@@ -18,6 +18,12 @@ interface ScriptureDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertScripture(scripture: ScriptureEntity)
 
+    @Query("SELECT * FROM scriptures")
+    fun observeScriptures(): Flow<List<ScriptureEntity>>
+
+    @Query("SELECT COUNT(*) FROM scriptures WHERE id = :scriptureId")
+    suspend fun hasScripture(scriptureId: String): Int
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertChapters(chapters: List<ChapterEntity>)
 

@@ -1,5 +1,12 @@
 ﻿package com.seva.scripture.domain.model
 
+data class ScriptureInfo(
+    val id: String,
+    val name: String,
+    val tradition: String,
+    val description: String
+)
+
 data class ChapterSummary(
     val chapterNumber: Int,
     val titleSanskrit: String,

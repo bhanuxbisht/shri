@@ -1,20 +1,22 @@
 ﻿package com.seva.scripture.domain.repository
 
 import com.seva.scripture.domain.model.ChapterSummary
+import com.seva.scripture.domain.model.ScriptureInfo
 import com.seva.scripture.domain.model.VerseDetail
 import com.seva.scripture.domain.model.VerseSummary
 import kotlinx.coroutines.flow.Flow
 
 interface ScriptureRepository {
-    fun observeChapters(scriptureCode: String = "gita"): Flow<List<ChapterSummary>>
-    fun observeVerses(chapterNumber: Int, scriptureCode: String = "gita"): Flow<List<VerseSummary>>
-    fun observeVerseDetail(chapterNumber: Int, verseNumber: Int, languageCode: String): Flow<VerseDetail?>
-    fun searchVerses(query: String, languageCode: String): Flow<List<VerseSummary>>
-    fun observeBookmarks(languageCode: String): Flow<List<VerseDetail>>
+    fun observeScriptures(): Flow<List<ScriptureInfo>>
+    fun observeChapters(scriptureCode: String): Flow<List<ChapterSummary>>
+    fun observeVerses(scriptureCode: String, chapterNumber: Int): Flow<List<VerseSummary>>
+    fun observeVerseDetail(scriptureCode: String, chapterNumber: Int, verseNumber: Int, languageCode: String): Flow<VerseDetail?>
+    fun searchVerses(scriptureCode: String, query: String, languageCode: String): Flow<List<VerseSummary>>
+    fun observeBookmarks(scriptureCode: String, languageCode: String): Flow<List<VerseDetail>>
 
     suspend fun seedIfNeeded()
-    suspend fun toggleBookmark(chapterNumber: Int, verseNumber: Int)
-    suspend fun updateLastRead(chapterNumber: Int, verseNumber: Int)
-    suspend fun getLastRead(): Pair<Int, Int>?
-    suspend fun randomVerse(languageCode: String): VerseDetail?
+    suspend fun toggleBookmark(scriptureCode: String, chapterNumber: Int, verseNumber: Int)
+    suspend fun updateLastRead(scriptureCode: String, chapterNumber: Int, verseNumber: Int)
+    suspend fun getLastRead(scriptureCode: String): Pair<Int, Int>?
+    suspend fun randomVerse(scriptureCode: String, languageCode: String): VerseDetail?
 }

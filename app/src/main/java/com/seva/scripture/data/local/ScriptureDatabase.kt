@@ -21,7 +21,7 @@ import com.seva.scripture.data.local.entity.VerseEntity
         BookmarkEntity::class,
         ReadingProgressEntity::class
     ],
-    version = 11,
+    version = 14,
     exportSchema = false
 )
 abstract class ScriptureDatabase : RoomDatabase() {

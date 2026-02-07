@@ -38,6 +38,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -66,9 +67,10 @@ import kotlinx.coroutines.delay
 
 private object Route {
     const val Splash = "splash"
-    const val Home = "home"
-    const val Chapter = "chapter/{chapter}"
-    const val Verse = "verse/{chapter}/{verse}"
+    const val ScriptureSelection = "scripture_selection"
+    const val ChapterList = "chapter_list"
+    const val Chapter = "chapter/{chapter}" // verses list
+    const val Verse = "verse/{chapter}/{verse}" // verse detail
     const val Bookmarks = "bookmarks"
     const val Search = "search"
     const val Settings = "settings"
@@ -84,14 +86,25 @@ fun ScriptureNavHost(
     NavHost(navController = navController, startDestination = Route.Splash) {
         composable(Route.Splash) {
             SplashScreen {
-                navController.navigate(Route.Home) {
+                navController.navigate(Route.ScriptureSelection) {
                     popUpTo(Route.Splash) { inclusive = true }
                 }
             }
         }
-        composable(Route.Home) {
-            HomeScreen(
+        composable(Route.ScriptureSelection) {
+            ScriptureSelectionScreen(
                 vm = vm,
+                onScriptureSelected = { id ->
+                    vm.selectScripture(id)
+                    navController.navigate(Route.ChapterList)
+                },
+                onSettings = { navController.navigate(Route.Settings) }
+            )
+        }
+        composable(Route.ChapterList) { // Old Home
+            ChapterListScreen(
+                vm = vm,
+                onBack = { navController.popBackStack() },
                 onChapter = { navController.navigate("chapter/$it") },
                 onBookmarks = { navController.navigate(Route.Bookmarks) },
                 onSearch = { navController.navigate(Route.Search) },
@@ -103,7 +116,7 @@ fun ScriptureNavHost(
             arguments = listOf(navArgument("chapter") { type = NavType.IntType })
         ) { backStackEntry ->
             val chapter = backStackEntry.arguments?.getInt("chapter") ?: 1
-            ChapterScreen(
+            VerseListScreen( // Old ChapterScreen
                 vm = vm,
                 chapterNumber = chapter,
                 onBack = { navController.popBackStack() },
@@ -119,7 +132,7 @@ fun ScriptureNavHost(
         ) { backStackEntry ->
             val chapter = backStackEntry.arguments?.getInt("chapter") ?: 1
             val verse = backStackEntry.arguments?.getInt("verse") ?: 1
-            VerseScreen(vm = vm, chapter = chapter, verse = verse, onBack = { navController.popBackStack() })
+            VerseDetailScreen(vm = vm, chapter = chapter, verse = verse, onBack = { navController.popBackStack() })
         }
         composable(Route.Bookmarks) {
             BookmarksScreen(vm = vm, onBack = { navController.popBackStack() }) { c, v ->
@@ -148,30 +161,109 @@ private fun SplashScreen(onDone: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("ॐ", style = MaterialTheme.typography.headlineLarge, color = MaterialTheme.colorScheme.primary)
-        Text("Bhagavad Gita Seva", style = MaterialTheme.typography.titleLarge)
+        Text("ॐ", style = MaterialTheme.typography.displayLarge, color = MaterialTheme.colorScheme.primary)
+        Spacer(modifier = Modifier.height(16.dp))
+        Text("Sanatana Dharma", style = MaterialTheme.typography.headlineMedium)
     }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun HomeScreen(
+private fun ScriptureSelectionScreen(
     vm: ScriptureViewModel,
+    onScriptureSelected: (String) -> Unit,
+    onSettings: () -> Unit
+) {
+    val scriptures by vm.scriptures.collectAsState()
+    val initStatus by vm.initStatus.collectAsState()
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("Library") },
+                actions = {
+                    IconButton(onClick = onSettings) { Icon(Icons.Filled.Settings, contentDescription = null) }
+                }
+            )
+        }
+    ) { padding ->
+        if (scriptures.isEmpty()) {
+            Column(
+                modifier = Modifier.fillMaxSize().padding(padding),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                CircularProgressIndicator()
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(initStatus)
+            }
+        } else {
+            LazyColumn(
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+                modifier = Modifier.padding(padding)
+            ) {
+                item {
+                    Text(
+                        "Sacred Texts",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+                items(scriptures) { scripture ->
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable { onScriptureSelected(scripture.id) },
+                        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp)) {
+                            Text(
+                                text = scripture.name,
+                                style = MaterialTheme.typography.headlineSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = scripture.description,
+                                style = MaterialTheme.typography.bodyMedium,
+                                maxLines = 3,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.8f)
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ChapterListScreen(
+    vm: ScriptureViewModel,
+    onBack: () -> Unit,
     onChapter: (Int) -> Unit,
     onBookmarks: () -> Unit,
     onSearch: () -> Unit,
     onSettings: () -> Unit
 ) {
     val chapters by vm.chapters.collectAsState()
+    val scriptureId by vm.currentScriptureId.collectAsState()
+    // Simple mapping for display purposes - ideally these should come from the DB/Model
+    val title = if (scriptureId.contains("gita")) "Bhagavad Gita" else "Hanuman Chalisa"
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Bhagavad Gita") },
+                title = { Text(title) },
+                navigationIcon = {
+                    IconButton(onClick = onBack) { Icon(Icons.Default.ArrowBack, contentDescription = null) }
+                },
                 actions = {
                     IconButton(onClick = onSearch) { Icon(Icons.Filled.Search, contentDescription = null) }
                     IconButton(onClick = onBookmarks) { Icon(Icons.Filled.Star, contentDescription = null) }
-                    IconButton(onClick = onSettings) { Icon(Icons.Filled.Settings, contentDescription = null) }
                 }
             )
         }
@@ -205,7 +297,7 @@ private fun HomeScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun ChapterScreen(
+private fun VerseListScreen(
     vm: ScriptureViewModel,
     chapterNumber: Int,
     onBack: () -> Unit,
@@ -243,7 +335,7 @@ private fun ChapterScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun VerseScreen(vm: ScriptureViewModel, chapter: Int, verse: Int, onBack: () -> Unit) {
+private fun VerseDetailScreen(vm: ScriptureViewModel, chapter: Int, verse: Int, onBack: () -> Unit) {
     val detail by vm.currentVerse.collectAsState()
     val settings by vm.settings.collectAsState()
     val context = LocalContext.current
@@ -253,7 +345,7 @@ private fun VerseScreen(vm: ScriptureViewModel, chapter: Int, verse: Int, onBack
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Chapter $chapter, Verse $verse") },
+                title = { Text("Ch $chapter, Verse $verse") },
                 navigationIcon = {
                     IconButton(onClick = onBack) { Icon(Icons.Filled.ArrowBack, contentDescription = "Back") }
                 },

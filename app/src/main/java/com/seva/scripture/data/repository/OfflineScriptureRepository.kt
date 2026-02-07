@@ -12,11 +12,14 @@ import com.seva.scripture.data.local.entity.ScriptureEntity
 import com.seva.scripture.data.local.entity.TranslationEntity
 import com.seva.scripture.data.local.entity.VerseEntity
 import com.seva.scripture.domain.model.ChapterSummary
+import com.seva.scripture.domain.model.ScriptureInfo
 import com.seva.scripture.domain.model.VerseDetail
 import com.seva.scripture.domain.model.VerseSummary
 import com.seva.scripture.domain.repository.ScriptureRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import androidx.room.withTransaction
 
@@ -27,6 +30,14 @@ class OfflineScriptureRepository(
 
     private val dao = database.scriptureDao()
     private val json = Json { ignoreUnknownKeys = true }
+
+    override fun observeScriptures(): Flow<List<ScriptureInfo>> {
+        return dao.observeScriptures().map { entities ->
+            entities.map {
+                ScriptureInfo(id = it.id, name = it.name, tradition = it.tradition, description = it.description)
+            }
+        }
+    }
 
     override fun observeChapters(scriptureCode: String): Flow<List<ChapterSummary>> {
         return dao.observeChapters(scriptureCode).map { rows ->
@@ -42,7 +53,7 @@ class OfflineScriptureRepository(
         }
     }
 
-    override fun observeVerses(chapterNumber: Int, scriptureCode: String): Flow<List<VerseSummary>> {
+    override fun observeVerses(scriptureCode: String, chapterNumber: Int): Flow<List<VerseSummary>> {
         return dao.observeVerses(scriptureCode, chapterNumber).map { rows ->
             rows.map {
                 VerseSummary(
@@ -56,16 +67,17 @@ class OfflineScriptureRepository(
     }
 
     override fun observeVerseDetail(
+        scriptureCode: String,
         chapterNumber: Int,
         verseNumber: Int,
         languageCode: String
     ): Flow<VerseDetail?> {
-        return dao.observeVerseDetail("gita", chapterNumber, verseNumber, languageCode)
+        return dao.observeVerseDetail(scriptureCode, chapterNumber, verseNumber, languageCode)
             .map { it?.toDomain() }
     }
 
-    override fun searchVerses(query: String, languageCode: String): Flow<List<VerseSummary>> {
-        return dao.searchVerses("gita", query.trim(), languageCode).map { rows ->
+    override fun searchVerses(scriptureCode: String, query: String, languageCode: String): Flow<List<VerseSummary>> {
+        return dao.searchVerses(scriptureCode, query.trim(), languageCode).map { rows ->
             rows.map {
                 VerseSummary(
                     chapterNumber = it.chapterNumber,
@@ -77,29 +89,56 @@ class OfflineScriptureRepository(
         }
     }
 
-    override fun observeBookmarks(languageCode: String): Flow<List<VerseDetail>> {
-        return dao.observeBookmarks("gita", languageCode).map { rows -> rows.map { it.toDomain() } }
+    override fun observeBookmarks(scriptureCode: String, languageCode: String): Flow<List<VerseDetail>> {
+        return dao.observeBookmarks(scriptureCode, languageCode).map { rows -> rows.map { it.toDomain() } }
     }
 
     override suspend fun seedIfNeeded() {
-        Log.d("SeedDebug", "seedIfNeeded started")
-        val existingCount = dao.verseCount()
-        Log.d("SeedDebug", "Existing verse count: $existingCount")
-        if (existingCount > 0) {
-            Log.d("SeedDebug", "Database already seeded, skipping")
-            return
-        }
-
+        withContext(Dispatchers.IO) {
+        Log.d("SeedDebug", "Start seeding process")
+        
         try {
-            android.util.Log.d("SeedDebug", "Reading seed JSON file...")
-            val seedText = context.assets.open("data/gita/gita_seed.json").bufferedReader().use { it.readText() }
-            // Remove BOM and leading/trailing whitespace which causes JSON parsing errors
-            val cleanSeedText = seedText.replace("\uFEFF", "").trim()
-            android.util.Log.d("SeedDebug", "JSON file read, length: ${cleanSeedText.length}")
+            val dataDir = "data"
+            val subFolders = context.assets.list(dataDir) ?: emptyArray()
             
-            val seed = json.decodeFromString<ScriptureSeed>(cleanSeedText)
-            android.util.Log.d("SeedDebug", "JSON parsed, scripture ID: '${seed.scripture.id}' (len: ${seed.scripture.id.length})")
+            for (subFolder in subFolders) {
+                val folderPath = "$dataDir/$subFolder"
+                // Check if it's a directory by trying to list content
+                try {
+                    val files = context.assets.list(folderPath) ?: emptyArray()
+                    for (fileName in files) {
+                        if (fileName.endsWith(".json")) {
+                            seedJsonFile("$folderPath/$fileName")
+                        }
+                    }
+                } catch (e: Exception) {
+                    // Might be a file
+                    if (subFolder.endsWith(".json")) {
+                        seedJsonFile("$dataDir/$subFolder")
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.e("SeedDebug", "Error listing assets", e)
+        }
+    }
+}
 
+    private suspend fun seedJsonFile(assetPath: String) {
+        try {
+            Log.d("SeedDebug", "Processing seed file: $assetPath")
+            val seedText = context.assets.open(assetPath).bufferedReader().use { it.readText() }
+            val cleanSeedText = seedText.replace("\uFEFF", "").trim()
+            val seed = json.decodeFromString<ScriptureSeed>(cleanSeedText)
+            
+            val count = dao.hasScripture(seed.scripture.id)
+            if (count > 0) {
+                 Log.d("SeedDebug", "Scripture ${seed.scripture.id} already exists, skipping")
+                 return
+            }
+            
+            Log.d("SeedDebug", "Seeding scripture: ${seed.scripture.id}")
+            
             database.withTransaction {
                 dao.upsertScripture(
                     ScriptureEntity(
@@ -109,7 +148,6 @@ class OfflineScriptureRepository(
                         description = seed.scripture.description
                     )
                 )
-                android.util.Log.d("SeedDebug", "Scripture inserted")
 
                 val chapterEntities = seed.chapters.map {
                     ChapterEntity(
@@ -121,35 +159,29 @@ class OfflineScriptureRepository(
                     )
                 }
                 dao.upsertChapters(chapterEntities)
-                android.util.Log.d("SeedDebug", "Chapters inserted: ${chapterEntities.size}")
-
+                
                 val chapterIdsList = dao.chapterIds(seed.scripture.id)
                 val chapterIdByNumber = chapterIdsList.associate { it.number to it.id }
-                android.util.Log.d("SeedDebug", "Chapter IDs fetched: ${chapterIdByNumber.size}. Sample: ${chapterIdByNumber.entries.take(3)}")
 
                 val verseEntities = mutableListOf<VerseEntity>()
+                val translations = mutableListOf<TranslationEntity>()
+
                 seed.chapters.forEach { chapter ->
-                    val chapterId = chapterIdByNumber[chapter.number]
-                    if (chapterId == null) {
-                        android.util.Log.e("SeedDebug", "Missing ID for chapter ${chapter.number}")
-                        throw IllegalStateException("Missing ID for chapter ${chapter.number}")
-                    }
+                    val chapterId = chapterIdByNumber[chapter.number] ?: throw IllegalStateException("Missing ID for chapter ${chapter.number}")
+                    
                     chapter.verses.forEach { verse ->
-                        verseEntities += VerseEntity(
+                         val vEntity = VerseEntity(
                             chapterId = chapterId,
                             verseNumber = verse.number,
                             sanskrit = verse.sanskrit,
                             transliteration = verse.transliteration
                         )
+                        verseEntities.add(vEntity)
                     }
                 }
-                android.util.Log.d("SeedDebug", "Verse entities created: ${verseEntities.size}")
-
-                val verseIds = dao.upsertVerses(verseEntities)
-                android.util.Log.d("SeedDebug", "Verses inserted: ${verseIds.size}")
                 
-                val translations = mutableListOf<TranslationEntity>()
-
+                val verseIds = dao.upsertVerses(verseEntities)
+                
                 var index = 0
                 seed.chapters.forEach { chapter ->
                     chapter.verses.forEach { verse ->
@@ -165,19 +197,16 @@ class OfflineScriptureRepository(
                         index++
                     }
                 }
-                android.util.Log.d("SeedDebug", "Translations created: ${translations.size}")
-
                 dao.upsertTranslations(translations)
-                android.util.Log.d("SeedDebug", "Seeding complete!")
+                Log.d("SeedDebug", "Seeding complete for ${seed.scripture.id}")
             }
         } catch (e: Exception) {
-            android.util.Log.e("SeedDebug", "Error during seeding", e)
-            throw e
+            Log.e("SeedDebug", "Error seeding file: $assetPath", e)
         }
     }
 
-    override suspend fun toggleBookmark(chapterNumber: Int, verseNumber: Int) {
-        val verseId = dao.getVerseId("gita", chapterNumber, verseNumber) ?: return
+    override suspend fun toggleBookmark(scriptureCode: String, chapterNumber: Int, verseNumber: Int) {
+        val verseId = dao.getVerseId(scriptureCode, chapterNumber, verseNumber) ?: return
         if (dao.isBookmarked(verseId)) {
             dao.removeBookmark(verseId)
         } else {
@@ -185,23 +214,23 @@ class OfflineScriptureRepository(
         }
     }
 
-    override suspend fun updateLastRead(chapterNumber: Int, verseNumber: Int) {
+    override suspend fun updateLastRead(scriptureCode: String, chapterNumber: Int, verseNumber: Int) {
         dao.upsertProgress(
             ReadingProgressEntity(
-                scriptureId = "gita",
+                scriptureId = scriptureCode,
                 chapterNumber = chapterNumber,
                 verseNumber = verseNumber
             )
         )
     }
 
-    override suspend fun getLastRead(): Pair<Int, Int>? {
-        val progress = dao.getProgress("gita") ?: return null
+    override suspend fun getLastRead(scriptureCode: String): Pair<Int, Int>? {
+        val progress = dao.getProgress(scriptureCode) ?: return null
         return progress.chapter_number to progress.verse_number
     }
 
-    override suspend fun randomVerse(languageCode: String): VerseDetail? {
-        return dao.randomVerse("gita", languageCode)?.toDomain()
+    override suspend fun randomVerse(scriptureCode: String, languageCode: String): VerseDetail? {
+        return dao.randomVerse(scriptureCode, languageCode)?.toDomain()
     }
 
     private fun VerseDetailQuery.toDomain(): VerseDetail {

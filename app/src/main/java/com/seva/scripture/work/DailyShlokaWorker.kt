@@ -30,7 +30,7 @@ class DailyShlokaWorker(
             database = ScriptureDatabase.getInstance(applicationContext)
         )
         repository.seedIfNeeded()
-        val verse = repository.randomVerse(settings.languageCode) ?: return Result.success()
+        val verse = repository.randomVerse("gita", settings.languageCode) ?: return Result.success()
 
         createChannel()
 

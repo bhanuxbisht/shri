@@ -7,6 +7,7 @@ import android.util.Log
 import com.seva.scripture.AppContainer
 import com.seva.scripture.domain.model.AppSettings
 import com.seva.scripture.domain.model.ChapterSummary
+import com.seva.scripture.domain.model.ScriptureInfo
 import com.seva.scripture.domain.model.VerseDetail
 import com.seva.scripture.domain.model.VerseSummary
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -20,6 +21,7 @@ import kotlinx.coroutines.launch
 
 class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
 
+    private val selectedScriptureId = MutableStateFlow("gita")
     private val selectedChapter = MutableStateFlow(1)
     private val selectedVerse = MutableStateFlow(1)
     private val searchQuery = MutableStateFlow("")
@@ -27,34 +29,45 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
     val settings: StateFlow<AppSettings> = container.settingsRepository.settings
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), AppSettings())
 
-    val chapters: StateFlow<List<ChapterSummary>> = container.scriptureRepository.observeChapters()
+    val scriptures: StateFlow<List<ScriptureInfo>> = container.scriptureRepository.observeScriptures()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+        
+    val currentScriptureId: StateFlow<String> = selectedScriptureId
+
+    val chapters: StateFlow<List<ChapterSummary>> = selectedScriptureId
+        .flatMapLatest { id -> container.scriptureRepository.observeChapters(id) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-    val verses: StateFlow<List<VerseSummary>> = selectedChapter
-        .flatMapLatest { chapter -> container.scriptureRepository.observeVerses(chapter) }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+    val verses: StateFlow<List<VerseSummary>> = combine(selectedScriptureId, selectedChapter) { scripture, chapter ->
+        Pair(scripture, chapter)
+    }.flatMapLatest { (scripture, chapter) -> 
+        container.scriptureRepository.observeVerses(scripture, chapter) 
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-    val currentVerse: StateFlow<VerseDetail?> = combine(settings, selectedChapter, selectedVerse) { appSettings, chapter, verse ->
-        Triple(appSettings.languageCode, chapter, verse)
-    }.flatMapLatest { (language, chapter, verse) ->
+    val currentVerse: StateFlow<VerseDetail?> = combine(settings, selectedScriptureId, selectedChapter, selectedVerse) { appSettings, scripture, chapter, verse ->
+        DataParams(appSettings.languageCode, scripture, chapter, verse)
+    }.flatMapLatest { (language, scripture, chapter, verse) ->
         container.scriptureRepository.observeVerseDetail(
+            scriptureCode = scripture,
             chapterNumber = chapter,
             verseNumber = verse,
             languageCode = language
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), null)
 
-    val bookmarks: StateFlow<List<VerseDetail>> = settings.flatMapLatest {
-        container.scriptureRepository.observeBookmarks(it.languageCode)
+    val bookmarks: StateFlow<List<VerseDetail>> = combine(settings, selectedScriptureId) { settings, scripture ->
+        Pair(settings.languageCode, scripture)
+    }.flatMapLatest { (language, scripture) ->
+        container.scriptureRepository.observeBookmarks(scripture, language)
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-    val searchResults: StateFlow<List<VerseSummary>> = combine(settings, selectedChapter, searchQuery) { appSettings, chapter, query ->
-        Triple(appSettings.languageCode, chapter, query)
-    }.flatMapLatest { (language, chapter, query) ->
+    val searchResults: StateFlow<List<VerseSummary>> = combine(settings, selectedScriptureId, selectedChapter, searchQuery) { appSettings, scripture, chapter, query ->
+        SearchParams(appSettings.languageCode, scripture, chapter, query)
+    }.flatMapLatest { (language, scripture, chapter, query) ->
         if (query.isBlank()) {
-            container.scriptureRepository.observeVerses(chapter)
+            container.scriptureRepository.observeVerses(scripture, chapter)
         } else {
-            container.scriptureRepository.searchVerses(query, language)
+            container.scriptureRepository.searchVerses(scripture, query, language)
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
@@ -67,13 +80,32 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
                 _initStatus.value = "Seeding data..."
                 container.scriptureRepository.seedIfNeeded()
                 _initStatus.value = "Ready"
-                container.scriptureRepository.getLastRead()?.let { (chapter, verse) ->
-                    selectedChapter.update { chapter }
-                    selectedVerse.update { verse }
-                }
+                
+                // Load default or last read
+                loadProgress("gita")
             } catch (exception: Exception) {
                 Log.e("ScriptureViewModel", "Startup seed failed", exception)
                 _initStatus.value = "Error: ${exception.message}\nCause: ${exception.cause?.message}"
+            }
+        }
+    }
+    
+    private suspend fun loadProgress(scriptureId: String) {
+        container.scriptureRepository.getLastRead(scriptureId)?.let { (chapter, verse) ->
+            selectedChapter.update { chapter }
+            selectedVerse.update { verse }
+        } ?: run {
+             // Default to 1,1
+            selectedChapter.update { 1 }
+            selectedVerse.update { 1 }
+        }
+    }
+
+    fun selectScripture(id: String) {
+        if (selectedScriptureId.value != id) {
+            selectedScriptureId.value = id
+            viewModelScope.launch {
+                loadProgress(id)
             }
         }
     }
@@ -86,7 +118,7 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
         selectedChapter.value = chapterNumber
         selectedVerse.value = verseNumber
         viewModelScope.launch {
-            container.scriptureRepository.updateLastRead(chapterNumber, verseNumber)
+            container.scriptureRepository.updateLastRead(selectedScriptureId.value, chapterNumber, verseNumber)
         }
     }
 
@@ -96,7 +128,7 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
 
     fun toggleBookmark(chapterNumber: Int, verseNumber: Int) {
         viewModelScope.launch {
-            container.scriptureRepository.toggleBookmark(chapterNumber, verseNumber)
+            container.scriptureRepository.toggleBookmark(selectedScriptureId.value, chapterNumber, verseNumber)
         }
     }
 
@@ -124,6 +156,10 @@ class ScriptureViewModel(private val container: AppContainer) : ViewModel() {
         viewModelScope.launch { container.settingsRepository.setDailyNotification(enabled) }
     }
 }
+
+// Helper data classes for combine
+data class DataParams(val language: String, val scripture: String, val chapter: Int, val verse: Int)
+data class SearchParams(val language: String, val scripture: String, val chapter: Int, val query: String)
 
 class ScriptureViewModelFactory(private val container: AppContainer) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
