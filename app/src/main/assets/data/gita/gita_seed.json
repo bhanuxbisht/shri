@@ -5809,6 +5809,7 @@
           "number": 1,
           "sanskrit": "श्रीभगवानुवाच | इदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे | ज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||",
           "transliteration": "shri bhagavan uvaca idam tu te guhyatamam pravakshyamy anasuyave jnanam vijnana-sahitam yaj jnatva mokshyase shubhat",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_1.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5817,6 +5818,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_1_explanation.mp3",
               "simple_meaning": "श्री भगवान बोले: तुझ दोषदृष्टिरहित भक्त के लिए इस परम गोपनीय विज्ञान सहित ज्ञान को पुनः भली-भांति कहूँगा, जिसको जानकर तू दुःखरूप संसार से मुक्त हो जाएगा।",
               "philosophical_note": "गोपनीय ज्ञान: केवल उन लोगों के लिए जो ईर्ष्या नहीं करते (अनसूया)। ईर्ष्या आध्यात्मिक समझ को अवरुद्ध करती है।"
             }
@@ -5826,6 +5828,7 @@
           "number": 2,
           "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् | प्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ||",
           "transliteration": "raja-vidya raja-guhyam pavitram idam uttamam pratyakshavagamam dharmyam su-sukham kartum avyayam",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_2.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5834,6 +5837,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_2_explanation.mp3",
               "simple_meaning": "यह विज्ञान सहित ज्ञान सब विद्याओं का राजा, सब गोपनीयों का राजा, अति पवित्र, अति उत्तम, प्रत्यक्ष फल वाला, धर्मयुक्त, साधन करने में बड़ा सुगम और अविनाशी है।",
               "philosophical_note": "राज विद्या: ज्ञान का राजा। यह प्रत्यक्ष, धार्मिक, आनंदमय और शाश्वत है।"
             }
@@ -5843,6 +5847,7 @@
           "number": 3,
           "sanskrit": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप | अप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ||",
           "transliteration": "ashraddadhanah purusha dharmasyasya parantapa aprapya mam nivartante mrityu-samsara-vartmani",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_3.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5851,6 +5856,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_3_explanation.mp3",
               "simple_meaning": "हे परन्तप! इस उपयुक्त धर्म में श्रद्धारहित पुरुष मुझको न प्राप्त होकर मृत्युरूप संसार चक्र में भ्रमण करते रहते हैं।",
               "philosophical_note": "अविश्वास: कोई विश्वास नहीं = कोई भगवान नहीं। परिणाम मृत्यु संसार (मृत्यु संसार) के चक्र में वापसी है।"
             }
@@ -5860,6 +5866,7 @@
           "number": 4,
           "sanskrit": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना | मत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ||",
           "transliteration": "maya tatam idam sarvam jagad avyakta-murtina mat-sthani sarva-bhutani na caham teshv avasthitah",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_4.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5868,6 +5875,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_4_explanation.mp3",
               "simple_meaning": "मुझ निराकार परमात्मा से यह सब जगत जल से बर्फ के सदृश परिपूर्ण है और सब भूत मेरे अन्तर्गत संकल्प के आधार स्थित हैं, किन्तु वास्तव में मैं उनमें स्थित नहीं हूँ।",
               "philosophical_note": "दुनिया के साथ भगवान का संबंध: वह हवा वाले स्थान की तरह सब कुछ समाहित करता है, लेकिन वह उनसे परिभाषित नहीं है।"
             }
@@ -5877,6 +5885,7 @@
           "number": 5,
           "sanskrit": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम् | भूतभृन्न च भूतस्थो ममात्मा भूतभावनः ||",
           "transliteration": "na ca mat-sthani bhutani pashya me yogam aishvaram bhuta-bhrin na ca bhuta-stho mamatma bhuta-bhavanah",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_5.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5885,6 +5894,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_5_explanation.mp3",
               "simple_meaning": "वे सब भूत मुझमें स्थित नहीं हैं; किन्तु मेरी ईश्वरीय योगशक्ति को देख कि भूतों का धारण-पोषण करने वाला और भूतों को उत्पन्न करने वाला भी मेरा वह आत्मा, वास्तव में भूतों में स्थित नहीं है।",
               "philosophical_note": "अकल्पनीय शक्ति: भगवान सब कुछ का समर्थन करते हैं फिर भी अलग हैं। वह निर्माता हैं, फिर भी सृष्टि के बाहर हैं।"
             }
@@ -5894,6 +5904,7 @@
           "number": 6,
           "sanskrit": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान् | तथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ||",
           "transliteration": "yathakasha-sthito nityam vayuh sarvatrago mahan tatha sarvani bhutani mat-sthanity upadharaya",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_6.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5902,6 +5913,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_6_explanation.mp3",
               "simple_meaning": "जैसे सब जगह विचरने वाला महान वायु नित्य आकाश में ही स्थित रहता है, वैसे ही सब भूत मुझमें स्थित हैं—ऐसा मान।",
               "philosophical_note": "हवा और आकाश की सादृश्यता: हवा आकाश में है, लेकिन आकाश हवा नहीं है। प्राणी भगवान में हैं, लेकिन भगवान प्राणी नहीं हैं।"
             }
@@ -5911,6 +5923,7 @@
           "number": 7,
           "sanskrit": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् | कल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ||",
           "transliteration": "sarva-bhutani kaunteya prakritim yanti mamikam kalpa-kshaye punas tani kalpadau visrijamy aham",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_7.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5919,6 +5932,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_7_explanation.mp3",
               "simple_meaning": "हे अर्जुन! कल्पों के अन्त में सब भूत मेरी प्रकृति को प्राप्त होते हैं अर्थात प्रकृति में लीन होते हैं और कल्पों के आदि में उनको मैं फिर रचता हूँ।",
               "philosophical_note": "चक्रीय सृष्टि: ब्रह्मांड दो चक्रों में बनाया और नष्ट किया जाता है, सभी भगवान के नियंत्रण में हैं।"
             }
@@ -5928,6 +5942,7 @@
           "number": 8,
           "sanskrit": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः | भूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ||",
           "transliteration": "prakritim svam avashtabhya visrijami punah punah bhuta-gramam imam kritsnam avasham prakriter vashat",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_8.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5936,6 +5951,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_8_explanation.mp3",
               "simple_meaning": "अपनी प्रकृति को अंगीकार करके स्वभाव के बल से परतन्त्र हुए इस सम्पूर्ण भूतसमुदाय को मैं बार-बार रचता हूँ।",
               "philosophical_note": "प्रकृति का स्वामी: भगवान प्रकृति (प्रकृति) को बनाने का निर्देश देते हैं, जीव असहाय (अवशम) हैं।"
             }
@@ -5945,6 +5961,7 @@
           "number": 9,
           "sanskrit": "न च मां तानि कर्मानि निबध्नन्ति धनञ्जय | उदासीनवदासीनमसक्तं तेषु कर्मसु ||",
           "transliteration": "na ca mam tani karmani nibadhnanti dhananjaya udasina-vad asinam asaktam teshu karmasu",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_9.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5953,6 +5970,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_9_explanation.mp3",
               "simple_meaning": "हे अर्जुन! उन कर्मों में आसक्तिरहित और उदासीन के सदृश स्थित मुझ परमात्मा को वे कर्म नहीं बाँधते।",
               "philosophical_note": "दिव्य तटस्थता: भगवान बनाते हैं लेकिन कर्म से बंधे नहीं हैं। वह एक तटस्थ न्यायाधीश की तरह है।"
             }
@@ -5962,6 +5980,7 @@
           "number": 10,
           "sanskrit": "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम् | हेतुनानेन कौन्तेय जगद्विपरिवर्तते ||",
           "transliteration": "mayadhyakshena prakritih suyate sa-caracaram hetunanena kaunteya jagad viparivartate",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_10.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5970,6 +5989,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_10_explanation.mp3",
               "simple_meaning": "हे अर्जुन! मुझ अधिष्ठाता के सकाश से प्रकृति चराचर सहित सर्वजगत को रचती है और इसी हेतु से यह संसार आवागमन को प्राप्त होता है।",
               "philosophical_note": "पर्यवेक्षक: प्रकृति माता है, भगवान बीज (दृष्टि) देने वाले पिता हैं।"
             }
@@ -5979,6 +5999,7 @@
           "number": 11,
           "sanskrit": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम् | परं भावमजानन्तो मम भूतमहेश्वरम् ||",
           "transliteration": "avajananti mam mudha manushim tanum ashritam param bhavam ajananto mama bhuta-maheshvaram",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_11.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -5987,6 +6008,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_11_explanation.mp3",
               "simple_meaning": "मेरे परम भाव को न जानने वाले मूढ़ लोग, मनुष्य का शरीर धारण करने वाले मुझ सम्पूर्ण भूतों के महान ईश्वर को तुच्छ समझते हैं अर्थात अपनी योगमाया से संसार के उद्धार के लिए मनुष्य रूप में विचरते हुए मुझ परमेश्वर को साधारण मनुष्य मानते हैं।",
               "philosophical_note": "दिव्यता को गलत समझना: मूर्ख लोग कृष्ण को केवल एक इंसान समझते हैं। वे उनके सर्वोच्च आधिपत्य को याद करते हैं।"
             }
@@ -5996,6 +6018,7 @@
           "number": 12,
           "sanskrit": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः | राक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ||",
           "transliteration": "moghasha mogha-karmano mogha-jnana vicetasah rakshasim asurim caiva prakritim mohinim shritah",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_12.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -6004,6 +6027,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_12_explanation.mp3",
               "simple_meaning": "जो व्यर्थ आशा, व्यर्थ कर्म और व्यर्थ ज्ञान वाले विक्षिप्तचित्त अज्ञानीजन राक्षसी, आसुरी और मोहिनी प्रकृति का ही आश्रय लेते हैं।",
               "philosophical_note": "बर्बाद जीवन: जो लोग भगवान की उपेक्षा करते हैं उनके लिए आशाएं, कार्य और ज्ञान बर्बाद हो जाते हैं।"
             }
@@ -6013,6 +6037,7 @@
           "number": 13,
           "sanskrit": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः | भजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ||",
           "transliteration": "mahatmanas tu mam partha daivim prakritim ashritah bhajanty ananya-manaso jnatva bhutadim avyayam",
+          "recitation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/recitation/gita_9_13.mp3",
           "translations": [
             {
               "language_code": "en",
@@ -6021,6 +6046,7 @@
             },
             {
               "language_code": "hi",
+              "explanation_url": "https://github.com/bhanuxbisht/shri/raw/main/audio/explanation/gita_9_13_explanation.mp3",
               "simple_meaning": "परन्तु हे कुन्तीपुत्र! दैवी प्रकृति के आश्रित महात्माजन मुझको सब भूतों का सनातन कारण और नाशरहित अक्षरस्वरूप जानकर अनन्य मन से युक्त होकर भजते हैं।",
               "philosophical_note": "महात्मा: महान आत्मा दिव्य प्रकृति की शरण लेता है और एकाग्र मन से पूजा करता है।"
             }
